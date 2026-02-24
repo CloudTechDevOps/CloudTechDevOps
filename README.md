@@ -7,13 +7,14 @@
 
 > *"I don't just teach cloud — I build engineers who ship to production."*
 
-                      [![Profile Views](https://komarev.com/ghpvc/?username=CloudTechDevOps&color=FF9900&style=for-the-badge&label=Profile+Views)](https://github.com/CloudTechDevOps)
 
-                      [![Website](https://img.shields.io/badge/Website-multicloud.veeraopstech.online-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](http://veera.veeraopstech.online/)
+[![Profile Views](https://komarev.com/ghpvc/?username=CloudTechDevOps&color=FF9900&style=for-the-badge&label=Profile+Views)](https://github.com/CloudTechDevOps)
 
-                      [![Medium](https://img.shields.io/badge/Blogs-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
+[![Website](https://img.shields.io/badge/Website-multicloud.veeraopstech.online-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](http://veera.veeraopstech.online/)
 
-                      [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
+[![Medium](https://img.shields.io/badge/Blogs-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
 
 </div>
 
