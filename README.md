@@ -125,20 +125,6 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 </div>
 
 ---
-
-## 📚 My Curriculum — Multi Cloud DevOps with AI
-
-> A complete **210+ day** industry-grade program — from cloud fundamentals to AI-powered DevOps
-
-| Module | Duration | Topics Covered |
-|--------|----------|----------------|
-| ☁️ **Amazon Web Services** | 59 Days | EC2, S3, VPC, RDS, Lambda, EKS, IAM, CloudFront, Route53 & 20+ more |
-| 🔷 **Microsoft Azure** | 42 Days | Azure VMs, VNET, AKS, Blob Storage, Azure DevOps, Monitor & more |
-| 🌐 **Google Cloud Platform** | 38 Days | Compute Engine, GKE, Cloud Run, VPC, BigQuery, Cloud SQL & more |
-| ⚙️ **DevOps Tools & Practices** | 71 Days | Git, Docker, K8s, Jenkins, Terraform, Ansible, Helm, ArgoCD & more |
-| 🤖 **AI & ML for DevOps** | 8 Modules | KubeGPT, GitHub Copilot, AIOps, LLM log analysis, Dynatrace & more |
-| 🚀 **Multi-Cloud Projects** | 28 Projects | Production-grade capstone projects across AWS, Azure & GCP |
-
 ---
 
 ## 📊 GitHub Analytics Dashboard
