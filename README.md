@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="veera.jpeg" width="220" style="border-radius: 50%;" />
+  <img src="veera.jpeg" width="3000" style="border-radius: 80%;" />
 </p>
 # 👨‍💻 Veerababu Narni | Multi-Cloud DevOps with AI
 ### 🚀 Senior DevOps & Multi-Cloud Trainer 
