@@ -219,13 +219,15 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER)
-[![Blog](https://img.shields.io/badge/Blog-veeraonline.in-FF5722?style=for-the-badge&logo=rss&logoColor=white)](http://multicloud.veeraonline.in/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
+
+[![Blog](https://img.shields.io/badge/website-veeraonline.in-FF5722?style=for-the-badge&logo=rss&logoColor=white)](http://multicloud.veeraonline.in/)
+
+[![Medium](https://img.shields.io/badge/Blogs-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:veeraopstechnologies@gmail.com)
 
 [![GitHub followers](https://img.shields.io/github/followers/CloudTechDevOps?style=social)](https://github.com/CloudTechDevOps)
-[![Twitter Follow](https://img.shields.io/twitter/follow/YOUR_TWITTER?style=social)](https://twitter.com/YOUR_TWITTER)
 
 </div>
 
@@ -247,7 +249,7 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 
 <div align="center">
 
-### 💬 *"The best way to learn DevOps is to build real systems — not memorise commands."*
+### 💬 *"The best way to learn Multicloud DevOps is to build real systems — not memorise commands."*
 **— Veerababu Narni**
 
 ⭐ *Star my repos if you find them useful!*
