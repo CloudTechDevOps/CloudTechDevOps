@@ -3,7 +3,7 @@
 <img src="veera.jpeg" alt="Veerababu Narni" width="160" style="border-radius:50%" />
 
 # 👨‍💻 Veerababu Narni | Multi-Cloud DevOps with AI
-### 🚀 Senior DevOps & Multi-Cloud Trainer @ NareshIT
+### 🚀 Senior DevOps & Multi-Cloud Trainer 
 ### *Building scalable, resilient, and automated cloud infrastructures*
 
 > *"I don't just teach cloud — I build engineers who ship to production."*
@@ -22,7 +22,7 @@
 
 ## 👋 About Me
 
-I'm a highly accomplished **Senior DevOps & Multi-Cloud Trainer** at **NareshIT** with over **14+ years of real-world industry experience** spanning Amazon Web Services, Microsoft Azure, and Google Cloud Platform.
+I'm a highly accomplished **Senior DevOps & Multi-Cloud Trainer** with over **14+ years of real-world industry experience** spanning Amazon Web Services, Microsoft Azure, and Google Cloud Platform.
 
 I have personally trained more than **20,000+ students**, guiding them from absolute beginner level to landing roles at top MNCs and product-based companies across India and abroad.
 
@@ -109,7 +109,7 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 | 📊 | **Observability** | Prometheus, Grafana, ELK Stack, CloudWatch — full-stack alerting |
 | 🌍 | **Multi-Cloud Strategy** | Cost optimisation, cloud-native migration and hybrid governance |
 | 🚀 | **Career Placement** | Engineers placed at Amazon, Microsoft, TCS, Infosys, Wipro & startups |
-| 🎓 | **NareshIT Lead Trainer** | Most sought-after cloud & DevOps instructor at NareshIT |
+| 🎓 | **Lead Trainer** | Most sought-after multicloud & DevOps instructor |
 
 ---
 
@@ -223,7 +223,6 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER)
 [![Blog](https://img.shields.io/badge/Blog-veeraonline.in-FF5722?style=for-the-badge&logo=rss&logoColor=white)](http://multicloud.veeraonline.in/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![NareshIT](https://img.shields.io/badge/NareshIT-Website-FF9900?style=for-the-badge&logo=google-chrome&logoColor=white)](https://nareshit.com)
 
 [![GitHub followers](https://img.shields.io/github/followers/CloudTechDevOps?style=social)](https://github.com/CloudTechDevOps)
 [![Twitter Follow](https://img.shields.io/twitter/follow/YOUR_TWITTER?style=social)](https://twitter.com/YOUR_TWITTER)
@@ -249,7 +248,7 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 <div align="center">
 
 ### 💬 *"The best way to learn DevOps is to build real systems — not memorise commands."*
-**— Veerababu Narni | NareshIT**
+**— Veerababu Narni**
 
 ⭐ *Star my repos if you find them useful!*
 
