@@ -134,13 +134,15 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 ## 📊 GitHub Analytics Dashboard
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=CloudTechDevOps&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&title_color=FF9900&icon_color=FF9900&text_color=B3BCC9&bg_color=0a0e1a"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CloudTechDevOps&layout=compact&langs_count=8&theme=tokyonight&title_color=FF9900&icon_color=FF9900&text_color=B3BCC9&bg_color=0a0e1a"/>
+  <img height="180em" src="https://streak-stats.demolab.com?user=CloudTechDevOps&theme=tokyonight&hide_border=false"/>
+  <img height="180em" src="https://ghchart.rshah.org/FF9900/CloudTechDevOps"/>
 </div>
 
 ### 🏆 GitHub Achievements
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=CloudTechDevOps&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4&row=2&column=3"/>
+  <img src="https://img.shields.io/github/followers/CloudTechDevOps?style=for-the-badge&logo=github"/>
+  <img src="https://img.shields.io/github/stars/CloudTechDevOps?style=for-the-badge&logo=github"/>
+  <img src="https://img.shields.io/github/commit-activity/m/CloudTechDevOps/CloudTechDevOps?style=for-the-badge&logo=git"/>
 </p>
 
 ### 📈 Contribution Activity
