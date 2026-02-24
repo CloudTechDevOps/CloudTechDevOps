@@ -187,20 +187,19 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 
 ## 📝 Latest Blog Posts
 
-- 📖 [Demystifying Kubernetes Networking: A Deep Dive](http://multicloud.veeraonline.in/blog-post-1)
-- 🔧 [Implementing Multi-Cloud Disaster Recovery Strategies](http://multicloud.veeraonline.in/blog-post-2)
-- ☁️ [Cost Optimization in AWS: Beyond the Basics](http://multicloud.veeraonline.in/blog-post-3)
-- 🚀 [Automating Infrastructure with Terraform and Ansible](http://multicloud.veeraonline.in/blog-post-4)
+- 📖 [How to Deploy a Self-Hosted Agent in Azure Pipeline](https://medium.com/@veerababu.narni232/how-to-deploy-a-self-hosted-agent-in-azure-pipeline-c07a4f4ca4c4)
+- 🔧 [Querying Data in S3 with Amazon Athena](https://medium.com/@veerababu.narni232/querying-data-in-s3-with-amazon-athena-d9319eb87155)
+- ☁️ [Everything you need to know about AWS EKS Auto Mode](https://medium.com/@veerababu.narni232/everything-you-need-to-know-about-aws-eks-auto-mode-b5e03b49b630)
+- 🚀 [Centralizing Cloud Networks: A Practical Guide to Deploying AWS Transit Gateway](https://medium.com/@veerababu.narni232/centralizing-secure-cloud-networks-hands-on-guide-to-deploying-aws-transit-gateway-1032221d4263)
 
 ---
 
-## 🎯 2025 Goals
+## 🎯 2026 Goals
 
 - 🚀 Contribute to 5+ significant open-source DevOps tools
 - 📚 Achieve AWS Certified DevOps Engineer - Professional certification
 - 🌟 Mentor aspiring cloud engineers and share knowledge
 - 📝 Publish 6+ in-depth technical articles on my blog
-- 🎓 Train the next batch of 5,000+ students at NareshIT
 
 ---
 
