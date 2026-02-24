@@ -18,7 +18,7 @@
 
 ## 👋 About Me
 
-I'm a highly accomplished **Senior DevOps & Multi-Cloud Trainer** at **NareshIT** with over **12+ years of real-world industry experience** spanning Amazon Web Services, Microsoft Azure, and Google Cloud Platform.
+I'm a highly accomplished **Senior DevOps & Multi-Cloud Trainer** at **NareshIT** with over **14+ years of real-world industry experience** spanning Amazon Web Services, Microsoft Azure, and Google Cloud Platform.
 
 I have personally trained more than **20,000+ students**, guiding them from absolute beginner level to landing roles at top MNCs and product-based companies across India and abroad.
 
@@ -32,7 +32,7 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 
 | 🕐 Experience | 🎓 Students Trained | ☁️ Cloud Platforms | 🚀 Live Projects | 🎯 Approach |
 |:---:|:---:|:---:|:---:|:---:|
-| **12+ Years** | **20,000+** | **3** | **28+** | **100% Practical** |
+| **14+ Years** | **20,000+** | **3** | **28+** | **100% Practical** |
 
 </div>
 
