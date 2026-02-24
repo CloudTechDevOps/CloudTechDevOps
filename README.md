@@ -9,7 +9,7 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=CloudTechDevOps&color=FF9900&style=for-the-badge&label=Profile+Views)](https://github.com/CloudTechDevOps)
 
-[![Website](https://img.shields.io/badge/Website-multicloud.veeraonline.in-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](http://multicloud.veeraonline.in/)
+[![Website](https://img.shields.io/badge/Website-multicloud.veeraopstech.online-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](http://veera.veeraopstech.online/)
 
 [![Medium](https://img.shields.io/badge/Blogs-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
 
@@ -217,7 +217,7 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
 
-[![Blog](https://img.shields.io/badge/website-veeraonline.in-FF5722?style=for-the-badge&logo=rss&logoColor=white)](http://multicloud.veeraonline.in/)
+[![Blog](https://img.shields.io/badge/website-veeraopstech.online-FF5722?style=for-the-badge&logo=rss&logoColor=white)](http://veera.veeraopstech.online/)
 
 [![Medium](https://img.shields.io/badge/Blogs-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
 
