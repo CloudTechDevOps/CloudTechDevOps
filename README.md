@@ -35,7 +35,7 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 
 | 🕐 Experience | 🎓 Students Trained | ☁️ Cloud Platforms | 🚀 Live Projects | 🎯 Approach |
 |:---:|:---:|:---:|:---:|:---:|
-| **14+ Years** | **20,000+** | **3** | **28+** | **100% Practical** |
+| **14+ Years** | **20,000+** | **3** | **30+** | **100% Practical** |
 
 </div>
 
