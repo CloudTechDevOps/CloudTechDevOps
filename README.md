@@ -162,7 +162,6 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 
 ### 🌟 [Multi-Cloud CI/CD Pipeline](https://github.com/CloudTechDevOps/multi-cloud-cicd-pipeline)
 
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=CloudTechDevOps&repo=multi-cloud-cicd-pipeline&theme=tokyonight&title_color=FF9900&icon_color=FF9900&text_color=B3BCC9&bg_color=0a0e1a)](https://github.com/CloudTechDevOps/multi-cloud-cicd-pipeline)
 
 **Tech Stack:** AWS • Azure DevOps • Jenkins • Docker • Kubernetes • Terraform
 **Status:** 🚀 Production-ready blueprint | ⭐ 250+ Stars | 🍴 70+ Forks
@@ -171,7 +170,6 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 
 ### 🔥 [Serverless Data Lake on AWS](https://github.com/CloudTechDevOps/serverless-datalake-aws)
 
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=CloudTechDevOps&repo=serverless-datalake-aws&theme=tokyonight&title_color=FF9900&icon_color=FF9900&text_color=B3BCC9&bg_color=0a0e1a)](https://github.com/CloudTechDevOps/serverless-datalake-aws)
 
 **Tech Stack:** AWS Lambda • S3 • Glue • Athena • Lake Formation • Python
 **Status:** ✅ Complete & Optimized | ⭐ 180+ Stars | 🍴 50+ Forks
@@ -179,8 +177,6 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 ---
 
 ### ⚡ [Kubernetes Cluster with GitOps](https://github.com/CloudTechDevOps/kubernetes-gitops-argocd)
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=CloudTechDevOps&repo=kubernetes-gitops-argocd&theme=tokyonight&title_color=FF9900&icon_color=FF9900&text_color=B3BCC9&bg_color=0a0e1a)](https://github.com/CloudTechDevOps/kubernetes-gitops-argocd)
 
 **Tech Stack:** Kubernetes • Argo CD • Helm • Terraform • GitHub Actions
 **Status:** 🚧 In Development | ⭐ 120+ Stars | 🍴 30+ Forks
