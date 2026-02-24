@@ -6,8 +6,8 @@
 ### 🚀 Senior DevOps & Multi-Cloud Trainer 
 ### *Building scalable, resilient, and automated cloud infrastructures*
 
-> *"I don't just teach cloud — I build engineers who ship to production."*
 
+> *"I don't just teach cloud — I build engineers who ship to production."*
 
 [![Profile Views](https://komarev.com/ghpvc/?username=CloudTechDevOps&color=FF9900&style=for-the-badge&label=Profile+Views)](https://github.com/CloudTechDevOps)
 
@@ -16,8 +16,6 @@
 [![Medium](https://img.shields.io/badge/Blogs-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
-
-</div>
 
 ---
 
