@@ -1,7 +1,8 @@
 <div align="center">
 
-<img src="veera.jpeg" alt="Veerababu Narni" width="160" style="border-radius:50%" />
-
+<p align="center">
+  <img src= "veera.jpeg" width="220" style="border-radius:50%;" />
+</p>
 # 👨‍💻 Veerababu Narni | Multi-Cloud DevOps with AI
 ### 🚀 Senior DevOps & Multi-Cloud Trainer 
 ### *Building scalable, resilient, and automated cloud infrastructures*
