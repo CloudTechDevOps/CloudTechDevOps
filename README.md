@@ -9,8 +9,12 @@
 > *"I don't just teach cloud — I build engineers who ship to production."*
 
 [![Profile Views](https://komarev.com/ghpvc/?username=CloudTechDevOps&color=FF9900&style=for-the-badge&label=Profile+Views)](https://github.com/CloudTechDevOps)
-[![Blog](https://img.shields.io/badge/Blog-veeraonline.in-FF5722?style=for-the-badge&logo=rss&logoColor=white)](http://multicloud.veeraonline.in/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+
+[![Website](https://img.shields.io/badge/Website-multicloud.veeraonline.in-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](http://multicloud.veeraonline.in/)
+
+[![Medium](https://img.shields.io/badge/Blogs-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN))
 
 </div>
 
