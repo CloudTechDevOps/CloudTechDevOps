@@ -134,7 +134,6 @@ My teaching is rooted in industry practice — every concept I deliver is backed
 
 <div align="center">
   <img height="180em" src="https://streak-stats.demolab.com?user=CloudTechDevOps&theme=tokyonight&hide_border=false"/>
-  <img height="180em" src="https://ghchart.rshah.org/FF9900/CloudTechDevOps"/>
 </div>
 
 ### 🏆 GitHub Achievements
