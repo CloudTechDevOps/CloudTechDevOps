@@ -8,7 +8,6 @@
 
 
 > *"I don't just teach cloud — I build engineers who ship to production."*
-
 [![Profile Views](https://komarev.com/ghpvc/?username=CloudTechDevOps&color=FF9900&style=for-the-badge&label=Profile+Views)](https://github.com/CloudTechDevOps)
 
 [![Website](https://img.shields.io/badge/Website-multicloud.veeraopstech.online-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](http://veera.veeraopstech.online/)
@@ -17,7 +16,9 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
 
-[![Veera cloud](https://static.vecteezy.com/system/resources/thumbnails/045/720/728/small_2x/dark-cat-head-free-png.png)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
+<a href="https://github.com/CloudTechDevOps/CloudTechDevOps/releases">
+  <img src="https://static.vecteezy.com/system/resources/thumbnails/045/720/728/small_2x/dark-cat-head-free-png.png" width="40">
+</a>
 
 ---
 
