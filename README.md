@@ -16,7 +16,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
 
-<a href="https://github.com/CloudTechDevOps/CloudTechDevOps/releases">
+<a href="https://aboutveeracloud.pages.dev/">
   <img src="https://static.vecteezy.com/system/resources/thumbnails/045/720/728/small_2x/dark-cat-head-free-png.png" width="40">
 </a>
 
