@@ -20,9 +20,9 @@
 
 ## 👨‍💻 About Me
 
-I'm a highly accomplished **Senior DevOps & Multi-Cloud Architect** with over **14+ years of real-world industry experience** spanning Amazon Web Services, Microsoft Azure, and Google Cloud Platform.
+I'm a highly accomplished **Senior DevOps & Multi-Cloud Architect** with over **15+ years of real-world industry experience** spanning Amazon Web Services, Microsoft Azure, and Google Cloud Platform.
 
-I have personally trained more than **20,000+ engineers**, guiding them from absolute beginner level to landing roles at top MNCs and product-based companies across India and abroad. My teaching is rooted in industry practice — every concept I deliver is backed by real production experience. I have architected large-scale cloud infrastructures, led DevOps transformations for enterprises, and built CI/CD pipelines powering mission-critical applications.
+I have personally trained more than **24,400+ engineers**, guiding them from absolute beginner level to landing roles at top MNCs and product-based companies across India and abroad. My teaching is rooted in industry practice — every concept I deliver is backed by real production experience. I have architected large-scale cloud infrastructures, led DevOps transformations for enterprises, and built CI/CD pipelines powering mission-critical applications.
 
 ---
 
@@ -30,9 +30,9 @@ I have personally trained more than **20,000+ engineers**, guiding them from abs
 
 <div align="center">
 
-| 🕐 Experience | 🎓 Students Trained | ☁️ Cloud Platforms | 🚀 Live Projects | 🎯 Approach |
+| 🕐 Experience | 🎓 Students Trained | ☁️ Cloud Platforms | 🚀 Live Projects | ☁️ Practice |
 |:---:|:---:|:---:|:---:|:---:|
-| **14+ Years** | **20,000+** | **3** | **30+** | **100% Practical** |
+| **15+ Years** | **24,400+** | **3** | **35+** | **Veera Cloud to Practice** |
 
 </div>
 
