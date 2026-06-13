@@ -7,7 +7,17 @@
 
 *"I don't just teach cloud — I build engineers who ship to production."*
 
-[![Website](https://cdn-icons-png.flaticon.com/32/5339/5339181.png)](https://veeracloud.shop/) [![Veera Cloud](https://i.ibb.co/bRPpLMBt/new.png)](https://veeracloud.shop/)
+<!-- Row 1: Website icon + Veera Cloud logo -->
+<a href="http://veera.veeraopstech.online/" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/512/5339/5339181.png" width="36" height="36" alt="Website" style="vertical-align:middle;" />
+</a>&nbsp;&nbsp;
+<a href="https://veeracloud.shop/" target="_blank">
+  <img src="https://i.ibb.co/bRPpLMBt/new.png" height="36" alt="Veera Cloud" style="vertical-align:middle;" />
+</a>
+
+<br/><br/>
+
+<!-- Row 2: Social badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:veeraopstechnologies@gmail.com)
@@ -307,10 +317,18 @@ I have personally trained more than **24,400+ engineers**, guiding them from abs
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
-[![Website](https://cdn-icons-png.flaticon.com/32/5339/5339181.png)](https://veeracloud.shop/) [![Veera Cloud](https://i.ibb.co/bRPpLMBt/new.png)](https://veeracloud.shop/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:veeraopstechnologies@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CloudTechDevOps)
+
+<br/>
+
+<a href="http://veera.veeraopstech.online/" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/512/5339/5339181.png" width="36" height="36" alt="Website" style="vertical-align:middle;" />
+</a>&nbsp;&nbsp;
+<a href="https://veeracloud.shop/" target="_blank">
+  <img src="https://i.ibb.co/bRPpLMBt/new.png" height="36" alt="Veera Cloud" style="vertical-align:middle;" />
+</a>
 
 </div>
 
