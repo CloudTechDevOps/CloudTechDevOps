@@ -159,7 +159,7 @@ I have personally trained more than **24,400+ engineers**, guiding them from abs
     </td>
     <td align="center" width="200">
       <a href="#" target="_blank">
-        <img src="https://images.credly.com/size/680x680/images/99289602-861e-4929-8277-773e63a2fa6f/image.png" width="100" alt="Terraform Associate" />
+        <img src="https://images.credly.com/images/0dc62494-dc94-469a-83af-e35309f27356/blob" width="100" alt="Terraform Associate" />
       </a>
       <br/>
       <b>HashiCorp Terraform Associate</b>
@@ -172,7 +172,7 @@ I have personally trained more than **24,400+ engineers**, guiding them from abs
   <tr>
     <td align="center" width="200">
       <a href="#" target="_blank">
-        <img src="https://images.credly.com/size/680x680/images/fba6f3b1-0190-4715-9c26-0dab49b87d55/image.png" width="100" alt="GCP DevOps Engineer" />
+        <img src="https://miro.medium.com/0*ZU8u7bSNaWeuHiYq" width="100" alt="GCP DevOps Engineer" />
       </a>
       <br/>
       <b>GCP Professional DevOps Engineer</b>
@@ -183,7 +183,7 @@ I have personally trained more than **24,400+ engineers**, guiding them from abs
     </td>
     <td align="center" width="200">
       <a href="#" target="_blank">
-        <img src="https://images.credly.com/size/680x680/images/b0c5445a-72a2-46ad-6a7a-c43d15d3cd46/image.png" width="100" alt="Docker DCA" />
+        <img src="https://k21academy.com/wp-content/uploads/2021/07/DCA_Icon.png" width="100" alt="Docker DCA" />
       </a>
       <br/>
       <b>Docker Certified Associate</b>
@@ -205,7 +205,7 @@ I have personally trained more than **24,400+ engineers**, guiding them from abs
     </td>
     <td align="center" width="200">
       <a href="#" target="_blank">
-        <img src="https://images.credly.com/size/680x680/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad_from_cncfsite.png" width="100" alt="CKAD" />
+        <img src="https://training.linuxfoundation.org/wp-content/uploads/2019/03/kubernetes-ckad-color.png" width="100" alt="CKAD" />
       </a>
       <br/>
       <b>Certified Kubernetes App Developer</b>
