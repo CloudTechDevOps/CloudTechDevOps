@@ -7,7 +7,7 @@
 
 *"I don't just teach cloud — I build engineers who ship to production."*
 
-[![Website](https://img.shields.io/badge/Website-veeraopstech.online-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](http://veera.veeraopstech.online/)
+[![Website](https://cdn-icons-png.flaticon.com/32/5339/5339181.png)](https://veeracloud.shop/) [![Veera Cloud](https://i.ibb.co/bRPpLMBt/new.png)](https://veeracloud.shop/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:veeraopstechnologies@gmail.com)
@@ -307,7 +307,7 @@ I have personally trained more than **24,400+ engineers**, guiding them from abs
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
-[![Website](https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](http://veera.veeraopstech.online/)
+[![Website](https://cdn-icons-png.flaticon.com/32/5339/5339181.png)](https://veeracloud.shop/) [![Veera Cloud](https://i.ibb.co/bRPpLMBt/new.png)](https://veeracloud.shop/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:veeraopstechnologies@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CloudTechDevOps)
