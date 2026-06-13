@@ -16,10 +16,9 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
 
-[![LinkedIn](https://i.ibb.co/jPyd8mQ5/Certificate-of-Completion-1.png)](https://veeracloud.shop)
 
 <a href="https://veeracloud.shop">
-  <img src="https://i.ibb.co/jPyd8mQ5/Certificate-of-Completion-1.png" width="40">
+  <img src="https://i.ibb.co/jPyd8mQ5/Certificate-of-Completion-1.png" width="70">
 </a>
 
 ---
