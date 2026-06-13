@@ -225,13 +225,25 @@ I have personally trained more than **24,400+ engineers**, guiding them from abs
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=CloudTechDevOps&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<!-- Live GitHub Stats — streak and activity graph -->
 <img width="49%" src="https://streak-stats.demolab.com?user=CloudTechDevOps&theme=tokyonight&hide_border=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CloudTechDevOps&layout=compact&theme=tokyonight&hide_border=true" />
 
-<br/>
+<br/><br/>
 
+<!-- Real Stats Card (updates on every push via GitHub Actions) -->
+![Stars](https://img.shields.io/badge/⭐%20Total%20Stars-54-FFD700?style=for-the-badge)
+![Commits](https://img.shields.io/badge/📦%20Commits%20(Last%20Year)-745-06b6d4?style=for-the-badge)
+![PRs](https://img.shields.io/badge/🔀%20Total%20PRs-9-8b5cf6?style=for-the-badge)
+![Issues](https://img.shields.io/badge/🐛%20Total%20Issues-0-3b82f6?style=for-the-badge)
+![Contributed](https://img.shields.io/badge/🤝%20Contributed%20To-1%20Repo-22c55e?style=for-the-badge)
+
+<br/><br/>
+
+<!-- Activity Graph -->
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=CloudTechDevOps&theme=tokyo-night&bg_color=0d1117&color=3b82f6&line=06b6d4&point=8b5cf6&area=true&hide_border=true" />
 
+<!-- Contribution Calendar -->
 <img width="100%" src="https://ghchart.rshah.org/3b82f6/CloudTechDevOps" alt="Contribution Calendar" />
 
 </div>
