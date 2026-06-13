@@ -9,7 +9,7 @@
 
 <!-- Row 1: Website icon + Veera Cloud logo -->
 <a href="http://veera.veeraopstech.online/" target="_blank">
-  <img src="https://cdn-icons-png.flaticon.com/512/5339/5339181.png" width="36" height="36" alt="Website" style="vertical-align:middle;" />
+  <img src="https://cdn-icons-png.flaticon.com/512/10001/10001600.png" width="36" height="36" alt="Website" style="vertical-align:middle;" />
 </a>&nbsp;&nbsp;
 <a href="https://veeracloud.shop/" target="_blank">
   <img src="https://i.ibb.co/bRPpLMBt/new.png" height="36" alt="Veera Cloud" style="vertical-align:middle;" />
