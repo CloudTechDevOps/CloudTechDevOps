@@ -18,7 +18,7 @@
 
 
 <a href="https://veeracloud.shop">
-  <img src="https://i.ibb.co/jPyd8mQ5/Certificate-of-Completion-1.png" height="120" alt="Certificate of Completion">
+  <img src="https://i.ibb.co/jPyd8mQ5/Certificate-of-Completion-1.png" height="200" alt="Certificate of Completion">
 </a>
 
 ---
