@@ -1,344 +1,311 @@
 <div align="center">
 
-<img src="veera.jpeg" width="150" style="border-radius: 50%;" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=FFFFFF&height=220&section=header&text=Veerababu%20Narni&fontColor=000000&fontSize=52&fontAlignY=35&desc=Senior%20DevOps%20%26%20Multi-Cloud%20Architect&descAlignY=58&descSize=22&descColor=000000" width="100%" />
 
-# Veerababu Narni
-### Senior DevOps & Multi-Cloud Architect
+<br/>
 
-*"I don't just teach cloud — I build engineers who ship to production."*
+<img src="veera.jpeg" width="140" style="border-radius: 50%; border: 3px solid #d1d5db;" />
 
-<!-- Row 1: Website icon + Veera Cloud logo -->
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=FFFFFF&height=60&text=Building%20production-grade%20cloud%20infrastructure%20—%20and%20the%20engineers%20who%20run%20it.&fontColor=000000&fontSize=16&fontAlignY=55" width="100%" />
+
+<br/>
+
 <a href="http://veera.veeraopstech.online/" target="_blank">
-  <img src="https://cdn-icons-png.flaticon.com/512/10001/10001600.png" width="36" height="36" alt="Website" style="vertical-align:middle;" />
-</a>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Website-F3F4F6?style=for-the-badge&logo=googlechrome&logoColor=000000&labelColor=FFFFFF" />
+</a>
 <a href="https://veeracloud.shop/" target="_blank">
-  <img src="https://i.ibb.co/bRPpLMBt/new.png" height="36" alt="Veera Cloud" style="vertical-align:middle;" />
+  <img src="https://img.shields.io/badge/Veera_Cloud-F3F4F6?style=for-the-badge&logo=icloud&logoColor=000000&labelColor=FFFFFF" />
 </a>
 
 <br/><br/>
 
-<!-- Row 2: Social badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:veeraopstechnologies@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CloudTechDevOps)
-[![Profile Views](https://komarev.com/ghpvc/?username=CloudTechDevOps&color=3b82f6&style=for-the-badge&label=Profile+Views)](https://github.com/CloudTechDevOps)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-F3F4F6?style=for-the-badge&logo=linkedin&logoColor=000000&labelColor=FFFFFF)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
+[![Medium](https://img.shields.io/badge/Medium-F3F4F6?style=for-the-badge&logo=medium&logoColor=000000&labelColor=FFFFFF)](https://medium.com/@veerababu.narni232)
+[![Email](https://img.shields.io/badge/Email-F3F4F6?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=FFFFFF)](mailto:veeraopstechnologies@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-F3F4F6?style=for-the-badge&logo=github&logoColor=000000&labelColor=FFFFFF)](https://github.com/CloudTechDevOps)
+[![Profile Views](https://komarev.com/ghpvc/?username=CloudTechDevOps&color=f3f4f6&style=for-the-badge&label=Profile+Views&labelColor=ffffff)](https://github.com/CloudTechDevOps)
 
 </div>
 
----
+<br/>
 
-## 👨‍💻 About Me
+<div style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:20px; color:#000000;">
 
-I'm a highly accomplished **Senior DevOps & Multi-Cloud Architect** with over **15+ years of real-world industry experience** spanning Amazon Web Services, Microsoft Azure, and Google Cloud Platform.
+## <span style="color:#000000;">About</span>
 
-I have personally trained more than **24,400+ engineers**, guiding them from absolute beginner level to landing roles at top MNCs and product-based companies across India and abroad. My teaching is rooted in industry practice — every concept I deliver is backed by real production experience. I have architected large-scale cloud infrastructures, led DevOps transformations for enterprises, and built CI/CD pipelines powering mission-critical applications.
+<span style="color:#000000;">Senior DevOps & Multi-Cloud Architect with <b>15+ years</b> of industry experience across <b>AWS, Microsoft Azure, and Google Cloud Platform</b>. I design and operate production infrastructure for enterprise workloads, lead DevOps transformation initiatives, and build CI/CD pipelines that power mission-critical systems.</span>
 
----
-
-## 📊 By The Numbers
-
-<div align="center">
-
-| 🕐 Experience | 🎓 Students Trained | ☁️ Cloud Platforms | 🚀 Live Projects | ☁️ Practice |
-|:---:|:---:|:---:|:---:|:---:|
-| **15+ Years** | **24,400+** | **3** | **35+** | **Veera Cloud to Practice** |
+<span style="color:#000000;">Alongside architecture work, I've trained <b>24,400+ engineers</b>, taking learners from foundational concepts to placement-ready skills at top MNCs and product companies. Every concept I teach is grounded in practices I use in production — not theory detached from real systems.</span>
 
 </div>
 
----
+<br/>
 
-## 🎯 Current Engagements
-
-- 🔭 **Working on:** Architecting a multi-cloud disaster recovery solution for a critical enterprise application
-- 🌱 **Deep-diving:** Service mesh technologies (Istio) and advanced FinOps strategies for cloud cost governance
-- 🤝 **Open to collaborate:** Cloud Security, Serverless Frameworks, and Infrastructure as Code open-source projects
-- 💬 **Ask me about:** AWS, Azure, GCP, Kubernetes, Terraform, Ansible, CI/CD pipelines, and cloud cost optimisation
-- ⚡ **Fun fact:** Once automated an entire dev environment setup with a single script, saving the team hundreds of hours
-
----
-
-## 🛠️ Technology Arsenal
-
-### ☁️ Cloud Platforms
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-
-### ⚙️ DevOps & Orchestration
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?style=for-the-badge&logo=opentofu&logoColor=black)
-
-### 📊 Monitoring & Observability
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=for-the-badge&logo=elastic&logoColor=white)
-![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazon-cloudwatch&logoColor=white)
-
-### 🤖 AI & ML for DevOps
-![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![KubeGPT](https://img.shields.io/badge/KubeGPT-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-### 💻 Programming & Scripting
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-
-### 🗄️ Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
----
-
-## 💡 What I Specialise In
-
-| Area | What I Do |
-|------|-----------|
-| 🎯 **Project-Based Learning** | Every module built around real-world deployments — not just slides |
-| 🏭 **Enterprise Cloud Architecture** | Production-grade infra design on AWS, Azure, and GCP at scale |
-| ☸️ **Kubernetes & Containers** | Docker, EKS, AKS, GKE, Helm, ArgoCD and full GitOps workflows |
-| 🔧 **Infrastructure as Code** | Terraform, Ansible, OpenTofu — full cloud automation from scratch |
-| 🤖 **AI & ML for DevOps** | KubeGPT, GitHub Copilot, AIOps and LLM-powered pipelines |
-| 🔒 **Cloud Security** | IAM, SSO, VPC hardening, zero-trust and compliance architecture |
-| 📊 **Observability** | Prometheus, Grafana, ELK Stack, CloudWatch — full-stack alerting |
-| 🌍 **Multi-Cloud Strategy** | Cost optimisation, cloud-native migration and hybrid governance |
-| 🚀 **Career Placement** | Engineers placed at Amazon, Microsoft, TCS, Infosys, Wipro & startups |
-| 🎓 **Lead Trainer** | Most sought-after multi-cloud & DevOps instructor |
-
----
-
-## 🏅 Certifications
+## <span style="color:#000000;">By the Numbers</span>
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center" width="200">
-      <a href="https://www.credly.com/badges/ff07c2a6-a093-44fd-acc7-8534995f2dca" target="_blank">
-        <img src="https://images.credly.com/size/680x680/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png" width="100" alt="AWS Solutions Architect" />
-      </a>
-      <br/>
-      <b>AWS Certified Solutions Architect</b>
-      <br/>
-      <sub>Amazon Web Services</sub>
-      <br/>
-      <img src="https://img.shields.io/badge/⭐_Professional-FF9900?style=flat-square&logoColor=white" />
-    </td>
-    <td align="center" width="200">
-      <a href="https://www.credly.com/badges/afe77f2b-843a-413c-925d-4c8ea7891503" target="_blank">
-        <img src="https://images.credly.com/size/680x680/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png" width="100" alt="CKA" />
-      </a>
-      <br/>
-      <b>Certified Kubernetes Administrator</b>
-      <br/>
-      <sub>Linux Foundation / CNCF</sub>
-      <br/>
-      <img src="https://img.shields.io/badge/⭐_Professional-326CE5?style=flat-square&logoColor=white" />
-    </td>
-    <td align="center" width="200">
-      <a href="#" target="_blank">
-        <img src="https://images.credly.com/size/680x680/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/CERT-Expert-DevOps-Engineer-600x600.png" width="100" alt="Azure DevOps Expert" />
-      </a>
-      <br/>
-      <b>Azure DevOps Engineer Expert</b>
-      <br/>
-      <sub>Microsoft Azure</sub>
-      <br/>
-      <img src="https://img.shields.io/badge/⭐_Expert-0078D4?style=flat-square&logoColor=white" />
-    </td>
-    <td align="center" width="200">
-      <a href="#" target="_blank">
-        <img src="https://images.credly.com/images/0dc62494-dc94-469a-83af-e35309f27356/blob" width="100" alt="Terraform Associate" />
-      </a>
-      <br/>
-      <b>HashiCorp Terraform Associate</b>
-      <br/>
-      <sub>HashiCorp</sub>
-      <br/>
-      <img src="https://img.shields.io/badge/✅_Associate-7B42BC?style=flat-square&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="200">
-      <a href="#" target="_blank">
-        <img src="https://miro.medium.com/0*ZU8u7bSNaWeuHiYq" width="100" alt="GCP DevOps Engineer" />
-      </a>
-      <br/>
-      <b>GCP Professional DevOps Engineer</b>
-      <br/>
-      <sub>Google Cloud</sub>
-      <br/>
-      <img src="https://img.shields.io/badge/⭐_Professional-4285F4?style=flat-square&logoColor=white" />
-    </td>
-    <td align="center" width="200">
-      <a href="#" target="_blank">
-        <img src="https://k21academy.com/wp-content/uploads/2021/07/DCA_Icon.png" width="100" alt="Docker DCA" />
-      </a>
-      <br/>
-      <b>Docker Certified Associate</b>
-      <br/>
-      <sub>Docker Inc.</sub>
-      <br/>
-      <img src="https://img.shields.io/badge/✅_Associate-2496ED?style=flat-square&logoColor=white" />
-    </td>
-    <td align="center" width="200">
-      <a href="#" target="_blank">
-        <img src="https://images.credly.com/size/680x680/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png" width="100" alt="AWS DevOps Engineer" />
-      </a>
-      <br/>
-      <b>AWS Certified DevOps Engineer</b>
-      <br/>
-      <sub>Amazon Web Services</sub>
-      <br/>
-      <img src="https://img.shields.io/badge/⭐_Professional-FF9900?style=flat-square&logoColor=white" />
-    </td>
-    <td align="center" width="200">
-      <a href="#" target="_blank">
-        <img src="https://training.linuxfoundation.org/wp-content/uploads/2019/03/kubernetes-ckad-color.png" width="100" alt="CKAD" />
-      </a>
-      <br/>
-      <b>Certified Kubernetes App Developer</b>
-      <br/>
-      <sub>Linux Foundation / CNCF</sub>
-      <br/>
-      <img src="https://img.shields.io/badge/⭐_Professional-326CE5?style=flat-square&logoColor=white" />
-    </td>
-  </tr>
+<table style="background-color:#ffffff; color:#000000; border:1px solid #e5e7eb;">
+<tr style="background-color:#ffffff;">
+<th style="color:#000000; padding:10px;">Experience</th>
+<th style="color:#000000; padding:10px;">Engineers Trained</th>
+<th style="color:#000000; padding:10px;">Cloud Platforms</th>
+<th style="color:#000000; padding:10px;">Live Projects</th>
+<th style="color:#000000; padding:10px;">Practice Environment</th>
+</tr>
+<tr style="background-color:#ffffff;">
+<td align="center" style="color:#000000; padding:10px;"><b>15+ Years</b></td>
+<td align="center" style="color:#000000; padding:10px;"><b>24,400+</b></td>
+<td align="center" style="color:#000000; padding:10px;"><b>3</b></td>
+<td align="center" style="color:#000000; padding:10px;"><b>35+</b></td>
+<td align="center" style="color:#000000; padding:10px;"><b>Veera Cloud</b></td>
+</tr>
 </table>
 
 </div>
 
----
-
-## 📈 GitHub Analytics
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=CloudTechDevOps&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img width="49%" src="https://streak-stats.demolab.com?user=CloudTechDevOps&theme=tokyonight&hide_border=true" />
-
 <br/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=CloudTechDevOps&theme=tokyo-night&bg_color=0d1117&color=3b82f6&line=06b6d4&point=8b5cf6&area=true&hide_border=true" />
+<div style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:20px; color:#000000;">
 
-<img width="100%" src="https://ghchart.rshah.org/3b82f6/CloudTechDevOps" alt="Contribution Calendar" />
+## <span style="color:#000000;">Current Focus</span>
+
+- <span style="color:#000000;"><b>Architecting</b> a multi-cloud disaster recovery solution for a critical enterprise application</span>
+- <span style="color:#000000;"><b>Researching</b> service mesh technologies (Istio) and advanced FinOps strategies for cloud cost governance</span>
+- <span style="color:#000000;"><b>Open to collaboration</b> on cloud security, serverless frameworks, and Infrastructure-as-Code open-source projects</span>
+- <span style="color:#000000;"><b>Areas of expertise</b>: AWS, Azure, GCP, Kubernetes, Terraform, Ansible, CI/CD pipelines, cloud cost optimisation</span>
 
 </div>
 
----
+<br/>
 
-## 🏗️ Featured Projects
+## <span style="color:#000000;">Technology Stack</span>
 
-### 🌟 [Multi-Cloud CI/CD Pipeline](https://github.com/CloudTechDevOps/multi-cloud-cicd-pipeline)
-> End-to-end CI/CD blueprint spanning AWS, Azure, and GCP with full automation
+<table style="background-color:#ffffff;">
+<tr>
+<td valign="top" width="50%" style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:16px;">
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D4?style=flat-square&logo=azuredevops&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+<b style="color:#000000;">Cloud Platforms</b>
 
-![Stars](https://img.shields.io/badge/⭐_Stars-250+-FFD700?style=flat-square)
-![Forks](https://img.shields.io/badge/🍴_Forks-70+-brightgreen?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Production_Ready-success?style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-F3F4F6?style=flat-square&logo=amazon-aws&logoColor=000000&labelColor=FFFFFF)
+![Azure](https://img.shields.io/badge/Azure-F3F4F6?style=flat-square&logo=microsoft-azure&logoColor=000000&labelColor=FFFFFF)
+![GCP](https://img.shields.io/badge/Google_Cloud-F3F4F6?style=flat-square&logo=google-cloud&logoColor=000000&labelColor=FFFFFF)
+![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F3F4F6?style=flat-square&logo=oracle&logoColor=000000&labelColor=FFFFFF)
 
----
+<b style="color:#000000;">DevOps & Orchestration</b>
 
-### 🔥 [Serverless Data Lake on AWS](https://github.com/CloudTechDevOps/serverless-datalake-aws)
-> Fully serverless data lake architecture on AWS optimised for cost and performance
+![Docker](https://img.shields.io/badge/Docker-F3F4F6?style=flat-square&logo=docker&logoColor=000000&labelColor=FFFFFF)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-F3F4F6?style=flat-square&logo=kubernetes&logoColor=000000&labelColor=FFFFFF)
+![Terraform](https://img.shields.io/badge/Terraform-F3F4F6?style=flat-square&logo=terraform&logoColor=000000&labelColor=FFFFFF)
+![Ansible](https://img.shields.io/badge/Ansible-F3F4F6?style=flat-square&logo=ansible&logoColor=000000&labelColor=FFFFFF)
+![Jenkins](https://img.shields.io/badge/Jenkins-F3F4F6?style=flat-square&logo=jenkins&logoColor=000000&labelColor=FFFFFF)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-F3F4F6?style=flat-square&logo=argo&logoColor=000000&labelColor=FFFFFF)
+![Helm](https://img.shields.io/badge/Helm-F3F4F6?style=flat-square&logo=helm&logoColor=000000&labelColor=FFFFFF)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-F3F4F6?style=flat-square&logo=githubactions&logoColor=000000&labelColor=FFFFFF)
 
-![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=aws-lambda&logoColor=white)
-![S3](https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazon-s3&logoColor=white)
-![Glue](https://img.shields.io/badge/AWS_Glue-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-![Athena](https://img.shields.io/badge/Athena-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+</td>
+<td valign="top" width="50%" style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:16px;">
 
-![Stars](https://img.shields.io/badge/⭐_Stars-180+-FFD700?style=flat-square)
-![Forks](https://img.shields.io/badge/🍴_Forks-50+-brightgreen?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Complete_&_Optimised-success?style=flat-square)
+<b style="color:#000000;">Monitoring & Observability</b>
 
----
+![Prometheus](https://img.shields.io/badge/Prometheus-F3F4F6?style=flat-square&logo=prometheus&logoColor=000000&labelColor=FFFFFF)
+![Grafana](https://img.shields.io/badge/Grafana-F3F4F6?style=flat-square&logo=grafana&logoColor=000000&labelColor=FFFFFF)
+![Elastic](https://img.shields.io/badge/ELK_Stack-F3F4F6?style=flat-square&logo=elastic&logoColor=000000&labelColor=FFFFFF)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-F3F4F6?style=flat-square&logo=amazon-cloudwatch&logoColor=000000&labelColor=FFFFFF)
 
-### ⚡ [Kubernetes Cluster with GitOps](https://github.com/CloudTechDevOps/kubernetes-gitops-argocd)
-> Production-grade Kubernetes cluster with full GitOps workflow via ArgoCD
+<b style="color:#000000;">Programming & Scripting</b>
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Python](https://img.shields.io/badge/Python-F3F4F6?style=flat-square&logo=python&logoColor=000000&labelColor=FFFFFF)
+![Bash](https://img.shields.io/badge/Bash-F3F4F6?style=flat-square&logo=gnu-bash&logoColor=000000&labelColor=FFFFFF)
+![Go](https://img.shields.io/badge/Go-F3F4F6?style=flat-square&logo=go&logoColor=000000&labelColor=FFFFFF)
 
-![Stars](https://img.shields.io/badge/⭐_Stars-120+-FFD700?style=flat-square)
-![Forks](https://img.shields.io/badge/🍴_Forks-30+-brightgreen?style=flat-square)
-![Status](https://img.shields.io/badge/Status-In_Development-orange?style=flat-square)
+<b style="color:#000000;">Databases</b>
 
----
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-F3F4F6?style=flat-square&logo=postgresql&logoColor=000000&labelColor=FFFFFF)
+![MySQL](https://img.shields.io/badge/MySQL-F3F4F6?style=flat-square&logo=mysql&logoColor=000000&labelColor=FFFFFF)
+![MongoDB](https://img.shields.io/badge/MongoDB-F3F4F6?style=flat-square&logo=mongodb&logoColor=000000&labelColor=FFFFFF)
 
-## 📝 Latest Blog Posts
-
-- 📖 [How to Deploy a Self-Hosted Agent in Azure Pipeline](https://medium.com/@veerababu.narni232/how-to-deploy-a-self-hosted-agent-in-azure-pipeline-c07a4f4ca4c4)
-- 🔧 [Querying Data in S3 with Amazon Athena](https://medium.com/@veerababu.narni232/querying-data-in-s3-with-amazon-athena-d9319eb87155)
-- ☁️ [Everything You Need to Know About AWS EKS Auto Mode](https://medium.com/@veerababu.narni232/everything-you-need-to-know-about-aws-eks-auto-mode-b5e03b49b630)
-- 🚀 [Centralising Cloud Networks: Deploying AWS Transit Gateway](https://medium.com/@veerababu.narni232/centralizing-secure-cloud-networks-hands-on-guide-to-deploying-aws-transit-gateway-1032221d4263)
-
----
-
-## 🎯 2026 Goals
-
-- [ ] 🚀 Contribute to 5+ significant open-source DevOps tools
-- [ ] 📚 Achieve AWS Certified DevOps Engineer – Professional certification
-- [ ] 🌟 Mentor aspiring cloud engineers and grow the community
-- [ ] 📝 Publish 6+ in-depth technical articles on multi-cloud architecture and FinOps
-
----
-
-## 🏆 Open Source Contributions
-
-- 🔧 **DevOps Tooling** — Submitted PRs for performance enhancements and bug fixes
-- 🌟 **Cloud-Native Projects** — Developed features for multi-cloud compatibility
-- 🚀 **IaC Modules** — Maintained widely-used Terraform modules for AWS resources
-
----
-
-## 🌐 Let's Connect & Collaborate
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@veerababu.narni232)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:veeraopstechnologies@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CloudTechDevOps)
+</td>
+</tr>
+</table>
 
 <br/>
 
-<a href="http://veera.veeraopstech.online/" target="_blank">
-  <img src="https://cdn-icons-png.flaticon.com/512/5339/5339181.png" width="36" height="36" alt="Website" style="vertical-align:middle;" />
-</a>&nbsp;&nbsp;
-<a href="https://veeracloud.shop/" target="_blank">
-  <img src="https://i.ibb.co/bRPpLMBt/new.png" height="36" alt="Veera Cloud" style="vertical-align:middle;" />
-</a>
+## <span style="color:#000000;">Areas of Specialisation</span>
 
+<table style="background-color:#ffffff; color:#000000; border:1px solid #e5e7eb;">
+<tr style="background-color:#ffffff;"><th style="color:#000000; padding:8px;">Area</th><th style="color:#000000; padding:8px;">Focus</th></tr>
+<tr><td style="color:#000000; padding:8px;"><b>Project-Based Learning</b></td><td style="color:#000000; padding:8px;">Every module built around real deployments, not slide decks</td></tr>
+<tr style="background-color:#ffffff;"><td style="color:#000000; padding:8px;"><b>Enterprise Cloud Architecture</b></td><td style="color:#000000; padding:8px;">Production-grade infrastructure design across AWS, Azure, and GCP</td></tr>
+<tr><td style="color:#000000; padding:8px;"><b>Kubernetes & Containers</b></td><td style="color:#000000; padding:8px;">Docker, EKS, AKS, GKE, Helm, ArgoCD, and full GitOps workflows</td></tr>
+<tr style="background-color:#ffffff;"><td style="color:#000000; padding:8px;"><b>Infrastructure as Code</b></td><td style="color:#000000; padding:8px;">Terraform, Ansible, OpenTofu — end-to-end automation</td></tr>
+<tr><td style="color:#000000; padding:8px;"><b>AI & ML for DevOps</b></td><td style="color:#000000; padding:8px;">KubeGPT, GitHub Copilot, AIOps, LLM-powered pipelines</td></tr>
+<tr style="background-color:#ffffff;"><td style="color:#000000; padding:8px;"><b>Cloud Security</b></td><td style="color:#000000; padding:8px;">IAM, SSO, VPC hardening, zero-trust, and compliance architecture</td></tr>
+<tr><td style="color:#000000; padding:8px;"><b>Observability</b></td><td style="color:#000000; padding:8px;">Prometheus, Grafana, ELK Stack, CloudWatch — full-stack alerting</td></tr>
+<tr style="background-color:#ffffff;"><td style="color:#000000; padding:8px;"><b>Multi-Cloud Strategy</b></td><td style="color:#000000; padding:8px;">Cost optimisation, cloud-native migration, hybrid governance</td></tr>
+<tr><td style="color:#000000; padding:8px;"><b>Career Placement</b></td><td style="color:#000000; padding:8px;">Engineers placed at Amazon, Microsoft, TCS, Infosys, Wipro, and startups</td></tr>
+</table>
+
+<br/>
+
+## <span style="color:#000000;">Certifications</span>
+
+<div align="center">
+<table style="background-color:#ffffff;">
+  <tr>
+    <td align="center" width="200" style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:12px;">
+      <a href="https://www.credly.com/badges/ff07c2a6-a093-44fd-acc7-8534995f2dca" target="_blank">
+        <img src="https://images.credly.com/size/680x680/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png" width="90" alt="AWS Solutions Architect" />
+      </a>
+      <br/><b style="color:#000000;">AWS Certified Solutions Architect</b><br/>
+      <sub style="color:#374151;">Amazon Web Services · Professional</sub>
+    </td>
+    <td align="center" width="200" style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:12px;">
+      <a href="https://www.credly.com/badges/afe77f2b-843a-413c-925d-4c8ea7891503" target="_blank">
+        <img src="https://images.credly.com/size/680x680/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png" width="90" alt="CKA" />
+      </a>
+      <br/><b style="color:#000000;">Certified Kubernetes Administrator</b><br/>
+      <sub style="color:#374151;">Linux Foundation / CNCF</sub>
+    </td>
+    <td align="center" width="200" style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:12px;">
+      <img src="https://images.credly.com/size/680x680/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/CERT-Expert-DevOps-Engineer-600x600.png" width="90" alt="Azure DevOps Expert" />
+      <br/><b style="color:#000000;">Azure DevOps Engineer Expert</b><br/>
+      <sub style="color:#374151;">Microsoft Azure</sub>
+    </td>
+    <td align="center" width="200" style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:12px;">
+      <img src="https://images.credly.com/images/0dc62494-dc94-469a-83af-e35309f27356/blob" width="90" alt="Terraform Associate" />
+      <br/><b style="color:#000000;">HashiCorp Terraform Associate</b><br/>
+      <sub style="color:#374151;">HashiCorp</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="200" style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:12px;">
+      <img src="https://miro.medium.com/0*ZU8u7bSNaWeuHiYq" width="90" alt="GCP DevOps Engineer" />
+      <br/><b style="color:#000000;">GCP Professional DevOps Engineer</b><br/>
+      <sub style="color:#374151;">Google Cloud</sub>
+    </td>
+    <td align="center" width="200" style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:12px;">
+      <img src="https://k21academy.com/wp-content/uploads/2021/07/DCA_Icon.png" width="90" alt="Docker DCA" />
+      <br/><b style="color:#000000;">Docker Certified Associate</b><br/>
+      <sub style="color:#374151;">Docker Inc.</sub>
+    </td>
+    <td align="center" width="200" style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:12px;">
+      <img src="https://images.credly.com/size/680x680/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png" width="90" alt="AWS DevOps Engineer" />
+      <br/><b style="color:#000000;">AWS Certified DevOps Engineer</b><br/>
+      <sub style="color:#374151;">Amazon Web Services · Professional</sub>
+    </td>
+    <td align="center" width="200" style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:12px;">
+      <img src="https://training.linuxfoundation.org/wp-content/uploads/2019/03/kubernetes-ckad-color.png" width="90" alt="CKAD" />
+      <br/><b style="color:#000000;">Certified Kubernetes App Developer</b><br/>
+      <sub style="color:#374151;">Linux Foundation / CNCF</sub>
+    </td>
+  </tr>
+</table>
 </div>
 
----
+<br/>
+
+## <span style="color:#000000;">GitHub Analytics</span>
 
 <div align="center">
 
-### 💬 *"The best way to learn Multi-Cloud DevOps is to build real systems — not memorise commands."*
-**— Veerababu Narni**
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=CloudTechDevOps&show_icons=true&theme=default&hide_border=true&count_private=true&bg_color=FFFFFF&title_color=000000&text_color=000000&icon_color=6b7280&border_color=e5e7eb" />
+<img width="49%" src="https://streak-stats.demolab.com?user=CloudTechDevOps&theme=default&hide_border=true&background=FFFFFF&stroke=E5E7EB&ring=6B7280&fire=000000&currStreakLabel=000000&currStreakNum=000000&sideNums=000000&sideLabels=000000&dates=6b7280" />
 
-⭐ *If you find my work useful, please star the repositories!*
+<br/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=CloudTechDevOps&theme=minimal&bg_color=FFFFFF&color=000000&line=6B7280&point=000000&area=false&hide_border=true" />
+
+<img width="100%" src="https://ghchart.rshah.org/000000/CloudTechDevOps" alt="Contribution Calendar" />
+
+</div>
+
+<br/>
+
+## <span style="color:#000000;">Featured Projects</span>
+
+<div style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:16px; color:#000000; margin-bottom:12px;">
+
+<b style="color:#000000;">[Multi-Cloud CI/CD Pipeline](https://github.com/CloudTechDevOps/multi-cloud-cicd-pipeline)</b>
+<br/><span style="color:#000000;">End-to-end CI/CD blueprint spanning AWS, Azure, and GCP with full automation.</span>
+<br/><span style="color:#374151;">`AWS` `Azure DevOps` `Jenkins` `Docker` `Kubernetes` `Terraform`</span>
+<br/>![Status](https://img.shields.io/badge/Status-Production_Ready-F3F4F6?style=flat-square&labelColor=FFFFFF&color=F3F4F6&logoColor=000000) ![Stars](https://img.shields.io/badge/Stars-250+-F3F4F6?style=flat-square&labelColor=FFFFFF) ![Forks](https://img.shields.io/badge/Forks-70+-F3F4F6?style=flat-square&labelColor=FFFFFF)
+
+</div>
+
+<div style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:16px; color:#000000; margin-bottom:12px;">
+
+<b style="color:#000000;">[Serverless Data Lake on AWS](https://github.com/CloudTechDevOps/serverless-datalake-aws)</b>
+<br/><span style="color:#000000;">Fully serverless data lake architecture on AWS, optimised for cost and performance.</span>
+<br/><span style="color:#374151;">`Lambda` `S3` `Glue` `Athena` `Python`</span>
+<br/>![Status](https://img.shields.io/badge/Status-Complete-F3F4F6?style=flat-square&labelColor=FFFFFF) ![Stars](https://img.shields.io/badge/Stars-180+-F3F4F6?style=flat-square&labelColor=FFFFFF) ![Forks](https://img.shields.io/badge/Forks-50+-F3F4F6?style=flat-square&labelColor=FFFFFF)
+
+</div>
+
+<div style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:16px; color:#000000;">
+
+<b style="color:#000000;">[Kubernetes Cluster with GitOps](https://github.com/CloudTechDevOps/kubernetes-gitops-argocd)</b>
+<br/><span style="color:#000000;">Production-grade Kubernetes cluster with a full GitOps workflow via ArgoCD.</span>
+<br/><span style="color:#374151;">`Kubernetes` `ArgoCD` `Helm` `Terraform` `GitHub Actions`</span>
+<br/>![Status](https://img.shields.io/badge/Status-In_Development-F3F4F6?style=flat-square&labelColor=FFFFFF) ![Stars](https://img.shields.io/badge/Stars-120+-F3F4F6?style=flat-square&labelColor=FFFFFF) ![Forks](https://img.shields.io/badge/Forks-30+-F3F4F6?style=flat-square&labelColor=FFFFFF)
+
+</div>
+
+<br/>
+
+## <span style="color:#000000;">Latest Writing</span>
+
+<div style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:16px; color:#000000;">
+
+- <span style="color:#000000;">[How to Deploy a Self-Hosted Agent in Azure Pipelines](https://medium.com/@veerababu.narni232/how-to-deploy-a-self-hosted-agent-in-azure-pipeline-c07a4f4ca4c4)</span>
+- <span style="color:#000000;">[Querying Data in S3 with Amazon Athena](https://medium.com/@veerababu.narni232/querying-data-in-s3-with-amazon-athena-d9319eb87155)</span>
+- <span style="color:#000000;">[Everything You Need to Know About AWS EKS Auto Mode](https://medium.com/@veerababu.narni232/everything-you-need-to-know-about-aws-eks-auto-mode-b5e03b49b630)</span>
+- <span style="color:#000000;">[Centralising Cloud Networks: Deploying AWS Transit Gateway](https://medium.com/@veerababu.narni232/centralizing-secure-cloud-networks-hands-on-guide-to-deploying-aws-transit-gateway-1032221d4263)</span>
+
+</div>
+
+<br/>
+
+## <span style="color:#000000;">2026 Goals</span>
+
+<div style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:16px; color:#000000;">
+
+- <span style="color:#000000;">Contribute to five or more significant open-source DevOps tools</span>
+- <span style="color:#000000;">Achieve the AWS Certified DevOps Engineer – Professional certification</span>
+- <span style="color:#000000;">Mentor aspiring cloud engineers and grow the community</span>
+- <span style="color:#000000;">Publish six or more in-depth technical articles on multi-cloud architecture and FinOps</span>
+
+</div>
+
+<br/>
+
+## <span style="color:#000000;">Open Source Contributions</span>
+
+<div style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:16px; color:#000000;">
+
+- <span style="color:#000000;"><b>DevOps Tooling</b> — Pull requests for performance enhancements and bug fixes</span>
+- <span style="color:#000000;"><b>Cloud-Native Projects</b> — Feature development for multi-cloud compatibility</span>
+- <span style="color:#000000;"><b>Infrastructure-as-Code Modules</b> — Maintenance of widely-used Terraform modules for AWS resources</span>
+
+</div>
+
+<br/>
+
+---
+
+<div align="center" style="background-color:#ffffff; border:1px solid #e5e7eb; border-radius:10px; padding:20px;">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-F3F4F6?style=for-the-badge&logo=linkedin&logoColor=000000&labelColor=FFFFFF)](https://www.linkedin.com/in/veerababu-narni-b99b05256)
+[![Medium](https://img.shields.io/badge/Medium-F3F4F6?style=for-the-badge&logo=medium&logoColor=000000&labelColor=FFFFFF)](https://medium.com/@veerababu.narni232)
+[![Email](https://img.shields.io/badge/Email-F3F4F6?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=FFFFFF)](mailto:veeraopstechnologies@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-F3F4F6?style=for-the-badge&logo=github&logoColor=000000&labelColor=FFFFFF)](https://github.com/CloudTechDevOps)
+
+<br/>
+
+<sub style="color:#000000;">"The best way to learn multi-cloud DevOps is to build real systems — not memorise commands."</sub>
+<br/>
+<sub style="color:#000000;">— Veerababu Narni</sub>
 
 </div>
