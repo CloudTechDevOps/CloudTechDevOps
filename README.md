@@ -1,14 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=FFFFFF&height=220&section=header&text=Veerababu%20Narni&fontColor=000000&fontSize=52&fontAlignY=35&desc=Senior%20DevOps%20%26%20Multi-Cloud%20Architect&descAlignY=58&descSize=22&descColor=000000" width="100%" />
-
-<br/>
-
-<img src="veera.jpeg" width="140" style="border-radius: 50%; border: 3px solid #d1d5db;" />
+<img src="banner.svg" width="100%" />
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=FFFFFF&height=60&text=Building%20production-grade%20cloud%20infrastructure%20—%20and%20the%20engineers%20who%20run%20it.&fontColor=000000&fontSize=16&fontAlignY=55" width="100%" />
+<img src="veera.jpeg" width="140" style="border-radius: 50%; border: 3px solid #d1d5db;" />
 
 <br/>
 
