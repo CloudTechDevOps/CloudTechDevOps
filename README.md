@@ -11,8 +11,8 @@
 <a href="http://veera.veeraopstech.online/" target="_blank">
   <img src="https://img.shields.io/badge/Website-F3F4F6?style=for-the-badge&logo=googlechrome&logoColor=000000&labelColor=FFFFFF" />
 </a>
-<a href="https://veeracloud.shop/" target="_blank">
-  <img src="https://img.shields.io/badge/Veera_Cloud-F3F4F6?style=for-the-badge&logo=icloud&logoColor=000000&labelColor=FFFFFF" />
+<a href="https://cloudinit.online" target="_blank">
+  <img src="https://img.shields.io/badge/Cloud_init-F3F4F6?style=for-the-badge&logo=icloud&logoColor=000000&labelColor=FFFFFF" />
 </a>
 
 <br/><br/>
