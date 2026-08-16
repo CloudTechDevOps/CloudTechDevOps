@@ -4,9 +4,7 @@
 
 <br/><br/>
 
-<img src="veera.jpeg" width="140" style="border-radius: 50%; border: 3px solid rgba(103,232,249,0.6); box-shadow: 0 8px 24px rgba(34,211,238,0.25);" />
 
-<br/><br/>
 
 <a href="http://veera.veeraopstech.online/" target="_blank">
   <img src="https://img.shields.io/badge/Website-0f172a?style=for-the-badge&logo=googlechrome&logoColor=67e8f9&labelColor=1e1b4b" />
