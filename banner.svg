@@ -1,0 +1,169 @@
+<svg width="100%" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="35%" stop-color="#1e1b4b"/>
+      <stop offset="70%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+
+    <radialGradient id="blobCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="panelFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="pillFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a5f3fc"/>
+    </linearGradient>
+
+    <filter id="heavyBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="midBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="panelShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <clipPath id="panelClip"><rect x="60" y="100" width="720" height="200" rx="26"/></clipPath>
+    <clipPath id="sideClip"><rect x="800" y="60" width="340" height="280" rx="26"/></clipPath>
+    <clipPath id="navClip"><rect x="60" y="24" width="1080" height="52" rx="26"/></clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+
+  <g id="blobs">
+    <circle cx="160" cy="90" r="150" fill="url(#blobCyan)"><animate attributeName="cx" values="160;220;160" dur="16s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="300" r="180" fill="url(#blobViolet)"><animate attributeName="cy" values="300;260;300" dur="12s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="70" r="160" fill="url(#blobGreen)"><animate attributeName="cx" values="980;920;980" dur="18s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="300" r="120" fill="url(#blobPink)"><animate attributeName="cy" values="300;340;300" dur="10s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="60" r="100" fill="url(#blobCyan)" opacity="0.6"/>
+  </g>
+  <use href="#blobs"/>
+
+  <g stroke="#ffffff" stroke-opacity="0.05">
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="280" x2="1200" y2="280"/>
+  </g>
+
+  <!-- glass navbar -->
+  <g filter="url(#panelShadow)">
+    <rect x="60" y="24" width="1080" height="52" rx="26" fill="url(#panelFill)" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1.2"/>
+  </g>
+  <g clip-path="url(#navClip)"><use href="#blobs" filter="url(#midBlur)"/></g>
+  <g font-family="Consolas, Menlo, monospace" font-size="13" fill="#a5f3fc">
+    <circle cx="86" cy="50" r="5" fill="#f472b6"/>
+    <circle cx="104" cy="50" r="5" fill="#fbbf24"/>
+    <circle cx="122" cy="50" r="5" fill="#34d399"/>
+    <text x="150" y="55">~/veerababu-narni  ›  senior-devops-architect --status active</text>
+    <text x="960" y="55" fill="#67e8f9">● 24,400+ trained</text>
+  </g>
+
+  <!-- main glass panel: identity -->
+  <g clip-path="url(#panelClip)"><use href="#blobs" filter="url(#heavyBlur)"/><rect x="60" y="100" width="720" height="200" fill="#020617" opacity="0.3"/></g>
+  <g filter="url(#panelShadow)">
+    <rect x="60" y="100" width="720" height="200" rx="26" fill="url(#panelFill)" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.5"/>
+    <path d="M 84 104 Q 420 86 756 104 L 756 148 Q 420 130 84 148 Z" fill="url(#sheen)" clip-path="url(#panelClip)"/>
+  </g>
+
+  <text x="96" y="168" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="url(#titleGrad)">Veerababu Narni</text>
+  <text x="96" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#e0f2fe" fill-opacity="0.9">Senior DevOps &amp; Multi-Cloud Architect</text>
+
+  <text x="96" y="234" font-family="Consolas, Menlo, monospace" font-size="14" fill="#67e8f9">
+    <tspan>15+ yrs · AWS · Azure · GCP · Kubernetes · Terraform</tspan>
+  </text>
+  <rect x="96" y="244" width="9" height="16" fill="#67e8f9">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="x" from="96" to="450" dur="3s" begin="0.1s" fill="freeze" calcMode="linear"/>
+  </rect>
+
+  <!-- skill pill chips -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e0f2fe">
+    <g transform="translate(96,260)">
+      <rect width="96" height="26" rx="13" fill="url(#pillFill)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="48" y="17" text-anchor="middle">AWS · Azure</text></g>
+    <g transform="translate(200,260)">
+      <rect width="66" height="26" rx="13" fill="url(#pillFill)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="33" y="17" text-anchor="middle">GCP</text></g>
+    <g transform="translate(274,260)">
+      <rect width="120" height="26" rx="13" fill="url(#pillFill)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="60" y="17" text-anchor="middle">Kubernetes · CKA</text></g>
+    <g transform="translate(402,260)">
+      <rect width="100" height="26" rx="13" fill="url(#pillFill)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="50" y="17" text-anchor="middle">Terraform</text></g>
+  </g>
+
+  <!-- side glass panel: live stat readout -->
+  <g clip-path="url(#sideClip)"><use href="#blobs" filter="url(#heavyBlur)"/><rect x="800" y="60" width="340" height="280" fill="#020617" opacity="0.3"/></g>
+  <g filter="url(#panelShadow)">
+    <rect x="800" y="60" width="340" height="280" rx="26" fill="url(#panelFill)" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.5"/>
+  </g>
+  <text x="826" y="94" font-family="Consolas, Menlo, monospace" font-size="12" fill="#94a3b8">SYSTEM.STATUS</text>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="826" y="140" font-size="30" font-weight="700" fill="#ffffff">15+</text>
+    <text x="826" y="158" font-size="12" fill="#94a3b8">years experience</text>
+
+    <text x="826" y="200" font-size="30" font-weight="700" fill="#ffffff">24,400+</text>
+    <text x="826" y="218" font-size="12" fill="#94a3b8">engineers trained</text>
+
+    <text x="826" y="260" font-size="30" font-weight="700" fill="#ffffff">35+</text>
+    <text x="826" y="278" font-size="12" fill="#94a3b8">live production projects</text>
+  </g>
+
+  <!-- animated activity bars -->
+  <g transform="translate(826,296)">
+    <rect x="0" y="14" width="8" height="0" fill="#22d3ee"><animate attributeName="height" values="0;20;10" dur="2.4s" repeatCount="indefinite"/><animate attributeName="y" values="14;-6;4" dur="2.4s" repeatCount="indefinite"/></rect>
+    <rect x="14" y="14" width="8" height="0" fill="#a78bfa"><animate attributeName="height" values="0;28;14" dur="2.1s" repeatCount="indefinite"/><animate attributeName="y" values="14;-14;0" dur="2.1s" repeatCount="indefinite"/></rect>
+    <rect x="28" y="14" width="8" height="0" fill="#34d399"><animate attributeName="height" values="0;16;22" dur="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="14;-2;-8" dur="1.8s" repeatCount="indefinite"/></rect>
+    <rect x="42" y="14" width="8" height="0" fill="#f472b6"><animate attributeName="height" values="0;24;8" dur="2.6s" repeatCount="indefinite"/><animate attributeName="y" values="14;-10;6" dur="2.6s" repeatCount="indefinite"/></rect>
+    <text x="66" y="12" font-family="Consolas, Menlo, monospace" font-size="10" fill="#67e8f9">deploying…</text>
+  </g>
+
+  <!-- orbiting glass ring around a hex icon -->
+  <g transform="translate(970,180)">
+    <circle r="46" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+    <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" fill="#ffffff" fill-opacity="0.08" stroke="#a5f3fc" stroke-opacity="0.6" stroke-width="1.5"/>
+    <polygon points="0,-15 13,-7.5 13,7.5 0,15 -13,7.5 -13,-7.5" fill="#22d3ee" fill-opacity="0.4"/>
+    <circle r="4" fill="#67e8f9" filter="url(#glow)">
+      <animateMotion dur="6s" repeatCount="indefinite" path="M 46,0 A 46,46 0 1,1 -46,0 A 46,46 0 1,1 46,0"/>
+    </circle>
+    <circle r="3" fill="#a78bfa" filter="url(#glow)">
+      <animateMotion dur="6s" begin="-3s" repeatCount="indefinite" path="M 46,0 A 46,46 0 1,1 -46,0 A 46,46 0 1,1 46,0"/>
+    </circle>
+  </g>
+
+  <circle cx="150" cy="330" r="3" fill="#67e8f9"><animate attributeName="cy" values="330;320;330" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="1120" cy="40" r="3" fill="#a5f3fc"><animate attributeName="cy" values="40;52;40" dur="5s" repeatCount="indefinite"/></circle>
+</svg>
