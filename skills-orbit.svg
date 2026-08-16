@@ -96,5 +96,31 @@
     <text x="760" y="450">CloudWatch</text>
   </g>
 
+  <!-- Gen AI / Agentic AI satellite node, own slow orbit -->
+  <g transform="translate(450,240)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="70s" repeatCount="indefinite"/>
+      <g transform="translate(0,-220)">
+        <circle r="30" fill="url(#nodeFill)" stroke="#f472b6" stroke-opacity="0.7" stroke-width="1.5"/>
+        <circle r="30" fill="none" stroke="#f472b6" stroke-opacity="0.3">
+          <animate attributeName="r" values="30;38;30" dur="3s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(450,240)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="70s" repeatCount="indefinite"/>
+      <g transform="translate(0,-220)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="70s" repeatCount="indefinite"/>
+          <text text-anchor="middle" dy="-2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">Gen AI</text>
+          <text text-anchor="middle" dy="11" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">Agentic AI</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
   <text x="450" y="30" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#67e8f9" letter-spacing="2">TECH ORBIT — LIVE</text>
 </svg>

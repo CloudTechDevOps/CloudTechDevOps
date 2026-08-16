@@ -122,6 +122,9 @@
     <g transform="translate(402,260)">
       <rect width="100" height="26" rx="13" fill="url(#pillFill)" stroke="#ffffff" stroke-opacity="0.25"/>
       <text x="50" y="17" text-anchor="middle">Terraform</text></g>
+    <g transform="translate(508,260)">
+      <rect width="120" height="26" rx="13" fill="url(#pillFill)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="60" y="17" text-anchor="middle">Gen AI · Agentic AI</text></g>
   </g>
 
   <!-- side glass panel: live stat readout -->

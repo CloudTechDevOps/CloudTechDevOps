@@ -4,6 +4,8 @@
 
 <br/><br/>
 
+<img src="veera.jpeg" width="140" style="border-radius: 50%; border: 3px solid rgba(103,232,249,0.6); box-shadow: 0 8px 24px rgba(34,211,238,0.25);" />
+
 <br/><br/>
 
 <a href="http://veera.veeraopstech.online/" target="_blank">
@@ -71,8 +73,28 @@ Alongside architecture work, I've trained **24,400+ engineers**, taking learners
 
 - 🏗️ **Architecting** a multi-cloud disaster recovery solution for a critical enterprise application
 - 🔍 **Researching** service mesh technologies (Istio) and advanced FinOps strategies for cloud cost governance
+- 🤖 **Building** agentic AI workflows for DevOps — LLM-driven incident response, autonomous remediation agents, and RAG-based infra assistants
 - 🤝 **Open to collaboration** on cloud security, serverless frameworks, and Infrastructure-as-Code open-source projects
-- 🧩 **Areas of expertise**: AWS, Azure, GCP, Kubernetes, Terraform, Ansible, CI/CD pipelines, cloud cost optimisation
+- 🧩 **Areas of expertise**: AWS, Azure, GCP, Kubernetes, Terraform, Ansible, CI/CD pipelines, cloud cost optimisation, Generative & Agentic AI
+
+</div>
+
+<br/>
+
+<!-- ============ GLASS CARD: GEN AI & AGENTIC AI ============ -->
+<div style="background: linear-gradient(135deg, rgba(167,139,250,0.1), rgba(34,211,238,0.06)); backdrop-filter: blur(20px); border: 1px solid rgba(148,163,184,0.25); border-radius:18px; padding:24px; box-shadow: 0 8px 32px rgba(15,23,42,0.08);">
+
+## <span>🤖 Generative &amp; Agentic AI</span>
+
+Extending the DevOps craft into the AI layer — designing systems where LLMs and autonomous agents don't just assist engineers but actively operate infrastructure.
+
+- **LLM App Architecture** — RAG pipelines, prompt/context engineering, and evaluation harnesses for production-grade LLM apps
+- **Agentic Systems** — multi-agent orchestration (LangGraph, CrewAI-style patterns) for autonomous, tool-using workflows
+- **AIOps** — LLM-powered log triage, anomaly detection, and self-healing pipeline automation
+- **Vector & Retrieval Infra** — embeddings, vector databases, and hybrid search for grounding agents in real infrastructure data
+- **MLOps for LLMs** — deployment, observability, and cost governance for model-serving pipelines on Kubernetes
+
+`LangChain` `LangGraph` `RAG` `Vector DBs` `OpenAI` `Anthropic Claude` `Hugging Face` `AIOps`
 
 </div>
 
@@ -130,6 +152,15 @@ Alongside architecture work, I've trained **24,400+ engineers**, taking learners
 ![MySQL](https://img.shields.io/badge/MySQL-0f172a?style=flat-square&logo=mysql&logoColor=67e8f9&labelColor=1e1b4b)
 ![MongoDB](https://img.shields.io/badge/MongoDB-0f172a?style=flat-square&logo=mongodb&logoColor=67e8f9&labelColor=1e1b4b)
 
+**🤖 Generative & Agentic AI**
+
+![OpenAI](https://img.shields.io/badge/OpenAI-0f172a?style=flat-square&logo=openai&logoColor=67e8f9&labelColor=1e1b4b)
+![Anthropic Claude](https://img.shields.io/badge/Anthropic_Claude-0f172a?style=flat-square&logo=anthropic&logoColor=67e8f9&labelColor=1e1b4b)
+![LangChain](https://img.shields.io/badge/LangChain-0f172a?style=flat-square&logo=langchain&logoColor=67e8f9&labelColor=1e1b4b)
+![LangGraph](https://img.shields.io/badge/LangGraph-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-0f172a?style=flat-square&logo=huggingface&logoColor=67e8f9&labelColor=1e1b4b)
+![Pinecone](https://img.shields.io/badge/Vector_DBs-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b)
+
 </td>
 </tr>
 </table>
@@ -149,6 +180,7 @@ Alongside architecture work, I've trained **24,400+ engineers**, taking learners
 | **Kubernetes & Containers** | Docker, EKS, AKS, GKE, Helm, ArgoCD, and full GitOps workflows |
 | **Infrastructure as Code** | Terraform, Ansible, OpenTofu — end-to-end automation |
 | **AI & ML for DevOps** | KubeGPT, GitHub Copilot, AIOps, LLM-powered pipelines |
+| **Generative & Agentic AI** | LLM app architecture, RAG pipelines, autonomous multi-agent systems for DevOps automation |
 | **Cloud Security** | IAM, SSO, VPC hardening, zero-trust, and compliance architecture |
 | **Observability** | Prometheus, Grafana, ELK Stack, CloudWatch — full-stack alerting |
 | **Multi-Cloud Strategy** | Cost optimisation, cloud-native migration, hybrid governance |
@@ -291,6 +323,7 @@ Production-grade Kubernetes cluster with a full GitOps workflow via ArgoCD.
 - 🏆 Achieve the AWS Certified DevOps Engineer – Professional certification
 - 🧑‍🏫 Mentor aspiring cloud engineers and grow the community
 - 📝 Publish six or more in-depth technical articles on multi-cloud architecture and FinOps
+- 🤖 Ship a production agentic-AI framework for autonomous cloud operations
 
 </div>
 
