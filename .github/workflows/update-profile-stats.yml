@@ -117,15 +117,21 @@ jobs:
           print("README.md updated with:", values, "updated:", os.environ["UPDATED"])
           PY
 
-      - name: Commit if the numbers changed
+      - name: Regenerate analytics cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCOUNT: CloudTechDevOps
+        run: python3 scripts/generate_cards.py
+
+      - name: Commit if anything changed
         run: |
           set -euo pipefail
-          if git diff --quiet -- README.md; then
-            echo "Statistics unchanged — nothing to commit."
+          if git diff --quiet -- README.md assets/stats-card.svg assets/languages-card.svg; then
+            echo "Statistics and cards unchanged — nothing to commit."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md assets/stats-card.svg assets/languages-card.svg
           git commit -m "chore: refresh profile statistics [skip ci]"
           git push

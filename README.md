@@ -214,17 +214,16 @@ Real, runnable repositories from this account — ordered by how much the commun
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=CloudTechDevOps&show_icons=true&theme=transparent&hide_border=true&count_private=true&title_color=67e8f9&text_color=94a3b8&icon_color=a78bfa" alt="GitHub stats for CloudTechDevOps" />
+<img width="49%" src="assets/stats-card.svg" alt="GitHub statistics: 576 total contributions, 557 commits in the past year, 34 stars earned, 383 community forks, 21 public repositories, 710 followers" />
+<img width="49%" src="assets/languages-card.svg" alt="Most used languages: HTML 52.6%, JavaScript 13.1%, Python 12.8%, CSS 12.5%, HCL 8.1%, Shell 0.4%" />
+
+<br/><br/>
+
 <img width="49%" src="https://streak-stats.demolab.com?user=CloudTechDevOps&theme=transparent&hide_border=true&stroke=94a3b8&ring=22d3ee&fire=a78bfa&currStreakLabel=67e8f9&currStreakNum=67e8f9&sideNums=94a3b8&sideLabels=94a3b8&dates=94a3b8" alt="Contribution streak" />
 
 <br/><br/>
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=CloudTechDevOps&theme=github_dark" alt="Repositories per language" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=CloudTechDevOps&theme=github_dark" alt="Most committed language" />
-
-<br/><br/>
-
-<img width="100%" src="https://ghchart.rshah.org/22d3ee/CloudTechDevOps" alt="Contribution calendar" />
+<img width="100%" src="https://ghchart.rshah.org/22d3ee/CloudTechDevOps" alt="Contribution calendar for the past year" />
 
 </div>
 

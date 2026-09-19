@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="330" viewBox="0 0 460 330" role="img" aria-label="GitHub statistics for CloudTechDevOps">
+<title>GitHub statistics for CloudTechDevOps</title>
+  <defs>
+    <linearGradient id="sbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="459" height="329" rx="12" fill="url(#sbg)" stroke="#334155"/>
+  <text x="26" y="36" fill="#67e8f9" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="600">GitHub Statistics</text>
+  <rect x="26" y="50" width="408" height="1" fill="#334155"/>
+  <text x="26" y="74" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Total Contributions</text>
+  <text x="434" y="74" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">576</text>
+  <text x="26" y="104" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Commits (past year)</text>
+  <text x="434" y="104" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">557</text>
+  <text x="26" y="134" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Pull Requests</text>
+  <text x="434" y="134" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">3</text>
+  <text x="26" y="164" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Stars Earned</text>
+  <text x="434" y="164" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">34</text>
+  <text x="26" y="194" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Community Forks</text>
+  <text x="434" y="194" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">383</text>
+  <text x="26" y="224" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Public Repositories</text>
+  <text x="434" y="224" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">21</text>
+  <text x="26" y="254" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Followers</text>
+  <text x="434" y="254" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">710</text>
+  <text x="26" y="284" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Code Written</text>
+  <text x="434" y="284" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">1.24 MB</text>
+</svg>
