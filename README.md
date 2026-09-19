@@ -20,20 +20,66 @@
 
 <table>
 <tr>
-<td width="140" align="center" valign="top">
-<img src="veera.jpg" width="120" alt="Veerababu Narni" />
+<td width="210" align="center" valign="top">
+
+<img src="assets/avatar.png" width="180" alt="Veerababu Narni" />
+
+<img src="https://img.shields.io/badge/Open_to-Collaboration-0f172a?style=flat-square&logo=handshake&logoColor=67e8f9&labelColor=1e1b4b" alt="Open to collaboration" />
+<img src="https://img.shields.io/badge/Focus-Multi--Cloud_+_Agentic_AI-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b" alt="Current focus" />
+
 </td>
 <td valign="top">
 
-Senior DevOps &amp; Multi-Cloud Architect with **15+ years** of industry experience across **AWS, Microsoft Azure, and Google Cloud Platform**. I design and operate production infrastructure for enterprise workloads, lead DevOps transformation initiatives, and build CI/CD pipelines that power mission-critical systems.
+Senior DevOps &amp; Multi-Cloud Architect with **15+ years** of industry experience across **AWS, Microsoft Azure, and Google Cloud Platform**. I design and operate production infrastructure for enterprise workloads, lead DevOps transformation initiatives, and build CI/CD pipelines that carry mission-critical systems.
 
-Alongside architecture work, I've trained **24,400+ engineers**, taking learners from foundational concepts to placement-ready skills at top MNCs and product companies. Every concept I teach is grounded in practices I use in production — not theory detached from real systems.
+Alongside architecture work I've trained **24,400+ engineers**, taking people from first principles to placement-ready. Every concept I teach is one I use in production — not theory detached from real systems.
 
-Everything in this account is a **working repository**: real Terraform that plans, real manifests that apply, real pipelines that run.
+```yaml
+whoami:
+  name:        Veerababu Narni
+  role:        Senior DevOps & Multi-Cloud Architect
+  experience:  15+ years
+  clouds:      [AWS, Azure, GCP, Oracle Cloud]
+  core:        [Kubernetes, Terraform, Ansible, CI/CD, Observability]
+  building:    [Gen AI, Agentic AI, AIOps, RAG pipelines]
+  engineers_trained: 24_400+
+```
 
 </td>
 </tr>
 </table>
+
+> [!TIP]
+> **Everything here is meant to run.** Real Terraform that plans, real manifests that apply, real pipelines that execute — not snippets pasted from slide decks. Clone any repository and follow its README.
+
+<details>
+<summary><b>🧭 How I work</b></summary>
+
+<br/>
+
+| Principle | In practice |
+|---|---|
+| **Build it before teaching it** | Every module ships from a deployment I have actually operated |
+| **Infrastructure as code, always** | No console clicking that cannot be reproduced from a repository |
+| **Cost is a design constraint** | FinOps considered at architecture time, not after the invoice |
+| **Observability first** | If it cannot be measured, it is not finished |
+| **Least privilege by default** | IAM scoped narrowly, then widened only where proven necessary |
+
+</details>
+
+<details>
+<summary><b>🤝 What I'm useful for</b></summary>
+
+<br/>
+
+- **Multi-cloud architecture reviews** — AWS, Azure and GCP landing zones, hybrid governance, DR strategy
+- **Kubernetes and GitOps** — EKS/AKS/GKE design, Helm, ArgoCD, progressive delivery
+- **Infrastructure as Code** — Terraform module design, remote state, drift control
+- **Cloud cost optimisation** — rightsizing, commitment planning, waste elimination
+- **Agentic AI for operations** — LLM-driven incident response, autonomous remediation, RAG over infrastructure data
+- **Team enablement** — structured, project-based upskilling for cloud and DevOps engineers
+
+</details>
 
 <br/>
 
