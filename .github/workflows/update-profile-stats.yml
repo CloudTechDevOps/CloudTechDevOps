@@ -1,0 +1,124 @@
+name: Update profile stats
+
+# Recomputes the aggregate figures in the "By the Numbers" table from the
+# GitHub API and writes them back into README.md between <!--STAT:*--> markers.
+# shields.io can serve public_repos and followers live, but it cannot sum
+# forks/stars across repositories, so those are refreshed here instead.
+
+on:
+  schedule:
+    # 03:17 UTC daily. Off-the-hour to avoid GitHub's peak cron contention.
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-profile-stats.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Collect real statistics from the GitHub API
+        id: collect
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCOUNT: CloudTechDevOps
+        run: |
+          set -euo pipefail
+
+          # Account-level counters
+          gh api "users/${ACCOUNT}" > user.json
+          repos=$(jq -r '.public_repos' user.json)
+          followers=$(jq -r '.followers' user.json)
+
+          # Per-repo counters. --paginate applies --jq per page and streams,
+          # so this stays correct past 100 repositories.
+          gh api --paginate "users/${ACCOUNT}/repos?per_page=100&type=owner" \
+            --jq '.[] | [.forks_count, .stargazers_count] | @tsv' > repos.tsv
+
+          forks=$(awk -F'\t' '{s += $1} END {print s + 0}' repos.tsv)
+          stars=$(awk -F'\t' '{s += $2} END {print s + 0}' repos.tsv)
+
+          # Fail loudly rather than writing zeros if the API returned nothing.
+          if [ ! -s repos.tsv ]; then
+            echo "::error::No repository data returned from the GitHub API"
+            exit 1
+          fi
+
+          {
+            echo "repos=${repos}"
+            echo "followers=${followers}"
+            echo "forks=${forks}"
+            echo "stars=${stars}"
+            echo "updated=$(date -u +%Y-%m-%d)"
+          } >> "$GITHUB_OUTPUT"
+
+          echo "Collected: repos=${repos} followers=${followers} forks=${forks} stars=${stars}"
+
+      - name: Write statistics into README.md
+        env:
+          REPOS: ${{ steps.collect.outputs.repos }}
+          FOLLOWERS: ${{ steps.collect.outputs.followers }}
+          FORKS: ${{ steps.collect.outputs.forks }}
+          STARS: ${{ steps.collect.outputs.stars }}
+          UPDATED: ${{ steps.collect.outputs.updated }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          import sys
+
+          values = {
+              "REPOS": os.environ["REPOS"],
+              "FOLLOWERS": os.environ["FOLLOWERS"],
+              "FORKS": os.environ["FORKS"],
+              "STARS": os.environ["STARS"],
+              "UPDATED": os.environ["UPDATED"],
+          }
+
+          with open("README.md", encoding="utf-8") as handle:
+              readme = handle.read()
+
+          missing = []
+          for key, value in values.items():
+              marker = re.compile(
+                  r"(<!--STAT:{k}-->)(.*?)(<!--/STAT:{k}-->)".format(k=key),
+                  re.DOTALL,
+              )
+              if not marker.search(readme):
+                  missing.append(key)
+                  continue
+              readme = marker.sub(r"\g<1>" + value + r"\g<3>", readme)
+
+          if missing:
+              sys.exit("Missing STAT markers in README.md: " + ", ".join(missing))
+
+          with open("README.md", "w", encoding="utf-8") as handle:
+              handle.write(readme)
+
+          print("README.md updated with:", values)
+          PY
+
+      - name: Commit if the numbers changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- README.md; then
+            echo "Statistics unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh profile statistics [skip ci]"
+          git push

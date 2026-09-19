@@ -40,15 +40,30 @@ Everything in this account is a **working repository**: real Terraform that plan
 ## 📊 By the Numbers
 
 <div align="center">
+
+<a href="https://github.com/CloudTechDevOps?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FCloudTechDevOps&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&color=0f172a&labelColor=1e1b4b" alt="Live count of public repositories" /></a>
+<a href="https://github.com/CloudTechDevOps?tab=followers"><img src="https://img.shields.io/github/followers/CloudTechDevOps?style=for-the-badge&label=Followers&color=0f172a&labelColor=1e1b4b&logo=github&logoColor=67e8f9" alt="Live follower count" /></a>
+<a href="https://github.com/CloudTechDevOps/Linux-commands/network/members"><img src="https://img.shields.io/github/forks/CloudTechDevOps/Linux-commands?style=for-the-badge&label=Top%20Repo%20Forks&color=0f172a&labelColor=1e1b4b&logo=github&logoColor=67e8f9" alt="Live fork count on Linux-commands, the most forked repository" /></a>
+
+<sub>↑ these three read live from the GitHub API on every page load</sub>
+
 <table>
 <tr>
-<td align="center" width="150"><b>15+ Years</b><br/><sub>Industry Experience</sub></td>
-<td align="center" width="150"><b>24,400+</b><br/><sub>Engineers Trained</sub></td>
-<td align="center" width="150"><b>3 Clouds</b><br/><sub>AWS · Azure · GCP</sub></td>
-<td align="center" width="150"><b>21</b><br/><sub>Public Repositories</sub></td>
-<td align="center" width="150"><b>380+</b><br/><sub>Community Forks</sub></td>
+<td align="center" width="140"><b>15+ Years</b><br/><sub>Industry Experience</sub></td>
+<td align="center" width="140"><b>24,400+</b><br/><sub>Engineers Trained</sub></td>
+<td align="center" width="140"><b>3 Clouds</b><br/><sub>AWS · Azure · GCP</sub></td>
+<td align="center" width="140"><b><!--STAT:FOLLOWERS-->710<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
+</tr>
+<tr>
+<td align="center" width="140"><b><!--STAT:REPOS-->21<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
+<td align="center" width="140"><b><!--STAT:FORKS-->383<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
+<td align="center" width="140"><b><!--STAT:STARS-->34<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
+<td align="center" width="140"><b>Daily</b><br/><sub>Auto-refreshed <a href="https://github.com/CloudTechDevOps/CloudTechDevOps/actions/workflows/update-profile-stats.yml">by CI</a></sub></td>
 </tr>
 </table>
+
+<sub>Aggregate figures are recomputed from the GitHub API by a scheduled workflow — last run: <!--STAT:UPDATED-->2026-09-19<!--/STAT:UPDATED--></sub>
+
 </div>
 
 <br/>
