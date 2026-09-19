@@ -55,12 +55,12 @@ Everything in this account is a **working repository**: real Terraform that plan
 <tr>
 <td align="center" width="140"><b><!--STAT:FOLLOWERS-->710<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
 <td align="center" width="140"><b><!--STAT:REPOS-->21<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
-<td align="center" width="140"><b><!--STAT:FORKS-->383<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
-<td align="center" width="140"><b><!--STAT:STARS-->34<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
+<td align="center" width="140"><b><!--STAT:FORKS-->1<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
+<td align="center" width="140"><b><!--STAT:STARS-->999<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
 </tr>
 </table>
 
-<!-- stats last updated: 2026-09-19 -->
+<!-- stats last updated: 1970-01-01 -->
 
 </div>
 
