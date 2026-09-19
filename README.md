@@ -45,24 +45,22 @@ Everything in this account is a **working repository**: real Terraform that plan
 <a href="https://github.com/CloudTechDevOps?tab=followers"><img src="https://img.shields.io/github/followers/CloudTechDevOps?style=for-the-badge&label=Followers&color=0f172a&labelColor=1e1b4b&logo=github&logoColor=67e8f9" alt="Live follower count" /></a>
 <a href="https://github.com/CloudTechDevOps/Linux-commands/network/members"><img src="https://img.shields.io/github/forks/CloudTechDevOps/Linux-commands?style=for-the-badge&label=Top%20Repo%20Forks&color=0f172a&labelColor=1e1b4b&logo=github&logoColor=67e8f9" alt="Live fork count on Linux-commands, the most forked repository" /></a>
 
-<sub>↑ these three read live from the GitHub API on every page load</sub>
-
 <table>
 <tr>
 <td align="center" width="140"><b>15+ Years</b><br/><sub>Industry Experience</sub></td>
 <td align="center" width="140"><b>24,400+</b><br/><sub>Engineers Trained</sub></td>
 <td align="center" width="140"><b>3 Clouds</b><br/><sub>AWS · Azure · GCP</sub></td>
-<td align="center" width="140"><b><!--STAT:FOLLOWERS-->710<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
+<td align="center" width="140"><b>8</b><br/><sub>Certifications</sub></td>
 </tr>
 <tr>
+<td align="center" width="140"><b><!--STAT:FOLLOWERS-->710<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
 <td align="center" width="140"><b><!--STAT:REPOS-->21<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
 <td align="center" width="140"><b><!--STAT:FORKS-->383<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
 <td align="center" width="140"><b><!--STAT:STARS-->34<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
-<td align="center" width="140"><b>Daily</b><br/><sub>Auto-refreshed <a href="https://github.com/CloudTechDevOps/CloudTechDevOps/actions/workflows/update-profile-stats.yml">by CI</a></sub></td>
 </tr>
 </table>
 
-<sub>Aggregate figures are recomputed from the GitHub API by a scheduled workflow — last run: <!--STAT:UPDATED-->2026-09-19<!--/STAT:UPDATED--></sub>
+<!-- stats last updated: 2026-09-19 -->
 
 </div>
 

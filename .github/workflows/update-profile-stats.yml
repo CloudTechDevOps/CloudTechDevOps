@@ -84,7 +84,6 @@ jobs:
               "FOLLOWERS": os.environ["FOLLOWERS"],
               "FORKS": os.environ["FORKS"],
               "STARS": os.environ["STARS"],
-              "UPDATED": os.environ["UPDATED"],
           }
 
           with open("README.md", encoding="utf-8") as handle:
@@ -101,13 +100,21 @@ jobs:
                   continue
               readme = marker.sub(r"\g<1>" + value + r"\g<3>", readme)
 
+          # Timestamp lives in a standalone HTML comment so it stays
+          # machine-readable without rendering on the profile.
+          stamp = re.compile(r"(<!-- stats last updated: )([^>]*?)( -->)")
+          if not stamp.search(readme):
+              missing.append("UPDATED")
+          else:
+              readme = stamp.sub(r"\g<1>" + os.environ["UPDATED"] + r"\g<3>", readme)
+
           if missing:
-              sys.exit("Missing STAT markers in README.md: " + ", ".join(missing))
+              sys.exit("Missing markers in README.md: " + ", ".join(missing))
 
           with open("README.md", "w", encoding="utf-8") as handle:
               handle.write(readme)
 
-          print("README.md updated with:", values)
+          print("README.md updated with:", values, "updated:", os.environ["UPDATED"])
           PY
 
       - name: Commit if the numbers changed
