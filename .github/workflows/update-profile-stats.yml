@@ -1,19 +1,19 @@
 name: Update profile stats
 
-# Recomputes the aggregate figures in the "By the Numbers" table from the
-# GitHub API and writes them back into README.md between <!--STAT:*--> markers.
-# shields.io can serve public_repos and followers live, but it cannot sum
-# forks/stars across repositories, so those are refreshed here instead.
+# Refreshes the aggregate figures in the "By the Numbers" table and regenerates
+# the analytics cards in assets/ from the GitHub API.
+#
+# Why this exists: shields.io can serve public_repos and followers live, but it
+# cannot sum forks/stars across repositories. Public github-readme-stats
+# instances share one API token and return an error card with HTTP 200 once it
+# is exhausted, which is invisible to status-code checks. Generating everything
+# here removes both problems.
 
 on:
   schedule:
     # 03:17 UTC daily. Off-the-hour to avoid GitHub's peak cron contention.
     - cron: '17 3 * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/update-profile-stats.yml'
 
 permissions:
   contents: write
@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Collect real statistics from the GitHub API
         id: collect
@@ -37,24 +37,25 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Account-level counters
           gh api "users/${ACCOUNT}" > user.json
           repos=$(jq -r '.public_repos' user.json)
           followers=$(jq -r '.followers' user.json)
 
-          # Per-repo counters. --paginate applies --jq per page and streams,
-          # so this stays correct past 100 repositories.
+          # --paginate applies --jq per page and streams, so this stays correct
+          # past 100 repositories.
           gh api --paginate "users/${ACCOUNT}/repos?per_page=100&type=owner" \
             --jq '.[] | [.forks_count, .stargazers_count] | @tsv' > repos.tsv
-
-          forks=$(awk -F'\t' '{s += $1} END {print s + 0}' repos.tsv)
-          stars=$(awk -F'\t' '{s += $2} END {print s + 0}' repos.tsv)
 
           # Fail loudly rather than writing zeros if the API returned nothing.
           if [ ! -s repos.tsv ]; then
             echo "::error::No repository data returned from the GitHub API"
             exit 1
           fi
+
+          forks=$(awk -F'\t' '{s += $1} END {print s + 0}' repos.tsv)
+          stars=$(awk -F'\t' '{s += $2} END {print s + 0}' repos.tsv)
+
+          rm -f user.json repos.tsv
 
           {
             echo "repos=${repos}"
@@ -66,72 +67,56 @@ jobs:
 
           echo "Collected: repos=${repos} followers=${followers} forks=${forks} stars=${stars}"
 
-      - name: Write statistics into README.md
+      - name: Apply statistics and publish
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCOUNT: CloudTechDevOps
           REPOS: ${{ steps.collect.outputs.repos }}
           FOLLOWERS: ${{ steps.collect.outputs.followers }}
           FORKS: ${{ steps.collect.outputs.forks }}
           STARS: ${{ steps.collect.outputs.stars }}
           UPDATED: ${{ steps.collect.outputs.updated }}
-        run: |
-          python3 - <<'PY'
-          import os
-          import re
-          import sys
-
-          values = {
-              "REPOS": os.environ["REPOS"],
-              "FOLLOWERS": os.environ["FOLLOWERS"],
-              "FORKS": os.environ["FORKS"],
-              "STARS": os.environ["STARS"],
-          }
-
-          with open("README.md", encoding="utf-8") as handle:
-              readme = handle.read()
-
-          missing = []
-          for key, value in values.items():
-              marker = re.compile(
-                  r"(<!--STAT:{k}-->)(.*?)(<!--/STAT:{k}-->)".format(k=key),
-                  re.DOTALL,
-              )
-              if not marker.search(readme):
-                  missing.append(key)
-                  continue
-              readme = marker.sub(r"\g<1>" + value + r"\g<3>", readme)
-
-          # Timestamp lives in a standalone HTML comment so it stays
-          # machine-readable without rendering on the profile.
-          stamp = re.compile(r"(<!-- stats last updated: )([^>]*?)( -->)")
-          if not stamp.search(readme):
-              missing.append("UPDATED")
-          else:
-              readme = stamp.sub(r"\g<1>" + os.environ["UPDATED"] + r"\g<3>", readme)
-
-          if missing:
-              sys.exit("Missing markers in README.md: " + ", ".join(missing))
-
-          with open("README.md", "w", encoding="utf-8") as handle:
-              handle.write(readme)
-
-          print("README.md updated with:", values, "updated:", os.environ["UPDATED"])
-          PY
-
-      - name: Regenerate analytics cards
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACCOUNT: CloudTechDevOps
-        run: python3 scripts/generate_cards.py
-
-      - name: Commit if anything changed
+          BRANCH: ${{ github.ref_name }}
         run: |
           set -euo pipefail
-          if git diff --quiet -- README.md assets/stats-card.svg assets/languages-card.svg; then
-            echo "Statistics and cards unchanged — nothing to commit."
-            exit 0
-          fi
+
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/stats-card.svg assets/languages-card.svg
-          git commit -m "chore: refresh profile statistics [skip ci]"
-          git push
+
+          TRACKED="README.md assets/stats-card.svg assets/languages-card.svg"
+
+          # A direct push or an overlapping run can advance the branch between
+          # checkout and push. Rather than rebasing a commit (which can conflict
+          # on the same lines), reset to the freshly fetched tip and re-derive
+          # the output, which is deterministic for a given set of API values.
+          for attempt in 1 2 3; do
+            echo "::group::Publish attempt ${attempt}"
+
+            git fetch --quiet origin "${BRANCH}"
+            git reset --quiet --hard "origin/${BRANCH}"
+
+            python3 scripts/update_readme_stats.py
+            python3 scripts/generate_cards.py
+
+            if git diff --quiet -- ${TRACKED}; then
+              echo "Statistics and cards unchanged — nothing to commit."
+              echo "::endgroup::"
+              exit 0
+            fi
+
+            git add ${TRACKED}
+            git commit --quiet -m "chore: refresh profile statistics [skip ci]"
+
+            if git push --quiet origin "HEAD:${BRANCH}"; then
+              echo "Pushed on attempt ${attempt}."
+              echo "::endgroup::"
+              exit 0
+            fi
+
+            echo "Push rejected — branch moved. Retrying."
+            echo "::endgroup::"
+            sleep $((attempt * 5))
+          done
+
+          echo "::error::Could not publish after 3 attempts"
+          exit 1

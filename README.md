@@ -214,8 +214,8 @@ Real, runnable repositories from this account — ordered by how much the commun
 
 <div align="center">
 
-<img width="49%" src="assets/stats-card.svg" alt="GitHub statistics: 576 total contributions, 557 commits in the past year, 34 stars earned, 383 community forks, 21 public repositories, 710 followers" />
-<img width="49%" src="assets/languages-card.svg" alt="Most used languages: HTML 52.6%, JavaScript 13.1%, Python 12.8%, CSS 12.5%, HCL 8.1%, Shell 0.4%" />
+<img width="49%" src="assets/stats-card.svg" alt="GitHub statistics card: total contributions, commits in the past year, pull requests, stars earned, community forks, public repositories, followers and total code written" />
+<img width="49%" src="assets/languages-card.svg" alt="Most used languages card, showing the percentage breakdown of code written across all non-forked repositories" />
 
 <br/><br/>
 
