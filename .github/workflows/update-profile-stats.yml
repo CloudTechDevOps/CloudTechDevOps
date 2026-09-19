@@ -67,6 +67,9 @@ jobs:
 
           echo "Collected: repos=${repos} followers=${followers} forks=${forks} stars=${stars}"
 
+      - name: Install rendering dependencies
+        run: python3 -m pip install --quiet --upgrade "Pillow==12.3.0"
+
       - name: Apply statistics and publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -83,7 +86,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          TRACKED="README.md assets/stats-card.svg assets/languages-card.svg"
+          TRACKED="README.md assets/stats-card.svg assets/languages-card.svg assets/banner.png"
 
           # A direct push or an overlapping run can advance the branch between
           # checkout and push. Rather than rebasing a commit (which can conflict
@@ -97,9 +100,10 @@ jobs:
 
             python3 scripts/update_readme_stats.py
             python3 scripts/generate_cards.py
+            python3 scripts/generate_banner.py
 
             if git diff --quiet -- ${TRACKED}; then
-              echo "Statistics and cards unchanged — nothing to commit."
+              echo "Statistics, cards and banner unchanged — nothing to commit."
               echo "::endgroup::"
               exit 0
             fi
