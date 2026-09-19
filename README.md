@@ -95,7 +95,7 @@ Everything in this account is a **working repository**: real Terraform that plan
 ## 🛠️ Technology Stack
 
 <div align="center">
-<img src="skills-orbit.svg" width="100%" alt="Technology stack orbit diagram" />
+<img src="skills-orbit.svg" width="100%" alt="Animated technology stack orbit: cloud platforms on the inner ring, DevOps tooling on the middle ring, and the Gen AI and Agentic AI stack on the outer ring" />
 </div>
 
 <br/>

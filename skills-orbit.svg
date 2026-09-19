@@ -1,182 +1,199 @@
 <!--
-  Animated tech-stack orbit.
+  Animated tech-stack orbit — three counter-rotating rings.
 
   Motion is SMIL (<animateTransform>), which runs when an SVG is loaded via
-  <img> — verified that GitHub serves this file byte-for-byte unmodified, so the
-  animation reaches the browser intact.
+  <img>. GitHub serves this file byte-for-byte unmodified, so the animation
+  reaches the browser intact.
 
-  Each ring rotates as a group. Every node then counter-rotates about its own
-  centre for the same duration, which cancels the ring's rotation for the label
-  only. Without that, the text would tumble upside down as it travels.
+  Each ring rotates as a group; every node then counter-rotates about its own
+  centre for the same duration, cancelling the ring rotation for the label only.
+  Without that the text tumbles upside down as it travels the circle.
 
-  Geometry: centre (450,288); inner ring r=105; outer ring r=178. Extents stay
-  inside the 900x520 viewBox at every angle, clear of the title and corner tags.
+  Geometry: centre (480,350) in a 960x700 viewBox.
+    inner  r=110  cloud platforms       4 nodes  clockwise      30s
+    middle r=190  DevOps tooling        6 nodes  anticlockwise  46s
+    outer  r=265  Gen AI / Agentic AI  10 nodes  clockwise      64s
+
+  Radii are chosen so the worst-case rotational reach (265 + pill corner = 316px)
+  stays inside the smallest clearance from the centre (350px), and so adjacent
+  ring bands never touch: 137 -> 174 -> 249 with 33-43px of gap.
 -->
-<svg width="100%" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated technology stack orbit: AWS, Azure, GCP and Oracle Cloud orbiting a DevOps core, with Kubernetes, Terraform, Helm, ArgoCD, Jenkins, Ansible and Gen AI tooling on an outer ring">
+<svg width="100%" viewBox="0 0 960 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated technology stack orbit. Inner ring: AWS, Azure, GCP, Oracle Cloud. Middle ring: Kubernetes, Terraform, Helm, ArgoCD, Jenkins, Ansible. Outer ring: Gen AI, Agentic AI, LangChain, LangGraph, RAG, Vector DBs, OpenAI, Claude, Hugging Face, AIOps.">
   <title>Technology stack orbit</title>
   <defs>
-    <radialGradient id="bg2" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#1e1b4b"/>
-      <stop offset="100%" stop-color="#020617"/>
+    <radialGradient id="bg2" cx="50%" cy="50%" r="72%">
+      <stop offset="0%" stop-color="#1e1b4b"/><stop offset="100%" stop-color="#020617"/>
     </radialGradient>
     <radialGradient id="coreGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#67e8f9"/>
-      <stop offset="60%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#0e7490"/>
+      <stop offset="0%" stop-color="#67e8f9"/><stop offset="60%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#0e7490"/>
     </radialGradient>
     <linearGradient id="nodeFill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.20"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="aiFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.28"/><stop offset="100%" stop-color="#f472b6" stop-opacity="0.09"/>
     </linearGradient>
     <filter id="glow2" x="-150%" y="-150%" width="400%" height="400%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <filter id="dotGlow" x="-300%" y="-300%" width="700%" height="700%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-
-  <rect width="900" height="520" fill="url(#bg2)"/>
-
-  <g stroke="#ffffff" stroke-opacity="0.04">
-    <line x1="0" y1="140" x2="900" y2="140"/><line x1="0" y1="270" x2="900" y2="270"/><line x1="0" y1="400" x2="900" y2="400"/>
-    <line x1="150" y1="0" x2="150" y2="520"/><line x1="450" y1="0" x2="450" y2="520"/><line x1="750" y1="0" x2="750" y2="520"/>
+  <rect width="960" height="700" fill="url(#bg2)"/>
+  <g stroke="#ffffff" stroke-opacity="0.035">
+    <line x1="0" y1="175" x2="960" y2="175"/>
+    <line x1="0" y1="350" x2="960" y2="350"/>
+    <line x1="0" y1="525" x2="960" y2="525"/>
+    <line x1="180" y1="0" x2="180" y2="700"/>
+    <line x1="480" y1="0" x2="480" y2="700"/>
+    <line x1="780" y1="0" x2="780" y2="700"/>
   </g>
-
-  <text x="450" y="30" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#67e8f9" letter-spacing="3">TECH STACK ORBIT</text>
-
-  <!-- static guide rings -->
-  <circle cx="450" cy="288" r="105" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
-  <circle cx="450" cy="288" r="178" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
-
-  <!-- counter-rotating dashed rings give a sense of depth -->
-  <circle cx="450" cy="288" r="141" fill="none" stroke="#67e8f9" stroke-opacity="0.16" stroke-dasharray="5 11">
-    <animateTransform attributeName="transform" type="rotate" from="0 450 288" to="360 450 288" dur="26s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="288" r="205" fill="none" stroke="#a78bfa" stroke-opacity="0.13" stroke-dasharray="3 14">
-    <animateTransform attributeName="transform" type="rotate" from="360 450 288" to="0 450 288" dur="34s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- core -->
-  <circle cx="450" cy="288" r="50" fill="url(#coreGrad)" filter="url(#glow2)" opacity="0.92">
-    <animate attributeName="opacity" values="0.82;1;0.82" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="288" r="50" fill="none" stroke="#ffffff" stroke-opacity="0.40"/>
-  <circle cx="450" cy="288" r="50" fill="none" stroke="#67e8f9" stroke-opacity="0.5">
-    <animate attributeName="r" values="50;78;50" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="4.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="450" y="282" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#020617">VEERA</text>
-  <text x="450" y="300" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#020617" opacity="0.85">DEVOPS CORE</text>
-
-  <!-- ===== inner ring: cloud platforms, clockwise ===== -->
+  <text x="480" y="30" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#67e8f9" letter-spacing="3">TECH STACK ORBIT</text>
+  <circle cx="480" cy="350" r="110" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+  <circle cx="480" cy="350" r="190" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
+  <circle cx="480" cy="350" r="265" fill="none" stroke="#a78bfa" stroke-opacity="0.09"/>
+  <circle cx="480" cy="350" r="150" fill="none" stroke="#67e8f9" stroke-opacity="0.15" stroke-dasharray="5 12">
+    <animateTransform attributeName="transform" type="rotate" from="0 480 350" to="360 480 350" dur="26s" repeatCount="indefinite"/></circle>
+  <circle cx="480" cy="350" r="228" fill="none" stroke="#a78bfa" stroke-opacity="0.12" stroke-dasharray="3 15">
+    <animateTransform attributeName="transform" type="rotate" from="360 480 350" to="0 480 350" dur="38s" repeatCount="indefinite"/></circle>
+  <circle cx="480" cy="350" r="50" fill="url(#coreGrad)" filter="url(#glow2)" opacity="0.92">
+    <animate attributeName="opacity" values="0.82;1;0.82" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="480" cy="350" r="50" fill="none" stroke="#ffffff" stroke-opacity="0.40"/>
+  <circle cx="480" cy="350" r="50" fill="none" stroke="#67e8f9" stroke-opacity="0.5">
+    <animate attributeName="r" values="50;80;50" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="4.5s" repeatCount="indefinite"/></circle>
+  <text x="480" y="344" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#020617">VEERA</text>
+  <text x="480" y="362" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#020617" opacity="0.85">DEVOPS CORE</text>
+  <!-- inner ring: cloud platforms, clockwise -->
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">
-    <animateTransform attributeName="transform" type="rotate" from="0 450 288" to="360 450 288" dur="30s" repeatCount="indefinite"/>
-
-    <g transform="translate(450,183)"><g>
+    <animateTransform attributeName="transform" type="rotate" from="0 480 350" to="360 480 350" dur="30s" repeatCount="indefinite"/>
+    <g transform="translate(480,240)"><g>
       <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="30s" repeatCount="indefinite"/>
       <circle r="27" fill="url(#nodeFill)" stroke="#67e8f9" stroke-opacity="0.75" stroke-width="1.5">
-        <animate attributeName="r" values="27;29.5;27" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <text text-anchor="middle" dy="4">AWS</text>
+        <animate attributeName="r" values="27;29.5;27" dur="3s" repeatCount="indefinite"/></circle>
+      <text text-anchor="middle" dy="4" font-size="12">AWS</text>
     </g></g>
-
-    <g transform="translate(555,288)"><g>
+    <g transform="translate(590,350)"><g>
       <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="30s" repeatCount="indefinite"/>
       <circle r="27" fill="url(#nodeFill)" stroke="#a78bfa" stroke-opacity="0.75" stroke-width="1.5">
-        <animate attributeName="r" values="27;29.5;27" dur="3.3s" repeatCount="indefinite"/>
-      </circle>
-      <text text-anchor="middle" dy="4">Azure</text>
+        <animate attributeName="r" values="27;29.5;27" dur="3.3s" repeatCount="indefinite"/></circle>
+      <text text-anchor="middle" dy="4" font-size="12">Azure</text>
     </g></g>
-
-    <g transform="translate(450,393)"><g>
+    <g transform="translate(480,460)"><g>
       <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="30s" repeatCount="indefinite"/>
       <circle r="27" fill="url(#nodeFill)" stroke="#34d399" stroke-opacity="0.75" stroke-width="1.5">
-        <animate attributeName="r" values="27;29.5;27" dur="3.6s" repeatCount="indefinite"/>
-      </circle>
-      <text text-anchor="middle" dy="4">GCP</text>
+        <animate attributeName="r" values="27;29.5;27" dur="3.6s" repeatCount="indefinite"/></circle>
+      <text text-anchor="middle" dy="4" font-size="12">GCP</text>
     </g></g>
-
-    <g transform="translate(345,288)"><g>
+    <g transform="translate(370,350)"><g>
       <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="30s" repeatCount="indefinite"/>
-      <circle r="27" fill="url(#nodeFill)" stroke="#f472b6" stroke-opacity="0.75" stroke-width="1.5">
-        <animate attributeName="r" values="27;29.5;27" dur="3.9s" repeatCount="indefinite"/>
-      </circle>
+      <circle r="27" fill="url(#nodeFill)" stroke="#fbbf24" stroke-opacity="0.75" stroke-width="1.5">
+        <animate attributeName="r" values="27;29.5;27" dur="3.9s" repeatCount="indefinite"/></circle>
       <text text-anchor="middle" dy="4" font-size="10">Oracle</text>
     </g></g>
-
-    <!-- travelling spark on the inner path -->
-    <circle cx="450" cy="183" r="3" fill="#67e8f9" filter="url(#dotGlow)"/>
+    <circle cx="480" cy="240" r="2.8" fill="#67e8f9" filter="url(#dotGlow)"/>
   </g>
-
-  <!-- ===== outer ring: tooling, counter-clockwise ===== -->
+  <!-- middle ring: DevOps tooling, anticlockwise -->
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e0f2fe">
-    <animateTransform attributeName="transform" type="rotate" from="360 450 288" to="0 450 288" dur="46s" repeatCount="indefinite"/>
-
-    <g transform="translate(450,110)"><g>
+    <animateTransform attributeName="transform" type="rotate" from="360 480 350" to="0 480 350" dur="46s" repeatCount="indefinite"/>
+    <g transform="translate(480,160)"><g>
       <animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="46s" repeatCount="indefinite"/>
       <rect x="-47" y="-16" width="94" height="32" rx="16" fill="url(#nodeFill)" stroke="#67e8f9" stroke-opacity="0.55"/>
       <text text-anchor="middle" dy="4">Kubernetes</text>
     </g></g>
-
-    <g transform="translate(576,162)"><g>
+    <g transform="translate(645,255)"><g>
       <animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="46s" repeatCount="indefinite"/>
       <rect x="-43" y="-16" width="86" height="32" rx="16" fill="url(#nodeFill)" stroke="#a78bfa" stroke-opacity="0.55"/>
       <text text-anchor="middle" dy="4">Terraform</text>
     </g></g>
-
-    <g transform="translate(628,288)"><g>
+    <g transform="translate(645,445)"><g>
       <animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="46s" repeatCount="indefinite"/>
       <rect x="-30" y="-16" width="60" height="32" rx="16" fill="url(#nodeFill)" stroke="#34d399" stroke-opacity="0.55"/>
       <text text-anchor="middle" dy="4">Helm</text>
     </g></g>
-
-    <g transform="translate(576,414)"><g>
+    <g transform="translate(480,540)"><g>
       <animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="46s" repeatCount="indefinite"/>
       <rect x="-38" y="-16" width="76" height="32" rx="16" fill="url(#nodeFill)" stroke="#f472b6" stroke-opacity="0.55"/>
       <text text-anchor="middle" dy="4">ArgoCD</text>
     </g></g>
-
-    <g transform="translate(450,466)"><g>
+    <g transform="translate(315,445)"><g>
       <animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="46s" repeatCount="indefinite"/>
       <rect x="-37" y="-16" width="74" height="32" rx="16" fill="url(#nodeFill)" stroke="#fbbf24" stroke-opacity="0.55"/>
       <text text-anchor="middle" dy="4">Jenkins</text>
     </g></g>
-
-    <g transform="translate(324,414)"><g>
+    <g transform="translate(315,255)"><g>
       <animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="46s" repeatCount="indefinite"/>
       <rect x="-37" y="-16" width="74" height="32" rx="16" fill="url(#nodeFill)" stroke="#34d399" stroke-opacity="0.55"/>
       <text text-anchor="middle" dy="4">Ansible</text>
     </g></g>
-
-    <g transform="translate(272,288)"><g>
-      <animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="46s" repeatCount="indefinite"/>
-      <rect x="-33" y="-16" width="66" height="32" rx="16" fill="url(#nodeFill)" stroke="#f472b6" stroke-opacity="0.7"/>
-      <text text-anchor="middle" dy="4">Gen AI</text>
-    </g></g>
-
-    <g transform="translate(324,162)"><g>
-      <animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="46s" repeatCount="indefinite"/>
-      <rect x="-43" y="-16" width="86" height="32" rx="16" fill="url(#nodeFill)" stroke="#f472b6" stroke-opacity="0.7"/>
-      <text text-anchor="middle" dy="4">Agentic AI</text>
-    </g></g>
-
-    <circle cx="450" cy="110" r="2.6" fill="#a78bfa" filter="url(#dotGlow)"/>
+    <circle cx="480" cy="160" r="2.6" fill="#a78bfa" filter="url(#dotGlow)"/>
   </g>
-
-  <!-- corner readouts -->
+  <!-- outer ring: Gen AI / Agentic AI stack, clockwise -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#f5f3ff">
+    <animateTransform attributeName="transform" type="rotate" from="0 480 350" to="360 480 350" dur="64s" repeatCount="indefinite"/>
+    <g transform="translate(480,85)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="64s" repeatCount="indefinite"/>
+      <rect x="-33" y="-16" width="66" height="32" rx="16" fill="url(#aiFill)" stroke="#f472b6" stroke-opacity="0.78"/>
+      <text text-anchor="middle" dy="4" font-weight="700">Gen AI</text>
+    </g></g>
+    <g transform="translate(636,136)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="64s" repeatCount="indefinite"/>
+      <rect x="-43" y="-16" width="86" height="32" rx="16" fill="url(#aiFill)" stroke="#f472b6" stroke-opacity="0.78"/>
+      <text text-anchor="middle" dy="4" font-weight="700">Agentic AI</text>
+    </g></g>
+    <g transform="translate(732,268)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="64s" repeatCount="indefinite"/>
+      <rect x="-45" y="-16" width="90" height="32" rx="16" fill="url(#aiFill)" stroke="#a78bfa" stroke-opacity="0.62"/>
+      <text text-anchor="middle" dy="4">LangChain</text>
+    </g></g>
+    <g transform="translate(732,432)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="64s" repeatCount="indefinite"/>
+      <rect x="-46" y="-16" width="92" height="32" rx="16" fill="url(#aiFill)" stroke="#a78bfa" stroke-opacity="0.62"/>
+      <text text-anchor="middle" dy="4">LangGraph</text>
+    </g></g>
+    <g transform="translate(636,564)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="64s" repeatCount="indefinite"/>
+      <rect x="-27" y="-16" width="54" height="32" rx="16" fill="url(#aiFill)" stroke="#67e8f9" stroke-opacity="0.62"/>
+      <text text-anchor="middle" dy="4">RAG</text>
+    </g></g>
+    <g transform="translate(480,615)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="64s" repeatCount="indefinite"/>
+      <rect x="-44" y="-16" width="88" height="32" rx="16" fill="url(#aiFill)" stroke="#67e8f9" stroke-opacity="0.62"/>
+      <text text-anchor="middle" dy="4">Vector DBs</text>
+    </g></g>
+    <g transform="translate(324,564)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="64s" repeatCount="indefinite"/>
+      <rect x="-36" y="-16" width="72" height="32" rx="16" fill="url(#aiFill)" stroke="#34d399" stroke-opacity="0.62"/>
+      <text text-anchor="middle" dy="4">OpenAI</text>
+    </g></g>
+    <g transform="translate(228,432)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="64s" repeatCount="indefinite"/>
+      <rect x="-34" y="-16" width="68" height="32" rx="16" fill="url(#aiFill)" stroke="#fbbf24" stroke-opacity="0.62"/>
+      <text text-anchor="middle" dy="4">Claude</text>
+    </g></g>
+    <g transform="translate(228,268)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="64s" repeatCount="indefinite"/>
+      <rect x="-48" y="-16" width="96" height="32" rx="16" fill="url(#aiFill)" stroke="#fbbf24" stroke-opacity="0.62"/>
+      <text text-anchor="middle" dy="4">Hugging Face</text>
+    </g></g>
+    <g transform="translate(324,136)"><g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="64s" repeatCount="indefinite"/>
+      <rect x="-31" y="-16" width="62" height="32" rx="16" fill="url(#aiFill)" stroke="#f472b6" stroke-opacity="0.78"/>
+      <text text-anchor="middle" dy="4" font-weight="700">AIOps</text>
+    </g></g>
+    <circle cx="480" cy="85" r="2.6" fill="#f472b6" filter="url(#dotGlow)"/>
+  </g>
   <g font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">
-    <text x="34" y="64">Prometheus</text>
-    <text x="754" y="64" text-anchor="start">Grafana</text>
-    <text x="34" y="498">ELK Stack</text>
-    <text x="754" y="498" text-anchor="start">CloudWatch</text>
+    <text x="34" y="62">Prometheus</text>
+    <text x="926" y="62" text-anchor="end">Grafana</text>
+    <text x="34" y="676">ELK Stack</text>
+    <text x="926" y="676" text-anchor="end">CloudWatch</text>
   </g>
   <g fill="#67e8f9">
-    <circle cx="24" cy="60" r="2.5"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
-    <circle cx="744" cy="60" r="2.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/></circle>
-    <circle cx="24" cy="494" r="2.5"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="744" cy="494" r="2.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="24" cy="58" r="2.5"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="936" cy="58" r="2.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="24" cy="672" r="2.5"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="936" cy="672" r="2.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/></circle>
   </g>
 </svg>
