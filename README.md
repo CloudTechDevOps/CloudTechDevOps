@@ -99,14 +99,14 @@ whoami:
 <td align="center" width="140"><b>8</b><br/><sub>Certifications</sub></td>
 </tr>
 <tr>
-<td align="center" width="140"><b><!--STAT:FOLLOWERS-->727<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
-<td align="center" width="140"><b><!--STAT:REPOS-->28<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
-<td align="center" width="140"><b><!--STAT:FORKS-->562<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
+<td align="center" width="140"><b><!--STAT:FOLLOWERS-->728<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
+<td align="center" width="140"><b><!--STAT:REPOS-->29<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
+<td align="center" width="140"><b><!--STAT:FORKS-->576<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
 <td align="center" width="140"><b><!--STAT:STARS-->48<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
 </tr>
 </table>
 
-<!-- stats last updated: 2026-09-30 -->
+<!-- stats last updated: 2026-10-01 -->
 
 </div>
 
