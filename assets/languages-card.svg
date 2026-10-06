@@ -18,12 +18,12 @@
   <circle cx="31" cy="80" r="5" fill="#e34c26"/>
   <text x="44" y="84" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">HTML</text>
   <rect x="150" y="74" width="232" height="8" rx="4" fill="#0f172a"/>
-  <rect x="150" y="74" width="128.1" height="8" rx="4" fill="#e34c26"/>
+  <rect x="150" y="74" width="128.0" height="8" rx="4" fill="#e34c26"/>
   <text x="434" y="84" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">55.2%</text>
   <circle cx="31" cy="110" r="5" fill="#3572A5"/>
   <text x="44" y="114" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Python</text>
   <rect x="150" y="104" width="232" height="8" rx="4" fill="#0f172a"/>
-  <rect x="150" y="104" width="35.1" height="8" rx="4" fill="#3572A5"/>
+  <rect x="150" y="104" width="35.0" height="8" rx="4" fill="#3572A5"/>
   <text x="434" y="114" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">15.1%</text>
   <circle cx="31" cy="140" r="5" fill="#844FBA"/>
   <text x="44" y="144" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">HCL</text>
