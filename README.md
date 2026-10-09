@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" width="100%" alt="Veerababu Narni — Senior DevOps and Multi-Cloud Architect. 15+ years experience, 24,400+ engineers trained." />
+<img src="assets/banner.png" width="100%" alt="Veerababu Narni — AI Cloud DevOps & Forward Deployed Engineer. 15+ years experience, 24,400+ engineers trained." />
 
 <br/><br/>
 
