@@ -11,14 +11,14 @@
   <rect x="26" y="50" width="408" height="1" fill="#334155"/>
   <rect x="26.0" y="60" width="206.4" height="7" fill="#e34c26"><title>HTML 49.7%</title></rect>
   <rect x="232.4" y="60" width="64.5" height="7" fill="#3572A5"><title>Python 15.5%</title></rect>
-  <rect x="296.9" y="60" width="48.9" height="7" fill="#844FBA"><title>HCL 11.8%</title></rect>
+  <rect x="296.8" y="60" width="48.9" height="7" fill="#844FBA"><title>HCL 11.8%</title></rect>
   <rect x="345.8" y="60" width="41.5" height="7" fill="#f1e05a"><title>JavaScript 10.0%</title></rect>
   <rect x="387.2" y="60" width="40.7" height="7" fill="#663399"><title>CSS 9.8%</title></rect>
   <rect x="427.9" y="60" width="6.1" height="7" fill="#89e051"><title>Shell 1.5%</title></rect>
   <circle cx="31" cy="80" r="5" fill="#e34c26"/>
   <text x="44" y="84" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">HTML</text>
   <rect x="150" y="74" width="232" height="8" rx="4" fill="#0f172a"/>
-  <rect x="150" y="74" width="115.3" height="8" rx="4" fill="#e34c26"/>
+  <rect x="150" y="74" width="115.2" height="8" rx="4" fill="#e34c26"/>
   <text x="434" y="84" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">49.7%</text>
   <circle cx="31" cy="110" r="5" fill="#3572A5"/>
   <text x="44" y="114" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Python</text>
