@@ -100,13 +100,13 @@ whoami:
 </tr>
 <tr>
 <td align="center" width="140"><b><!--STAT:FOLLOWERS-->747<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
-<td align="center" width="140"><b><!--STAT:REPOS-->53<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
-<td align="center" width="140"><b><!--STAT:FORKS-->968<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
-<td align="center" width="140"><b><!--STAT:STARS-->57<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
+<td align="center" width="140"><b><!--STAT:REPOS-->54<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
+<td align="center" width="140"><b><!--STAT:FORKS-->982<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
+<td align="center" width="140"><b><!--STAT:STARS-->62<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
 </tr>
 </table>
 
-<!-- stats last updated: 2026-10-23 -->
+<!-- stats last updated: 2026-10-24 -->
 
 </div>
 
