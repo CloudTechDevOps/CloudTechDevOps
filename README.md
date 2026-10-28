@@ -99,14 +99,14 @@ whoami:
 <td align="center" width="140"><b>8</b><br/><sub>Certifications</sub></td>
 </tr>
 <tr>
-<td align="center" width="140"><b><!--STAT:FOLLOWERS-->750<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
-<td align="center" width="140"><b><!--STAT:REPOS-->2<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
-<td align="center" width="140"><b><!--STAT:FORKS-->5<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
-<td align="center" width="140"><b><!--STAT:STARS-->3<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
+<td align="center" width="140"><b><!--STAT:FOLLOWERS-->751<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
+<td align="center" width="140"><b><!--STAT:REPOS-->4<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
+<td align="center" width="140"><b><!--STAT:FORKS-->25<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
+<td align="center" width="140"><b><!--STAT:STARS-->5<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
 </tr>
 </table>
 
-<!-- stats last updated: 2026-10-27 -->
+<!-- stats last updated: 2026-10-28 -->
 
 </div>
 
