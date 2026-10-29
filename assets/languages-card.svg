@@ -9,40 +9,40 @@
   <rect x="0.5" y="0.5" width="459" height="279" rx="12" fill="url(#lbg)" stroke="#334155"/>
   <text x="26" y="36" fill="#67e8f9" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="600">Most Used Languages</text>
   <rect x="26" y="50" width="408" height="1" fill="#334155"/>
-  <rect x="26.0" y="60" width="139.8" height="7" fill="#f1e05a"><title>JavaScript 34.0%</title></rect>
-  <rect x="165.8" y="60" width="94.4" height="7" fill="#844FBA"><title>HCL 23.0%</title></rect>
-  <rect x="260.2" y="60" width="65.9" height="7" fill="#663399"><title>CSS 16.0%</title></rect>
-  <rect x="326.2" y="60" width="53.2" height="7" fill="#3572A5"><title>Python 12.9%</title></rect>
-  <rect x="379.4" y="60" width="39.2" height="7" fill="#DA5B0B"><title>Jupyter Notebook 9.5%</title></rect>
-  <rect x="418.6" y="60" width="15.4" height="7" fill="#89e051"><title>Shell 3.7%</title></rect>
+  <rect x="26.0" y="60" width="130.1" height="7" fill="#f1e05a"><title>JavaScript 31.7%</title></rect>
+  <rect x="156.1" y="60" width="89.4" height="7" fill="#844FBA"><title>HCL 21.8%</title></rect>
+  <rect x="245.6" y="60" width="61.3" height="7" fill="#663399"><title>CSS 14.9%</title></rect>
+  <rect x="306.9" y="60" width="61.0" height="7" fill="#DA5B0B"><title>Jupyter Notebook 14.8%</title></rect>
+  <rect x="367.8" y="60" width="49.5" height="7" fill="#3572A5"><title>Python 12.0%</title></rect>
+  <rect x="417.4" y="60" width="16.6" height="7" fill="#89e051"><title>Shell 4.1%</title></rect>
   <circle cx="31" cy="80" r="5" fill="#f1e05a"/>
   <text x="44" y="84" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">JavaScript</text>
   <rect x="150" y="74" width="232" height="8" rx="4" fill="#0f172a"/>
-  <rect x="150" y="74" width="78.9" height="8" rx="4" fill="#f1e05a"/>
-  <text x="434" y="84" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">34.0%</text>
+  <rect x="150" y="74" width="73.5" height="8" rx="4" fill="#f1e05a"/>
+  <text x="434" y="84" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">31.7%</text>
   <circle cx="31" cy="110" r="5" fill="#844FBA"/>
   <text x="44" y="114" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">HCL</text>
   <rect x="150" y="104" width="232" height="8" rx="4" fill="#0f172a"/>
-  <rect x="150" y="104" width="53.3" height="8" rx="4" fill="#844FBA"/>
-  <text x="434" y="114" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">23.0%</text>
+  <rect x="150" y="104" width="50.5" height="8" rx="4" fill="#844FBA"/>
+  <text x="434" y="114" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">21.8%</text>
   <circle cx="31" cy="140" r="5" fill="#663399"/>
   <text x="44" y="144" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">CSS</text>
   <rect x="150" y="134" width="232" height="8" rx="4" fill="#0f172a"/>
-  <rect x="150" y="134" width="37.2" height="8" rx="4" fill="#663399"/>
-  <text x="434" y="144" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">16.0%</text>
-  <circle cx="31" cy="170" r="5" fill="#3572A5"/>
-  <text x="44" y="174" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Python</text>
+  <rect x="150" y="134" width="34.6" height="8" rx="4" fill="#663399"/>
+  <text x="434" y="144" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">14.9%</text>
+  <circle cx="31" cy="170" r="5" fill="#DA5B0B"/>
+  <text x="44" y="174" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Jupyter Notebook</text>
   <rect x="150" y="164" width="232" height="8" rx="4" fill="#0f172a"/>
-  <rect x="150" y="164" width="30.0" height="8" rx="4" fill="#3572A5"/>
-  <text x="434" y="174" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">12.9%</text>
-  <circle cx="31" cy="200" r="5" fill="#DA5B0B"/>
-  <text x="44" y="204" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Jupyter Notebook</text>
+  <rect x="150" y="164" width="34.4" height="8" rx="4" fill="#DA5B0B"/>
+  <text x="434" y="174" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">14.8%</text>
+  <circle cx="31" cy="200" r="5" fill="#3572A5"/>
+  <text x="44" y="204" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Python</text>
   <rect x="150" y="194" width="232" height="8" rx="4" fill="#0f172a"/>
-  <rect x="150" y="194" width="22.1" height="8" rx="4" fill="#DA5B0B"/>
-  <text x="434" y="204" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">9.5%</text>
+  <rect x="150" y="194" width="28.0" height="8" rx="4" fill="#3572A5"/>
+  <text x="434" y="204" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">12.0%</text>
   <circle cx="31" cy="230" r="5" fill="#89e051"/>
   <text x="44" y="234" fill="#94a3b8" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13">Shell</text>
   <rect x="150" y="224" width="232" height="8" rx="4" fill="#0f172a"/>
-  <rect x="150" y="224" width="8.7" height="8" rx="4" fill="#89e051"/>
-  <text x="434" y="234" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">3.7%</text>
+  <rect x="150" y="224" width="9.4" height="8" rx="4" fill="#89e051"/>
+  <text x="434" y="234" fill="#e0f2fe" text-anchor="end" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">4.1%</text>
 </svg>
