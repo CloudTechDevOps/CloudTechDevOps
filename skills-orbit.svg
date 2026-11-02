@@ -64,7 +64,7 @@
     <animate attributeName="r" values="50;80;50" dur="4.5s" repeatCount="indefinite"/>
     <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="4.5s" repeatCount="indefinite"/></circle>
   <text x="480" y="344" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#020617">VEERA</text>
-  <text x="480" y="362" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#020617" opacity="0.85">DEVOPS CORE</text>
+  <text x="480" y="362" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#020617" opacity="0.85">FDE</text>
   <!-- inner ring: cloud platforms, clockwise -->
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">
     <animateTransform attributeName="transform" type="rotate" from="0 480 350" to="360 480 350" dur="30s" repeatCount="indefinite"/>
