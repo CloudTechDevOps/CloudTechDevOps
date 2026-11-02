@@ -1,0 +1,55 @@
+name: Build motion assets
+
+# Regenerates the animated SVGs in assets/motion/ whenever their generator or
+# the avatar changes, so the README never shows graphics that drifted from the
+# script that is supposed to produce them.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate_motion.py
+      - assets/avatar.png
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: motion-assets
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Install Pillow
+        run: python3 -m pip install --quiet --upgrade "Pillow==12.3.0"
+
+      - name: Generate and validate SVGs
+        run: |
+          set -euo pipefail
+          python3 scripts/generate_motion.py
+          # Every file must be well-formed XML or GitHub shows a broken image.
+          for f in assets/motion/*.svg; do
+            python3 -c "import sys, xml.dom.minidom as m; m.parse(sys.argv[1])" "$f"
+          done
+
+      - name: Commit regenerated assets
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- assets/motion; then
+            echo "Motion assets already up to date."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/motion
+          git commit --quiet -m "chore: rebuild motion assets [skip ci]"
+          git pull --quiet --rebase origin "${BRANCH}"
+          git push --quiet origin "HEAD:${BRANCH}"

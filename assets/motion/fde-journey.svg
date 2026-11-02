@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1200 300" role="img" aria-label="Forward deployed engineering journey: discover, prototype, productionise, deploy and operate, enable and hand over">
+<title>Forward deployed engineering journey: discover, prototype, productionise, deploy and operate, enable and hand over</title>
+<style>
+.prog{animation:prog 10s cubic-bezier(.4,0,.2,1) infinite}
+@keyframes prog{0%{transform:scaleX(0)}85%,100%{transform:scaleX(1)}}
+.head{animation:head 10s cubic-bezier(.4,0,.2,1) infinite}
+@keyframes head{0%{transform:translateX(0)}85%,100%{transform:translateX(940px)}}
+.rise{animation:rise .7s ease both}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.n0{transform-box:fill-box;transform-origin:center;animation:n0 10s ease infinite}@keyframes n0{0%,0%{fill:#0f172a;transform:scale(1)}2%{fill:#22d3ee;transform:scale(1.25)}8%,100%{fill:#22d3ee;transform:scale(1)}}
+.n1{transform-box:fill-box;transform-origin:center;animation:n1 10s ease infinite}@keyframes n1{0%,20%{fill:#0f172a;transform:scale(1)}23%{fill:#67e8f9;transform:scale(1.25)}29%,100%{fill:#67e8f9;transform:scale(1)}}
+.n2{transform-box:fill-box;transform-origin:center;animation:n2 10s ease infinite}@keyframes n2{0%,41%{fill:#0f172a;transform:scale(1)}44%{fill:#a78bfa;transform:scale(1.25)}50%,100%{fill:#a78bfa;transform:scale(1)}}
+.n3{transform-box:fill-box;transform-origin:center;animation:n3 10s ease infinite}@keyframes n3{0%,63%{fill:#0f172a;transform:scale(1)}66%{fill:#f472b6;transform:scale(1.25)}72%,100%{fill:#f472b6;transform:scale(1)}}
+.n4{transform-box:fill-box;transform-origin:center;animation:n4 10s ease infinite}@keyframes n4{0%,84%{fill:#0f172a;transform:scale(1)}87%{fill:#34d399;transform:scale(1.25)}93%,100%{fill:#34d399;transform:scale(1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#f472b6"/>
+</linearGradient>
+<linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+</linearGradient>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#020617"/><stop offset="55%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e1b4b"/>
+</linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+</pattern>
+<clipPath id="card"><rect width="1200" height="300" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="300" fill="url(#bg)"/>
+<rect width="1200" height="300" fill="url(#grid)"/>
+
+<text x="40" y="46" font-family="Consolas, Menlo, Courier New, monospace" font-size="13" font-weight="700" fill="#f472b6" text-anchor="start" letter-spacing="4">FORWARD DEPLOYED ENGINEERING</text>
+<text x="40" y="72" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f8fafc" text-anchor="start" >Embedded with your team — from an AI use case to a system running in your cloud</text>
+<rect x="130" y="138" width="940" height="4" rx="2" fill="#ffffff" fill-opacity="0.08"/>
+<rect class="prog" x="130" y="138" width="940" height="4" rx="2" fill="url(#brand)" style="transform-origin:130px 140px"/>
+<g class="head"><circle cx="130" cy="140" r="7" fill="#f8fafc" filter="url(#glow)"/></g>
+<g class="rise" style="animation-delay:0.00s">
+  <circle cx="130" cy="140" r="26" fill="none" stroke="#22d3ee" stroke-opacity="0.35"/>
+  <circle class="n0" cx="130" cy="140" r="17" fill="#0f172a" stroke="#22d3ee" stroke-width="2"/>
+  <text x="130" y="145" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle" >1</text>
+  <text x="130" y="202" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#f8fafc" text-anchor="middle" >Discover</text>
+  <text x="130" y="224" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle" >sit with the team,</text>
+  <text x="130" y="241" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle" >map workflow &amp; KPIs</text>
+</g><g class="rise" style="animation-delay:0.12s">
+  <circle cx="365" cy="140" r="26" fill="none" stroke="#67e8f9" stroke-opacity="0.35"/>
+  <circle class="n1" cx="365" cy="140" r="17" fill="#0f172a" stroke="#67e8f9" stroke-width="2"/>
+  <text x="365" y="145" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle" >2</text>
+  <text x="365" y="202" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#f8fafc" text-anchor="middle" >Prototype</text>
+  <text x="365" y="224" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle" >working demo on</text>
+  <text x="365" y="241" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle" >real data in days</text>
+</g><g class="rise" style="animation-delay:0.24s">
+  <circle cx="600" cy="140" r="26" fill="none" stroke="#a78bfa" stroke-opacity="0.35"/>
+  <circle class="n2" cx="600" cy="140" r="17" fill="#0f172a" stroke="#a78bfa" stroke-width="2"/>
+  <text x="600" y="145" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle" >3</text>
+  <text x="600" y="202" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#f8fafc" text-anchor="middle" >Productionise</text>
+  <text x="600" y="224" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle" >IaC · CI/CD · evals</text>
+  <text x="600" y="241" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle" >security review</text>
+</g><g class="rise" style="animation-delay:0.36s">
+  <circle cx="835" cy="140" r="26" fill="none" stroke="#f472b6" stroke-opacity="0.35"/>
+  <circle class="n3" cx="835" cy="140" r="17" fill="#0f172a" stroke="#f472b6" stroke-width="2"/>
+  <text x="835" y="145" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle" >4</text>
+  <text x="835" y="202" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#f8fafc" text-anchor="middle" >Deploy &amp; Operate</text>
+  <text x="835" y="224" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle" >their cloud account,</text>
+  <text x="835" y="241" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle" >observability + cost</text>
+</g><g class="rise" style="animation-delay:0.48s">
+  <circle cx="1070" cy="140" r="26" fill="none" stroke="#34d399" stroke-opacity="0.35"/>
+  <circle class="n4" cx="1070" cy="140" r="17" fill="#0f172a" stroke="#34d399" stroke-width="2"/>
+  <text x="1070" y="145" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle" >5</text>
+  <text x="1070" y="202" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#f8fafc" text-anchor="middle" >Enable &amp; Hand Over</text>
+  <text x="1070" y="224" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle" >runbooks, training,</text>
+  <text x="1070" y="241" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle" >team owns it</text>
+</g>
+
+</g>
+<rect x="0.5" y="0.5" width="1199" height="299" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+</svg>

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" width="100%" alt="Veerababu Narni — Cloud DevOps & AI Forward Deployed Engineer. 15+ years experience, 30K+ students trained." />
+<img src="assets/motion/hero.svg" width="100%" alt="Veerababu Narni — Cloud DevOps &amp; AI Forward Deployed Engineer. 15+ years experience, 30K+ students trained, 30+ real projects." />
 
 <br/><br/>
 
@@ -20,35 +20,33 @@
 
 <table>
 <tr>
-<td width="210" align="center" valign="top">
+<td valign="top" width="55%">
 
-<img src="assets/avatar.png" width="180" alt="Veerababu Narni" />
+**Cloud DevOps &amp; AI Forward Deployed Engineer** with **15+ years** across **AWS, Azure, GCP and Oracle Cloud**. I design and operate production infrastructure for enterprise workloads, lead DevOps transformations, and build the CI/CD that carries mission-critical systems.
 
-<img src="https://img.shields.io/badge/Focus-Multi--Cloud_+_Agentic_AI-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b" alt="Current focus" />
+As a **Forward Deployed Engineer** I embed with customer teams to take **Generative AI and Agentic AI** from prototype to production: RAG systems grounded in real enterprise data, tool-using agents wired into cloud and DevOps platforms, and the guardrails, evals and observability that make them safe to run.
+
+I've trained **30K+ students** through **30+ real projects**, from first principles to placement-ready. Everything I teach is something I run in production.
+
 <img src="https://img.shields.io/badge/Role-Forward_Deployed_Engineer-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b" alt="Forward Deployed Engineer" />
+<img src="https://img.shields.io/badge/Focus-Multi--Cloud_+_Agentic_AI-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b" alt="Current focus" />
 
 </td>
-<td valign="top">
-
-Cloud DevOps &amp; AI Forward Deployed Engineer with **15+ years** of industry experience across **AWS, Microsoft Azure, and Google Cloud Platform**. I design and operate production infrastructure for enterprise workloads, lead DevOps transformation initiatives, and build CI/CD pipelines that carry mission-critical systems.
-
-As a **Forward Deployed Engineer** I sit with customer teams to take **Generative AI and Agentic AI** from prototype to production: RAG systems grounded in real enterprise data, tool-using agents wired into cloud and DevOps platforms, and the guardrails, evals and observability that make them safe to run.
-
-Alongside architecture work I've trained **30K+ students** through **30+ real projects**, taking people from first principles to placement-ready. Every concept I teach is one I use in production — not theory detached from real systems.
+<td valign="top" width="45%">
 
 ```yaml
 whoami:
-  name:        Veerababu Narni
-  role:        Cloud DevOps & AI Forward Deployed Engineer
-  experience:  15+ years
-  clouds:      [AWS, Azure, GCP, Oracle Cloud]
-  core:        [Kubernetes, Terraform, Ansible, CI/CD, Observability]
-  gen_ai:      [LLM apps, RAG, prompt & context engineering, fine-tuning, evals]
-  agentic_ai:  [multi-agent orchestration, tool use, MCP, human-in-the-loop]
-  ai_platforms: [Amazon Bedrock, Azure OpenAI, Vertex AI, Claude, OpenAI]
-  fde:         [discovery, rapid prototyping, production rollout, enablement]
+  name:         Veerababu Narni
+  role:         Cloud DevOps & AI Forward Deployed Engineer
+  experience:   15+ years
+  clouds:       [AWS, Azure, GCP, Oracle Cloud]
+  core:         [Kubernetes, Terraform, Ansible, CI/CD, Observability]
+  gen_ai:       [LLM apps, RAG, prompt & context eng, fine-tuning, evals]
+  agentic_ai:   [multi-agent, tool use, MCP, human-in-the-loop]
+  ai_platforms: [Bedrock, Azure OpenAI, Vertex AI, Claude, OpenAI]
+  fde:          [discover, prototype, productionise, deploy, enable]
   students_trained: 30K+
-  real_projects: 30+
+  real_projects:    30+
 ```
 
 </td>
@@ -57,6 +55,166 @@ whoami:
 
 > [!TIP]
 > **Everything here is meant to run.** Real Terraform that plans, real manifests that apply, real pipelines that execute — not snippets pasted from slide decks. Clone any repository and follow its README.
+
+<br/>
+
+## 📊 By the Numbers
+
+<div align="center">
+
+<img src="assets/motion/metrics.svg" width="100%" alt="15+ years experience, 30K+ students trained, 30+ real projects, 3 clouds plus AI and FDE" />
+
+<table>
+<tr>
+<td align="center" width="140"><b><!--STAT:FOLLOWERS-->757<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
+<td align="center" width="140"><b><!--STAT:REPOS-->9<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
+<td align="center" width="140"><b><!--STAT:FORKS-->132<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
+<td align="center" width="140"><b><!--STAT:STARS-->8<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
+</tr>
+</table>
+
+<!-- stats last updated: 2026-11-02 -->
+
+</div>
+
+<br/>
+
+<img src="assets/motion/divider.svg" width="100%" alt="" />
+
+## 🧩 Three Pillars
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+### 🤖 Generative AI
+LLM apps that are versioned, tested, observable and cost-controlled.
+
+- RAG over enterprise data
+- Prompt &amp; context engineering
+- Fine-tuning &amp; open models
+- Evals, guardrails, LLMOps
+
+</td>
+<td valign="top" width="33%">
+
+### 🧠 Agentic AI
+Agents that plan, call tools and operate infrastructure — and ask before they act.
+
+- Multi-agent orchestration
+- MCP tool servers
+- AIOps &amp; self-healing
+- Human-in-the-loop safety
+
+</td>
+<td valign="top" width="34%">
+
+### 🛰️ Forward Deployed
+Embedded with your team, from use case to a system running in your cloud.
+
+- Discovery &amp; success metrics
+- Prototype on real data in days
+- Production on AWS / Azure / GCP
+- Enablement &amp; hand-over
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🤖 Generative AI
+
+<img src="assets/motion/genai-rag.svg" width="100%" alt="Animated RAG pipeline: enterprise data is chunked, embedded and stored in a vector store; user queries are retrieved and reranked, answered by an LLM, then checked by guardrails and evals before returning a cited answer" />
+
+<details>
+<summary><b>What I build</b></summary>
+
+<br/>
+
+| Area | What I Build |
+|---|---|
+| **LLM App Architecture** | Chat assistants, copilots and document-intelligence apps on Amazon Bedrock, Azure OpenAI, Vertex AI, Claude and OpenAI |
+| **RAG Pipelines** | Ingestion, chunking, embeddings, hybrid search and re-ranking to ground answers in enterprise data |
+| **Prompt &amp; Context Engineering** | Structured prompts, long-context design, output schemas and prompt versioning |
+| **Fine-Tuning &amp; Open Models** | LoRA/PEFT fine-tuning, Hugging Face models, self-hosted serving with vLLM and Ollama |
+| **Evaluation &amp; Guardrails** | Golden datasets, LLM-as-judge evals, hallucination checks, PII redaction and content filters |
+| **LLMOps** | Model serving on Kubernetes, tracing, token-cost dashboards, caching and latency budgets |
+
+</details>
+
+<br/>
+
+## 🧠 Agentic AI
+
+<img src="assets/motion/agentic-loop.svg" width="100%" alt="Animated agentic ops loop: an alert reaches a planner agent, which calls cloud APIs, Kubernetes, Terraform and CI/CD, and RAG knowledge through an MCP tool router; the proposed action waits for human approval, then executes with an audit log, or loops back to re-plan if rejected" />
+
+<details>
+<summary><b>What I build</b></summary>
+
+<br/>
+
+| Area | What I Build |
+|---|---|
+| **Agent Orchestration** | Single and multi-agent workflows with LangGraph, CrewAI and AutoGen-style patterns |
+| **Tool Use &amp; MCP** | Model Context Protocol servers exposing cloud APIs, Kubernetes, Terraform and CI/CD as scoped agent tools |
+| **AIOps Agents** | Log and alert triage, root-cause analysis, runbook execution and self-healing pipelines |
+| **Memory &amp; Retrieval** | Vector databases (Pinecone, pgvector, OpenSearch) and state stores for long-running agents |
+| **Safety &amp; Control** | Least-privilege tool permissions, human-in-the-loop approvals, audit trails and rollback paths |
+| **Agent Observability** | Step-level traces, task-success evals, cost per run and failure analysis |
+
+</details>
+
+<br/>
+
+## 🛰️ Forward Deployed Engineering
+
+<img src="assets/motion/fde-journey.svg" width="100%" alt="Animated five-phase forward deployed engineering journey: discover, prototype, productionise, deploy and operate, enable and hand over" />
+
+<details>
+<summary><b>How an engagement runs</b></summary>
+
+<br/>
+
+| Phase | What Happens |
+|---|---|
+| **1 · Discover** | Sit with stakeholders, map the workflow, define success metrics and data access |
+| **2 · Prototype** | Ship a working Gen AI / agent prototype on real data within days, not quarters |
+| **3 · Productionise** | Terraform-provisioned infrastructure, CI/CD, security review, evals and guardrails |
+| **4 · Deploy &amp; Operate** | Roll out on the customer's own AWS, Azure or GCP account with observability and cost controls |
+| **5 · Enable &amp; Hand Over** | Documentation, runbooks and hands-on training so the team owns it afterwards |
+
+**FDE toolkit:** full-stack delivery (Python / Node.js APIs and lightweight UIs) · cloud-native by default (containers, Kubernetes, serverless, IaC) · enterprise integration (SSO, IAM, private networking, data connectors, compliance) · translating between business outcomes and engineering decisions.
+
+</details>
+
+<br/>
+
+<img src="assets/motion/divider.svg" width="100%" alt="" />
+
+## 🎯 Current Focus
+
+- 🛰️ **Forward deploying** Gen AI solutions with customer teams — from use-case discovery to production rollout on their own cloud
+- 🤖 **Building** agentic AI workflows for DevOps — LLM-driven incident response, autonomous remediation agents and RAG-based infra assistants
+- 🔌 **Exploring** the Model Context Protocol (MCP) to give agents safe, scoped access to cloud APIs, Kubernetes and CI/CD
+- 🏗️ **Architecting** multi-cloud disaster recovery for a critical enterprise application
+- 🔍 **Researching** service mesh (Istio) and advanced FinOps for cloud cost governance
+
+<details>
+<summary><b>🤝 What I'm useful for</b></summary>
+
+<br/>
+
+- **Generative AI delivery** — RAG assistants, document intelligence and copilots on Bedrock, Azure OpenAI and Vertex AI
+- **Agentic AI for operations** — LLM-driven incident response, autonomous remediation, RAG over infrastructure data
+- **Forward deployed engineering** — embedding with your team to turn an AI use case into a production-grade system
+- **LLMOps &amp; AI governance** — evaluation pipelines, guardrails, cost and latency controls, audit-ready deployments
+- **Multi-cloud architecture reviews** — AWS, Azure and GCP landing zones, hybrid governance, DR strategy
+- **Kubernetes and GitOps** — EKS/AKS/GKE design, Helm, ArgoCD, progressive delivery
+- **Infrastructure as Code** — Terraform module design, remote state, drift control
+- **Cloud cost optimisation** — rightsizing, commitment planning, waste elimination
+
+</details>
 
 <details>
 <summary><b>🧭 How I work</b></summary>
@@ -69,141 +227,12 @@ whoami:
 | **Infrastructure as code, always** | No console clicking that cannot be reproduced from a repository |
 | **Cost is a design constraint** | FinOps considered at architecture time, not after the invoice |
 | **Observability first** | If it cannot be measured, it is not finished |
-| **Least privilege by default** | IAM scoped narrowly, then widened only where proven necessary |
-
-</details>
-
-<details>
-<summary><b>🤝 What I'm useful for</b></summary>
-
-<br/>
-
-- **Multi-cloud architecture reviews** — AWS, Azure and GCP landing zones, hybrid governance, DR strategy
-- **Kubernetes and GitOps** — EKS/AKS/GKE design, Helm, ArgoCD, progressive delivery
-- **Infrastructure as Code** — Terraform module design, remote state, drift control
-- **Cloud cost optimisation** — rightsizing, commitment planning, waste elimination
-- **Agentic AI for operations** — LLM-driven incident response, autonomous remediation, RAG over infrastructure data
-- **Generative AI delivery** — RAG assistants, document intelligence and copilots on Bedrock, Azure OpenAI and Vertex AI
-- **Forward deployed engineering** — embedding with your team to turn an AI use case into a working, production-grade system
-- **LLMOps &amp; AI governance** — evaluation pipelines, guardrails, cost and latency controls, audit-ready deployments
-- **Team enablement** — structured, project-based upskilling for cloud and DevOps engineers
+| **Least privilege by default** | IAM scoped narrowly — for engineers and for AI agents |
+| **Humans approve what matters** | Agents propose, people approve anything irreversible |
 
 </details>
 
 <br/>
-
-## 📊 By the Numbers
-
-<div align="center">
-
-<a href="https://github.com/CloudTechDevOps?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FCloudTechDevOps&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&color=0f172a&labelColor=1e1b4b" alt="Live count of public repositories" /></a>
-<a href="https://github.com/CloudTechDevOps?tab=followers"><img src="https://img.shields.io/github/followers/CloudTechDevOps?style=for-the-badge&label=Followers&color=0f172a&labelColor=1e1b4b&logo=github&logoColor=67e8f9" alt="Live follower count" /></a>
-<a href="https://github.com/CloudTechDevOps/Linux-commands/network/members"><img src="https://img.shields.io/github/forks/CloudTechDevOps/Linux-commands?style=for-the-badge&label=Top%20Repo%20Forks&color=0f172a&labelColor=1e1b4b&logo=github&logoColor=67e8f9" alt="Live fork count on Linux-commands, the most forked repository" /></a>
-
-<table>
-<tr>
-<td align="center" width="140"><b>15+</b><br/><sub>Years Experience</sub></td>
-<td align="center" width="140"><b>30K+</b><br/><sub>Students Trained</sub></td>
-<td align="center" width="140"><b>30+</b><br/><sub>Real Projects</sub></td>
-<td align="center" width="140"><b>3</b><br/><sub>Clouds + AI &amp; FDE</sub></td>
-</tr>
-<tr>
-<td align="center" width="140"><b><!--STAT:FOLLOWERS-->757<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
-<td align="center" width="140"><b><!--STAT:REPOS-->9<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
-<td align="center" width="140"><b><!--STAT:FORKS-->126<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
-<td align="center" width="140"><b><!--STAT:STARS-->8<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
-</tr>
-</table>
-
-<!-- stats last updated: 2026-11-01 -->
-
-</div>
-
-<br/>
-
-## 🎯 Current Focus
-
-- 🏗️ **Architecting** a multi-cloud disaster recovery solution for a critical enterprise application
-- 🔍 **Researching** service mesh technologies (Istio) and advanced FinOps strategies for cloud cost governance
-- 🤖 **Building** agentic AI workflows for DevOps — LLM-driven incident response, autonomous remediation agents, and RAG-based infra assistants
-- 🛰️ **Forward deploying** Gen AI solutions with customer teams — from use-case discovery to a production rollout on their own cloud
-- 🔌 **Exploring** the Model Context Protocol (MCP) to give agents safe, scoped access to cloud APIs, Kubernetes and CI/CD tooling
-- 🧩 **Core expertise**: AWS, Azure, GCP, Kubernetes, Terraform, Ansible, CI/CD, cloud cost optimisation, Generative &amp; Agentic AI
-
-<br/>
-
-## 🤖 Generative AI
-
-> Extending the DevOps craft into the AI layer — LLM applications built with the same rigour as production infrastructure: versioned, tested, observable and cost-controlled.
-
-| Area | What I Build |
-|---|---|
-| **LLM App Architecture** | Chat assistants, copilots and document-intelligence apps on Amazon Bedrock, Azure OpenAI, Vertex AI, Claude and OpenAI |
-| **RAG Pipelines** | Ingestion, chunking, embeddings, hybrid search and re-ranking to ground answers in enterprise data |
-| **Prompt &amp; Context Engineering** | Structured prompts, system design for long context, output schemas and prompt versioning |
-| **Fine-Tuning &amp; Open Models** | LoRA/PEFT fine-tuning, Hugging Face models, self-hosted serving with vLLM and Ollama |
-| **Evaluation &amp; Guardrails** | Golden datasets, LLM-as-judge evals, hallucination checks, PII redaction and content filters |
-| **LLMOps** | Model serving on Kubernetes, tracing, token-cost dashboards, caching and latency budgets |
-
-<br/>
-
-## 🧠 Agentic AI
-
-> Systems where autonomous agents don't just assist engineers — they plan, call tools and operate infrastructure, with humans approving what matters.
-
-| Area | What I Build |
-|---|---|
-| **Agent Orchestration** | Single and multi-agent workflows with LangGraph, CrewAI and AutoGen-style patterns |
-| **Tool Use &amp; MCP** | Model Context Protocol servers exposing cloud APIs, Kubernetes, Terraform and CI/CD as scoped agent tools |
-| **AIOps Agents** | Log and alert triage, root-cause analysis, runbook execution and self-healing pipelines |
-| **Memory &amp; Retrieval** | Vector databases (Pinecone, pgvector, OpenSearch) and state stores for long-running agents |
-| **Safety &amp; Control** | Least-privilege tool permissions, human-in-the-loop approvals, audit trails and rollback paths |
-| **Agent Observability** | Step-level traces, evals for task success, cost per run and failure analysis |
-
-```mermaid
-flowchart LR
-    A[Alert / Request] --> B[Planner Agent]
-    B --> C{Tools via MCP}
-    C --> D[Cloud APIs]
-    C --> E[Kubernetes]
-    C --> F[Terraform / CI-CD]
-    C --> G[RAG: Runbooks & Docs]
-    D & E & F & G --> H[Proposed Action]
-    H --> I{Human Approval}
-    I -->|approved| J[Execute + Audit Log]
-    I -->|rejected| B
-```
-
-<br/>
-
-## 🛰️ Forward Deployed Engineering
-
-> Embedding with customer teams to turn an AI or cloud idea into a system that runs in **their** environment — not a demo that stays on a laptop.
-
-| Phase | What Happens |
-|---|---|
-| **1 · Discover** | Sit with stakeholders, map the workflow, define success metrics and data access |
-| **2 · Prototype** | Ship a working Gen AI / agent prototype on real data within days, not quarters |
-| **3 · Productionise** | Terraform-provisioned infrastructure, CI/CD, security review, evals and guardrails |
-| **4 · Deploy &amp; Operate** | Roll out on the customer's own AWS, Azure or GCP account with observability and cost controls |
-| **5 · Enable &amp; Hand Over** | Documentation, runbooks and hands-on training so the team owns it afterwards |
-
-<details>
-<summary><b>🧰 FDE toolkit</b></summary>
-
-<br/>
-
-- **Full-stack delivery** — Python / Node.js backends, APIs and lightweight UIs around AI capabilities
-- **Cloud-native by default** — containers, Kubernetes, serverless and IaC for every deployment
-- **Enterprise integration** — SSO, IAM, private networking, data connectors and compliance requirements
-- **Customer communication** — translating between business outcomes and engineering decisions
-- **Feedback loop** — field learnings fed back into reusable modules, templates and training content
-
-</details>
-
-<br/>
-
-<img src="divider.svg" width="100%" alt="" />
 
 ## 🛠️ Technology Stack
 
@@ -307,7 +336,7 @@ flowchart LR
 
 <br/>
 
-<img src="divider.svg" width="100%" alt="" />
+<img src="assets/motion/divider.svg" width="100%" alt="" />
 
 ## 🚀 Featured Repositories
 
@@ -353,11 +382,19 @@ Real, runnable repositories from this account — ordered by how much the commun
 
 <img width="100%" src="https://ghchart.rshah.org/22d3ee/CloudTechDevOps" alt="Contribution calendar for the past year" />
 
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CloudTechDevOps/CloudTechDevOps/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CloudTechDevOps/CloudTechDevOps/output/github-snake.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/CloudTechDevOps/CloudTechDevOps/output/github-snake-dark.svg" alt="Animated snake eating the past year's contribution grid" />
+</picture>
+
 </div>
 
 <br/>
 
-<img src="divider.svg" width="100%" alt="" />
+<img src="assets/motion/divider.svg" width="100%" alt="" />
 
 ## 🏅 Certifications
 
@@ -408,21 +445,23 @@ Real, runnable repositories from this account — ordered by how much the commun
 
 ## ✍️ Latest Writing
 
-- [How to Deploy a Self-Hosted Agent in Azure Pipelines](https://medium.com/@veerababu.narni232/how-to-deploy-a-self-hosted-agent-in-azure-pipeline-c07a4f4ca4c4)
-- [Querying Data in S3 with Amazon Athena](https://medium.com/@veerababu.narni232/querying-data-in-s3-with-amazon-athena-d9319eb87155)
-- [Everything You Need to Know About AWS EKS Auto Mode](https://medium.com/@veerababu.narni232/everything-you-need-to-know-about-aws-eks-auto-mode-b5e03b49b630)
-- [Centralising Secure Cloud Networks: Deploying AWS Transit Gateway](https://medium.com/@veerababu.narni232/centralizing-secure-cloud-networks-hands-on-guide-to-deploying-aws-transit-gateway-1032221d4263)
+<!--WRITING:START-->
+- [How to Deploy a Self-Hosted Agent in Azure Pipeline](https://medium.com/@veerababu.narni232/how-to-deploy-a-self-hosted-agent-in-azure-pipeline-c07a4f4ca4c4) <sub>· Jul 2025</sub>
+- [Querying Data in S3 with Amazon Athena](https://medium.com/@veerababu.narni232/querying-data-in-s3-with-amazon-athena-d9319eb87155) <sub>· Jun 2025</sub>
+- [How to Create and Connect to a Linux Virtual Machine Scale Set (VMSS) on Azure](https://medium.com/@veerababu.narni232/how-to-create-and-connect-to-a-linux-virtual-machine-scale-set-vmss-on-azure-f7c380cb49bd) <sub>· Jun 2025</sub>
+- [Azure Interview Questi](https://medium.com/@veerababu.narni232/azure-interview-questi-273ca5acbcdc) <sub>· Jun 2025</sub>
+- [Azure Load Balancer: An Introduction](https://medium.com/@veerababu.narni232/azure-load-balancer-an-introduction-8aa0b15c6935) <sub>· Jun 2025</sub>
+<!--WRITING:END-->
 
 <br/>
 
 ## 🎯 2026 Goals
 
-- 🌱 Contribute to five or more significant open-source DevOps tools
-- 🧑‍🏫 Mentor aspiring cloud engineers and grow the community
-- 📝 Publish six or more in-depth technical articles on multi-cloud architecture and FinOps
 - 🤖 Ship a production agentic-AI framework for autonomous cloud operations
 - 🧠 Publish open, runnable Gen AI and Agentic AI repositories — RAG, MCP servers and DevOps agents — with full Terraform deployments
 - 🛰️ Launch a Forward Deployed Engineer track for engineers moving from DevOps into customer-facing AI delivery
+- 🌱 Contribute to five or more significant open-source DevOps tools
+- 📝 Publish six or more in-depth articles on multi-cloud architecture, FinOps and AI in production
 - 📚 Bring every repository in this account to production-grade documentation
 
 <br/>
@@ -436,19 +475,19 @@ Real, runnable repositories from this account — ordered by how much the commun
 
 <br/>
 
-<img src="divider.svg" width="100%" alt="" />
-
 <div align="center">
+
+<img src="assets/motion/footer.svg" width="100%" alt="The best way to learn multi-cloud DevOps and AI is to build real systems — not memorise commands. Veerababu Narni, Cloud DevOps and AI Forward Deployed Engineer." />
+
+<br/><br/>
 
 <a href="https://www.linkedin.com/in/veerababu-narni-b99b05256"><img src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=67e8f9&labelColor=1e1b4b" alt="LinkedIn" /></a>
 <a href="https://medium.com/@veerababu.narni232"><img src="https://img.shields.io/badge/Medium-0f172a?style=for-the-badge&logo=medium&logoColor=67e8f9&labelColor=1e1b4b" alt="Medium" /></a>
 <a href="mailto:veeraopstechnologies@gmail.com"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=67e8f9&labelColor=1e1b4b" alt="Email" /></a>
 <a href="http://veera.veeraopstech.online/"><img src="https://img.shields.io/badge/Website-0f172a?style=for-the-badge&logo=googlechrome&logoColor=67e8f9&labelColor=1e1b4b" alt="Website" /></a>
 
-<br/><br/>
-
-<sub><i>"The best way to learn multi-cloud DevOps is to build real systems — not memorise commands."</i></sub>
 <br/>
-<sub>— Veerababu Narni</sub>
+
+<sub>Profile graphics are generated by <code>scripts/</code> and refreshed by GitHub Actions — stats, motion assets, contribution snake and latest writing.</sub>
 
 </div>

@@ -1,0 +1,39 @@
+name: Contribution snake
+
+# Draws the past year's contribution grid as an animated snake and publishes
+# the SVGs to the `output` branch, which the README references directly. A
+# separate branch keeps these daily image commits out of main's history.
+
+on:
+  schedule:
+    # 04:23 UTC daily, after the stats refresh.
+    - cron: '23 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake animations
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?palette=github-light&color_snake=#7c3aed&color_dots=#e2e8f0,#a5f3fc,#67e8f9,#22d3ee,#0891b2
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#a78bfa&color_dots=#161b22,#164e63,#0e7490,#06b6d4,#67e8f9
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: 'chore: update contribution snake [skip ci]'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

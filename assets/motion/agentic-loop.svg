@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1200 540" role="img" aria-label="Agentic AI: an alert goes to a planner agent, which calls cloud, Kubernetes, Terraform and RAG tools through an MCP router, then waits for human approval before executing with an audit log; rejected plans loop back to the planner">
+<title>Agentic AI: an alert goes to a planner agent, which calls cloud, Kubernetes, Terraform and RAG tools through an MCP router, then waits for human approval before executing with an audit log; rejected plans loop back to the planner</title>
+<style>.dash{animation:dash 1.2s linear infinite}@keyframes dash{to{stroke-dashoffset:-32}}
+.think{transform-box:fill-box;transform-origin:center;animation:think 2.4s ease-in-out infinite}
+@keyframes think{50%{transform:scale(1.18);opacity:.25}}
+.lit{animation:lit 6s ease-in-out infinite}@keyframes lit{0%,100%{stroke-opacity:.35}50%{stroke-opacity:1}}
+.rise{animation:rise .7s ease both}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#f472b6"/>
+</linearGradient>
+<linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+</linearGradient>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#020617"/><stop offset="55%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e1b4b"/>
+</linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+</pattern>
+<clipPath id="card"><rect width="1200" height="540" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="540" fill="url(#bg)"/>
+<rect width="1200" height="540" fill="url(#grid)"/>
+
+<text x="40" y="46" font-family="Consolas, Menlo, Courier New, monospace" font-size="13" font-weight="700" fill="#a78bfa" text-anchor="start" letter-spacing="4">AGENTIC AI</text>
+<text x="40" y="72" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f8fafc" text-anchor="start" >Autonomous ops loop — agents that plan, call tools, and ask before they act</text>
+<circle class="think" cx="450" cy="295.0" r="9" fill="#a78bfa"/>
+<path id="f0" d="M236 308 L276 308" fill="none" stroke="#fbbf24" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M236 308 L276 308" fill="none" stroke="#fbbf24" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#fbbf24" filter="url(#glow)"><animateMotion dur="1.4s" begin="0.00s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#f0"/></animateMotion></circle>
+<circle r="4" fill="#fbbf24" filter="url(#glow)"><animateMotion dur="1.4s" begin="0.70s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#f0"/></animateMotion></circle><path id="f1" d="M472 308 L512 308" fill="none" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M472 308 L512 308" fill="none" stroke="#a78bfa" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#a78bfa" filter="url(#glow)"><animateMotion dur="1.4s" begin="0.40s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#f1"/></animateMotion></circle>
+<circle r="4" fill="#a78bfa" filter="url(#glow)"><animateMotion dur="1.4s" begin="1.10s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#f1"/></animateMotion></circle><path id="t0" d="M688 308 C728 308 720 170 760 170" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M688 308 C728 308 720 170 760 170" fill="none" stroke="#22d3ee" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="1.8s" begin="0.80s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#t0"/></animateMotion></circle><path id="h0" d="M956 170 C980 170 974 249.0 1004 249.0" fill="none" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M956 170 C980 170 974 249.0 1004 249.0" fill="none" stroke="#a78bfa" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#a78bfa" filter="url(#glow)"><animateMotion dur="2.2s" begin="1.60s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#h0"/></animateMotion></circle><path id="t1" d="M688 308 C728 308 720 262 760 262" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M688 308 C728 308 720 262 760 262" fill="none" stroke="#22d3ee" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="1.8s" begin="1.05s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#t1"/></animateMotion></circle><path id="h1" d="M956 262 C980 262 974 249.0 1004 249.0" fill="none" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M956 262 C980 262 974 249.0 1004 249.0" fill="none" stroke="#a78bfa" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#a78bfa" filter="url(#glow)"><animateMotion dur="2.2s" begin="1.90s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#h1"/></animateMotion></circle><path id="t2" d="M688 308 C728 308 720 354 760 354" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M688 308 C728 308 720 354 760 354" fill="none" stroke="#22d3ee" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="1.8s" begin="1.30s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#t2"/></animateMotion></circle><path id="h2" d="M956 354 C980 354 974 249.0 1004 249.0" fill="none" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M956 354 C980 354 974 249.0 1004 249.0" fill="none" stroke="#a78bfa" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#a78bfa" filter="url(#glow)"><animateMotion dur="2.2s" begin="2.20s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#h2"/></animateMotion></circle><path id="t3" d="M688 308 C728 308 720 446 760 446" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M688 308 C728 308 720 446 760 446" fill="none" stroke="#22d3ee" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="1.8s" begin="1.55s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#t3"/></animateMotion></circle><path id="h3" d="M956 446 C980 446 974 249.0 1004 249.0" fill="none" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M956 446 C980 446 974 249.0 1004 249.0" fill="none" stroke="#a78bfa" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#a78bfa" filter="url(#glow)"><animateMotion dur="2.2s" begin="2.50s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#h3"/></animateMotion></circle><path id="ok" d="M1092.0 284 L1092.0 370" fill="none" stroke="#34d399" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M1092.0 284 L1092.0 370" fill="none" stroke="#34d399" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#34d399" filter="url(#glow)"><animateMotion dur="1.2s" begin="0.00s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#ok"/></animateMotion></circle>
+<circle r="4" fill="#34d399" filter="url(#glow)"><animateMotion dur="1.2s" begin="0.60s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#ok"/></animateMotion></circle><path id="back" d="M1092.0 214 C1092.0 64 374.0 64 374.0 273.0" fill="none" stroke="#f472b6" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M1092.0 214 C1092.0 64 374.0 64 374.0 273.0" fill="none" stroke="#f472b6" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#f472b6" filter="url(#glow)"><animateMotion dur="4s" begin="0.00s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#back"/></animateMotion></circle>
+<circle r="4" fill="#f472b6" filter="url(#glow)"><animateMotion dur="4s" begin="2.00s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#back"/></animateMotion></circle>
+<g class="rise"><g class="">
+  <rect x="40" y="273.0" width="196" height="70" rx="14" fill="url(#panel)" stroke="#fbbf24" stroke-opacity="0.55"/>
+  <rect x="54" y="285.0" width="26" height="3" rx="1.5" fill="#fbbf24"/>
+  <text x="54" y="309.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Alert / Request</text>
+  <text x="54" y="328.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >PagerDuty · Slack · ticket</text>
+</g><g class="">
+  <rect x="276" y="273.0" width="196" height="70" rx="14" fill="url(#panel)" stroke="#a78bfa" stroke-opacity="0.55"/>
+  <rect x="290" y="285.0" width="26" height="3" rx="1.5" fill="#a78bfa"/>
+  <text x="290" y="309.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Planner Agent</text>
+  <text x="290" y="328.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >reason · plan · reflect</text>
+</g><g class="">
+  <rect x="512" y="273.0" width="176" height="70" rx="14" fill="url(#panel)" stroke="#67e8f9" stroke-opacity="0.55"/>
+  <rect x="526" y="285.0" width="26" height="3" rx="1.5" fill="#67e8f9"/>
+  <text x="526" y="309.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >MCP Tool Router</text>
+  <text x="526" y="328.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >scoped, least-privilege</text>
+</g><g class="">
+  <rect x="1004" y="214" width="176" height="70" rx="14" fill="url(#panel)" stroke="#fbbf24" stroke-opacity="0.55"/>
+  <rect x="1018" y="226" width="26" height="3" rx="1.5" fill="#fbbf24"/>
+  <text x="1018" y="250" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Human Approval</text>
+  <text x="1018" y="269" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >review the diff &amp; risk</text>
+</g><g class="">
+  <rect x="1004" y="370" width="176" height="70" rx="14" fill="url(#panel)" stroke="#34d399" stroke-opacity="0.55"/>
+  <rect x="1018" y="382" width="26" height="3" rx="1.5" fill="#34d399"/>
+  <text x="1018" y="406" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Execute + Audit</text>
+  <text x="1018" y="425" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >apply · verify · log</text>
+</g><g class="">
+  <rect x="760" y="135.0" width="196" height="70" rx="14" fill="url(#panel)" stroke="#22d3ee" stroke-opacity="0.55"/>
+  <rect x="774" y="147.0" width="26" height="3" rx="1.5" fill="#22d3ee"/>
+  <text x="774" y="171.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Cloud APIs</text>
+  <text x="774" y="190.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >AWS · Azure · GCP</text>
+</g><g class="">
+  <rect x="760" y="227.0" width="196" height="70" rx="14" fill="url(#panel)" stroke="#22d3ee" stroke-opacity="0.55"/>
+  <rect x="774" y="239.0" width="26" height="3" rx="1.5" fill="#22d3ee"/>
+  <text x="774" y="263.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Kubernetes</text>
+  <text x="774" y="282.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >kubectl · Helm · ArgoCD</text>
+</g><g class="">
+  <rect x="760" y="319.0" width="196" height="70" rx="14" fill="url(#panel)" stroke="#a78bfa" stroke-opacity="0.55"/>
+  <rect x="774" y="331.0" width="26" height="3" rx="1.5" fill="#a78bfa"/>
+  <text x="774" y="355.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Terraform · CI/CD</text>
+  <text x="774" y="374.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >plan · pipelines · PRs</text>
+</g><g class="">
+  <rect x="760" y="411.0" width="196" height="70" rx="14" fill="url(#panel)" stroke="#f472b6" stroke-opacity="0.55"/>
+  <rect x="774" y="423.0" width="26" height="3" rx="1.5" fill="#f472b6"/>
+  <text x="774" y="447.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >RAG Knowledge</text>
+  <text x="774" y="466.0" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >runbooks · docs · history</text>
+</g></g>
+<rect class="lit" x="1004" y="214" width="176" height="70" rx="14" fill="none" stroke="#fbbf24" stroke-width="2"/>
+<text x="733.0" y="100" font-family="Consolas, Menlo, Courier New, monospace" font-size="12" font-weight="600" fill="#f472b6" text-anchor="middle" >rejected → re-plan with feedback</text>
+<text x="1100.0" y="331.0" font-family="Consolas, Menlo, Courier New, monospace" font-size="12" font-weight="600" fill="#34d399" text-anchor="start" >approved</text>
+<text x="40" y="516" font-family="Consolas, Menlo, Courier New, monospace" font-size="12.5" font-weight="500" fill="#94a3b8" text-anchor="start" >LangGraph · CrewAI · AutoGen patterns · MCP servers · memory · step-level traces · task-success evals</text>
+
+</g>
+<rect x="0.5" y="0.5" width="1199" height="539" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+</svg>

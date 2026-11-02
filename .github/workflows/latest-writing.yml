@@ -1,0 +1,59 @@
+name: Refresh latest writing
+
+# Pulls the newest Medium posts into the "Latest Writing" section, between the
+# WRITING markers in README.md.
+
+on:
+  schedule:
+    # 05:41 UTC daily.
+    - cron: '41 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: latest-writing
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Update README from the Medium feed
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Same approach as the stats workflow: reset to the fetched tip and
+          # re-derive, so a concurrent commit never causes a rebase conflict.
+          for attempt in 1 2 3; do
+            git fetch --quiet origin "${BRANCH}"
+            git reset --quiet --hard "origin/${BRANCH}"
+
+            python3 scripts/update_writing.py
+
+            if git diff --quiet -- README.md; then
+              echo "Latest writing unchanged — nothing to commit."
+              exit 0
+            fi
+
+            git add README.md
+            git commit --quiet -m "chore: refresh latest writing [skip ci]"
+
+            if git push --quiet origin "HEAD:${BRANCH}"; then
+              exit 0
+            fi
+            echo "Push rejected — branch moved. Retrying."
+            sleep $((attempt * 5))
+          done
+
+          echo "::error::Could not publish after 3 attempts"
+          exit 1

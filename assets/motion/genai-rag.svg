@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1200 430" role="img" aria-label="Generative AI: production RAG pipeline from enterprise data through embeddings, vector store, retrieval, LLM, guardrails and evals to a cited answer">
+<title>Generative AI: production RAG pipeline from enterprise data through embeddings, vector store, retrieval, LLM, guardrails and evals to a cited answer</title>
+<style>.dash{animation:dash 1.2s linear infinite}@keyframes dash{to{stroke-dashoffset:-32}}
+.rise{animation:rise .7s ease both}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.idx{animation:idx 3s ease-in-out infinite}@keyframes idx{50%{opacity:.35}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#f472b6"/>
+</linearGradient>
+<linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+</linearGradient>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#020617"/><stop offset="55%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e1b4b"/>
+</linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+</pattern>
+<clipPath id="card"><rect width="1200" height="430" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="430" fill="url(#bg)"/>
+<rect width="1200" height="430" fill="url(#grid)"/>
+
+<text x="40" y="48" font-family="Consolas, Menlo, Courier New, monospace" font-size="13" font-weight="700" fill="#67e8f9" text-anchor="start" letter-spacing="4">GENERATIVE AI</text>
+<text x="40" y="74" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f8fafc" text-anchor="start" >Production RAG pipeline — grounded answers from enterprise data</text>
+<text x="1160" y="48" font-family="Consolas, Menlo, Courier New, monospace" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end" >LLMOps on Kubernetes</text>
+<text x="1160" y="66" font-family="Consolas, Menlo, Courier New, monospace" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end" >tracing · cost · latency SLOs</text>
+<rect x="952" y="126" width="208" height="70" rx="14" fill="none" stroke="#34d399" stroke-opacity="0.45" stroke-dasharray="4 6" class="dash"/>
+<text x="1056" y="158" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#f8fafc" text-anchor="middle" >Prompt &amp; Context</text>
+<text x="1056" y="178" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="middle" >versioned · schema outputs</text>
+<text x="40" y="114" font-family="Consolas, Menlo, Courier New, monospace" font-size="11" font-weight="700" fill="#22d3ee" text-anchor="start" letter-spacing="3" class="idx">INGEST</text>
+<text x="40" y="280" font-family="Consolas, Menlo, Courier New, monospace" font-size="11" font-weight="700" fill="#f472b6" text-anchor="start" letter-spacing="3" class="idx">QUERY</text>
+<text x="664.0" y="230.0" font-family="Consolas, Menlo, Courier New, monospace" font-size="12" font-weight="600" fill="#a78bfa" text-anchor="middle" >context</text>
+<path id="i0" d="M236 161.0 L268 161.0" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M236 161.0 L268 161.0" fill="none" stroke="#22d3ee" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="1.6s" begin="0.00s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#i0"/></animateMotion></circle>
+<circle r="4" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="1.6s" begin="0.80s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#i0"/></animateMotion></circle><path id="i1" d="M464 161.0 L496 161.0" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M464 161.0 L496 161.0" fill="none" stroke="#22d3ee" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="1.6s" begin="0.30s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#i1"/></animateMotion></circle>
+<circle r="4" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="1.6s" begin="1.10s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#i1"/></animateMotion></circle><path id="i2" d="M692 161.0 L724 161.0" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M692 161.0 L724 161.0" fill="none" stroke="#22d3ee" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="1.6s" begin="0.60s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#i2"/></animateMotion></circle>
+<circle r="4" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="1.6s" begin="1.40s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#i2"/></animateMotion></circle><path id="q0" d="M236 327.0 L268 327.0" fill="none" stroke="#67e8f9" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M236 327.0 L268 327.0" fill="none" stroke="#67e8f9" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#67e8f9" filter="url(#glow)"><animateMotion dur="1.6s" begin="0.00s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#q0"/></animateMotion></circle>
+<circle r="4" fill="#67e8f9" filter="url(#glow)"><animateMotion dur="1.6s" begin="0.80s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#q0"/></animateMotion></circle><path id="q1" d="M464 327.0 L496 327.0" fill="none" stroke="#f472b6" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M464 327.0 L496 327.0" fill="none" stroke="#f472b6" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#f472b6" filter="url(#glow)"><animateMotion dur="1.6s" begin="0.30s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#q1"/></animateMotion></circle>
+<circle r="4" fill="#f472b6" filter="url(#glow)"><animateMotion dur="1.6s" begin="1.10s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#q1"/></animateMotion></circle><path id="q2" d="M692 327.0 L724 327.0" fill="none" stroke="#f472b6" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M692 327.0 L724 327.0" fill="none" stroke="#f472b6" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#f472b6" filter="url(#glow)"><animateMotion dur="1.6s" begin="0.60s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#q2"/></animateMotion></circle>
+<circle r="4" fill="#f472b6" filter="url(#glow)"><animateMotion dur="1.6s" begin="1.40s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#q2"/></animateMotion></circle><path id="q3" d="M920 327.0 L952 327.0" fill="none" stroke="#f472b6" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M920 327.0 L952 327.0" fill="none" stroke="#f472b6" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#f472b6" filter="url(#glow)"><animateMotion dur="1.6s" begin="0.90s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#q3"/></animateMotion></circle>
+<circle r="4" fill="#f472b6" filter="url(#glow)"><animateMotion dur="1.6s" begin="1.70s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#q3"/></animateMotion></circle><path id="ctx" d="M822.0 196 C822.0 256 366.0 232 366.0 292" fill="none" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="2"/>
+<path d="M822.0 196 C822.0 256 366.0 232 366.0 292" fill="none" stroke="#a78bfa" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 10" class="dash"/>
+<circle r="4" fill="#a78bfa" filter="url(#glow)"><animateMotion dur="2.4s" begin="0.00s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#ctx"/></animateMotion></circle>
+<circle r="4" fill="#a78bfa" filter="url(#glow)"><animateMotion dur="2.4s" begin="0.80s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#ctx"/></animateMotion></circle>
+<circle r="4" fill="#a78bfa" filter="url(#glow)"><animateMotion dur="2.4s" begin="1.60s" repeatCount="indefinite" rotate="auto"><mpath xlink:href="#ctx"/></animateMotion></circle>
+<g class="rise"><g class="">
+  <rect x="40" y="126" width="196" height="70" rx="14" fill="url(#panel)" stroke="#22d3ee" stroke-opacity="0.55"/>
+  <rect x="54" y="138" width="26" height="3" rx="1.5" fill="#22d3ee"/>
+  <text x="54" y="162" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Enterprise Data</text>
+  <text x="54" y="181" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >docs · wikis · code · tickets</text>
+</g><g class="">
+  <rect x="268" y="126" width="196" height="70" rx="14" fill="url(#panel)" stroke="#22d3ee" stroke-opacity="0.55"/>
+  <rect x="282" y="138" width="26" height="3" rx="1.5" fill="#22d3ee"/>
+  <text x="282" y="162" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Chunk &amp; Clean</text>
+  <text x="282" y="181" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >parse · split · metadata</text>
+</g><g class="">
+  <rect x="496" y="126" width="196" height="70" rx="14" fill="url(#panel)" stroke="#a78bfa" stroke-opacity="0.55"/>
+  <rect x="510" y="138" width="26" height="3" rx="1.5" fill="#a78bfa"/>
+  <text x="510" y="162" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Embeddings</text>
+  <text x="510" y="181" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >Bedrock · OpenAI · HF</text>
+</g><g class="">
+  <rect x="724" y="126" width="196" height="70" rx="14" fill="url(#panel)" stroke="#a78bfa" stroke-opacity="0.55"/>
+  <rect x="738" y="138" width="26" height="3" rx="1.5" fill="#a78bfa"/>
+  <text x="738" y="162" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Vector Store</text>
+  <text x="738" y="181" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >pgvector · Pinecone · OpenSearch</text>
+</g><g class="">
+  <rect x="40" y="292" width="196" height="70" rx="14" fill="url(#panel)" stroke="#67e8f9" stroke-opacity="0.55"/>
+  <rect x="54" y="304" width="26" height="3" rx="1.5" fill="#67e8f9"/>
+  <text x="54" y="328" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >User / App</text>
+  <text x="54" y="347" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >question or task</text>
+</g><g class="">
+  <rect x="268" y="292" width="196" height="70" rx="14" fill="url(#panel)" stroke="#a78bfa" stroke-opacity="0.55"/>
+  <rect x="282" y="304" width="26" height="3" rx="1.5" fill="#a78bfa"/>
+  <text x="282" y="328" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Retrieve + Rerank</text>
+  <text x="282" y="347" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >hybrid search · top-k</text>
+</g><g class="">
+  <rect x="496" y="292" width="196" height="70" rx="14" fill="url(#panel)" stroke="#f472b6" stroke-opacity="0.55"/>
+  <rect x="510" y="304" width="26" height="3" rx="1.5" fill="#f472b6"/>
+  <text x="510" y="328" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >LLM</text>
+  <text x="510" y="347" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >Claude · GPT · Gemini</text>
+</g><g class="">
+  <rect x="724" y="292" width="196" height="70" rx="14" fill="url(#panel)" stroke="#fbbf24" stroke-opacity="0.55"/>
+  <rect x="738" y="304" width="26" height="3" rx="1.5" fill="#fbbf24"/>
+  <text x="738" y="328" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Guardrails + Evals</text>
+  <text x="738" y="347" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >PII · grounding · scoring</text>
+</g><g class="">
+  <rect x="952" y="292" width="208" height="70" rx="14" fill="url(#panel)" stroke="#34d399" stroke-opacity="0.55"/>
+  <rect x="966" y="304" width="26" height="3" rx="1.5" fill="#34d399"/>
+  <text x="966" y="328" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8fafc" text-anchor="start" >Answer</text>
+  <text x="966" y="347" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="start" >cited · traced · costed</text>
+</g></g>
+<text x="40" y="404" font-family="Consolas, Menlo, Courier New, monospace" font-size="12.5" font-weight="500" fill="#94a3b8" text-anchor="start" >Fine-tuning (LoRA / PEFT) · self-hosted vLLM &amp; Ollama · golden datasets · LLM-as-judge evals</text>
+
+</g>
+<rect x="0.5" y="0.5" width="1199" height="429" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1200 200" role="img" aria-label="Footer: the best way to learn multi-cloud DevOps and AI is to build real systems">
+<title>Footer: the best way to learn multi-cloud DevOps and AI is to build real systems</title>
+<style>
+.w1{animation:wave 14s linear infinite}.w2{animation:wave 9s linear infinite reverse}.w3{animation:wave 20s linear infinite}
+@keyframes wave{to{transform:translateX(-400px)}}
+.rise{animation:rise 1s ease both}@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#f472b6"/>
+</linearGradient>
+<linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+</linearGradient>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#020617"/><stop offset="55%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e1b4b"/>
+</linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+</pattern>
+<clipPath id="card"><rect width="1200" height="200" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="200" fill="url(#bg)"/>
+<rect width="1200" height="200" fill="url(#grid)"/>
+
+<g class="rise">
+<text x="600.0" y="70" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#f8fafc" text-anchor="middle" font-style="italic">“The best way to learn multi-cloud DevOps and AI is to build real systems — not memorise commands.”</text>
+<text x="600.0" y="100" font-family="Consolas, Menlo, Courier New, monospace" font-size="12" font-weight="600" fill="#67e8f9" text-anchor="middle" letter-spacing="2">VEERABABU NARNI  ·  CLOUD DEVOPS &amp; AI FORWARD DEPLOYED ENGINEER</text>
+</g>
+<path class="w3" d="M0 150 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 V200 H0 Z" fill="#f472b6" fill-opacity="0.10"/>
+<path class="w1" d="M0 160 q100.0 -14 200.0 0 t200.0 0 q100.0 -14 200.0 0 t200.0 0 q100.0 -14 200.0 0 t200.0 0 q100.0 -14 200.0 0 t200.0 0 q100.0 -14 200.0 0 t200.0 0 q100.0 -14 200.0 0 t200.0 0 q100.0 -14 200.0 0 t200.0 0 V200 H0 Z" fill="#a78bfa" fill-opacity="0.16"/>
+<path class="w2" d="M0 172 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 q100.0 -10 200.0 0 t200.0 0 V200 H0 Z" fill="#22d3ee" fill-opacity="0.18"/>
+
+</g>
+<rect x="0.5" y="0.5" width="1199" height="199" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+</svg>

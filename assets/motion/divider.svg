@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 40" role="img" aria-label="">
+<style>.sweep{animation:sweep 4s ease-in-out infinite}@keyframes sweep{from{transform:translateX(-300px)}to{transform:translateX(1200px)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-in-out infinite}@keyframes pulse{50%{transform:scale(1.6);opacity:.5}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs>
+<linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/><stop offset="20%" stop-color="#22d3ee" stop-opacity="0.45"/>
+  <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.65"/><stop offset="80%" stop-color="#f472b6" stop-opacity="0.45"/>
+  <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="spark" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/><stop offset="50%" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<rect x="0" y="19" width="1200" height="2" fill="url(#line)"/>
+<rect class="sweep" x="0" y="18" width="300" height="4" rx="2" fill="url(#spark)" filter="url(#glow)"/>
+<circle class="pulse" cx="600" cy="20" r="4" fill="#e0f2fe" filter="url(#glow)"/>
+</svg>
