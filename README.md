@@ -24,7 +24,6 @@
 
 <img src="assets/avatar.png" width="180" alt="Veerababu Narni" />
 
-<img src="https://img.shields.io/badge/Open_to-Collaboration-0f172a?style=flat-square&logo=handshake&logoColor=67e8f9&labelColor=1e1b4b" alt="Open to collaboration" />
 <img src="https://img.shields.io/badge/Focus-Multi--Cloud_+_Agentic_AI-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b" alt="Current focus" />
 <img src="https://img.shields.io/badge/Role-Forward_Deployed_Engineer-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b" alt="Forward Deployed Engineer" />
 
@@ -128,7 +127,6 @@ whoami:
 - 🤖 **Building** agentic AI workflows for DevOps — LLM-driven incident response, autonomous remediation agents, and RAG-based infra assistants
 - 🛰️ **Forward deploying** Gen AI solutions with customer teams — from use-case discovery to a production rollout on their own cloud
 - 🔌 **Exploring** the Model Context Protocol (MCP) to give agents safe, scoped access to cloud APIs, Kubernetes and CI/CD tooling
-- 🤝 **Open to collaboration** on cloud security, serverless frameworks, and Infrastructure-as-Code open-source projects
 - 🧩 **Core expertise**: AWS, Azure, GCP, Kubernetes, Terraform, Ansible, CI/CD, cloud cost optimisation, Generative &amp; Agentic AI
 
 <br/>
