@@ -86,8 +86,8 @@
     <circle cx="86" cy="50" r="5" fill="#f472b6"/>
     <circle cx="104" cy="50" r="5" fill="#fbbf24"/>
     <circle cx="122" cy="50" r="5" fill="#34d399"/>
-    <text x="150" y="55">~/veerababu-narni  ›  senior-devops-architect --status active</text>
-    <text x="960" y="55" fill="#67e8f9">● 24,400+ trained</text>
+    <text x="150" y="55">~/veerababu-narni  ›  cloud-devops-ai-fde --status active</text>
+    <text x="1114" y="55" text-anchor="end" fill="#67e8f9">● 30K+ students trained</text>
   </g>
 
   <!-- main glass panel: identity -->
@@ -98,7 +98,7 @@
   </g>
 
   <text x="96" y="168" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="url(#titleGrad)">Veerababu Narni</text>
-  <text x="96" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#e0f2fe" fill-opacity="0.9">Senior DevOps &amp; Multi-Cloud Architect</text>
+  <text x="96" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#e0f2fe" fill-opacity="0.9">Cloud DevOps &amp; AI Forward Deployed Engineer</text>
 
   <text x="96" y="234" font-family="Consolas, Menlo, monospace" font-size="14" fill="#67e8f9">
     <tspan>15+ yrs · AWS · Azure · GCP · Kubernetes · Terraform</tspan>
@@ -138,11 +138,11 @@
     <text x="826" y="140" font-size="30" font-weight="700" fill="#ffffff">15+</text>
     <text x="826" y="158" font-size="12" fill="#94a3b8">years experience</text>
 
-    <text x="826" y="200" font-size="30" font-weight="700" fill="#ffffff">24,400+</text>
-    <text x="826" y="218" font-size="12" fill="#94a3b8">engineers trained</text>
+    <text x="826" y="200" font-size="30" font-weight="700" fill="#ffffff">30K+</text>
+    <text x="826" y="218" font-size="12" fill="#94a3b8">students trained</text>
 
-    <text x="826" y="260" font-size="30" font-weight="700" fill="#ffffff">35+</text>
-    <text x="826" y="278" font-size="12" fill="#94a3b8">live production projects</text>
+    <text x="826" y="260" font-size="30" font-weight="700" fill="#ffffff">30+</text>
+    <text x="826" y="278" font-size="12" fill="#94a3b8">real projects</text>
   </g>
 
   <!-- animated activity bars -->

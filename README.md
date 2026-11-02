@@ -30,11 +30,11 @@
 </td>
 <td valign="top">
 
-Senior DevOps &amp; Multi-Cloud Architect with **15+ years** of industry experience across **AWS, Microsoft Azure, and Google Cloud Platform**. I design and operate production infrastructure for enterprise workloads, lead DevOps transformation initiatives, and build CI/CD pipelines that carry mission-critical systems.
+Cloud DevOps &amp; AI Forward Deployed Engineer with **15+ years** of industry experience across **AWS, Microsoft Azure, and Google Cloud Platform**. I design and operate production infrastructure for enterprise workloads, lead DevOps transformation initiatives, and build CI/CD pipelines that carry mission-critical systems.
 
-Today I work as a **Cloud DevOps &amp; AI Forward Deployed Engineer** — sitting with customer teams to take **Generative AI and Agentic AI** from prototype to production: RAG systems grounded in real enterprise data, tool-using agents wired into cloud and DevOps platforms, and the guardrails, evals and observability that make them safe to run.
+As a **Forward Deployed Engineer** I sit with customer teams to take **Generative AI and Agentic AI** from prototype to production: RAG systems grounded in real enterprise data, tool-using agents wired into cloud and DevOps platforms, and the guardrails, evals and observability that make them safe to run.
 
-Alongside architecture work I've trained **30K+ students**, taking people from first principles to placement-ready. Every concept I teach is one I use in production — not theory detached from real systems.
+Alongside architecture work I've trained **30K+ students** through **30+ real projects**, taking people from first principles to placement-ready. Every concept I teach is one I use in production — not theory detached from real systems.
 
 ```yaml
 whoami:
@@ -48,6 +48,7 @@ whoami:
   ai_platforms: [Amazon Bedrock, Azure OpenAI, Vertex AI, Claude, OpenAI]
   fde:         [discovery, rapid prototyping, production rollout, enablement]
   students_trained: 30K+
+  real_projects: 30+
 ```
 
 </td>
