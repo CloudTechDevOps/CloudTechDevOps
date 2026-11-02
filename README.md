@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" width="100%" alt="Veerababu Narni — Cloud DevOps & AI Forward Deployed Engineer. 15+ years experience, 24,400+ engineers trained." />
+<img src="assets/banner.png" width="100%" alt="Veerababu Narni — Cloud DevOps & AI Forward Deployed Engineer. 15+ years experience, 30K+ students trained." />
 
 <br/><br/>
 
@@ -34,7 +34,7 @@ Senior DevOps &amp; Multi-Cloud Architect with **15+ years** of industry experie
 
 Today I work as a **Cloud DevOps &amp; AI Forward Deployed Engineer** — sitting with customer teams to take **Generative AI and Agentic AI** from prototype to production: RAG systems grounded in real enterprise data, tool-using agents wired into cloud and DevOps platforms, and the guardrails, evals and observability that make them safe to run.
 
-Alongside architecture work I've trained **24,400+ engineers**, taking people from first principles to placement-ready. Every concept I teach is one I use in production — not theory detached from real systems.
+Alongside architecture work I've trained **30K+ students**, taking people from first principles to placement-ready. Every concept I teach is one I use in production — not theory detached from real systems.
 
 ```yaml
 whoami:
@@ -47,7 +47,7 @@ whoami:
   agentic_ai:  [multi-agent orchestration, tool use, MCP, human-in-the-loop]
   ai_platforms: [Amazon Bedrock, Azure OpenAI, Vertex AI, Claude, OpenAI]
   fde:         [discovery, rapid prototyping, production rollout, enablement]
-  engineers_trained: 24_400+
+  students_trained: 30K+
 ```
 
 </td>
@@ -101,10 +101,10 @@ whoami:
 
 <table>
 <tr>
-<td align="center" width="140"><b>15+ Years</b><br/><sub>Industry Experience</sub></td>
-<td align="center" width="140"><b>24,400+</b><br/><sub>Engineers Trained</sub></td>
-<td align="center" width="140"><b>3 Clouds</b><br/><sub>AWS · Azure · GCP</sub></td>
-<td align="center" width="140"><b>8</b><br/><sub>Certifications</sub></td>
+<td align="center" width="140"><b>15+</b><br/><sub>Years Experience</sub></td>
+<td align="center" width="140"><b>30K+</b><br/><sub>Students Trained</sub></td>
+<td align="center" width="140"><b>30+</b><br/><sub>Real Projects</sub></td>
+<td align="center" width="140"><b>3</b><br/><sub>Clouds + AI &amp; FDE</sub></td>
 </tr>
 <tr>
 <td align="center" width="140"><b><!--STAT:FOLLOWERS-->757<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>

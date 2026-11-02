@@ -268,7 +268,7 @@ def build(stats: dict[str, str]) -> Image.Image:
             ),
         )
     label(canvas, (150, 57), "~/veerababu-narni  \u203a  cloud-devops-ai-fde --status active", "mono", 12, ICE)
-    tagline = "\u25cf 24,400+ engineers trained"
+    tagline = "\u25cf 30K+ students trained"
     label(canvas, (1114 - measure(tagline, "mono", 12), 57), tagline, "mono", 12, ICE_CYAN)
 
     # Identity panel
@@ -285,7 +285,7 @@ def build(stats: dict[str, str]) -> Image.Image:
     y = 162
     for value, caption in (
         ("15+", "years experience"),
-        ("24,400+", "engineers trained"),
+        ("30K+", "students trained"),
         (stats["FOLLOWERS"], "github followers"),
     ):
         label(canvas, (828, y), value, "bold", 24, WHITE)
