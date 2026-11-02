@@ -68,7 +68,7 @@ whoami:
 <tr>
 <td align="center" width="140"><b><!--STAT:FOLLOWERS-->757<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
 <td align="center" width="140"><b><!--STAT:REPOS-->9<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
-<td align="center" width="140"><b><!--STAT:FORKS-->132<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
+<td align="center" width="140"><b><!--STAT:FORKS-->134<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
 <td align="center" width="140"><b><!--STAT:STARS-->8<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
 </tr>
 </table>
