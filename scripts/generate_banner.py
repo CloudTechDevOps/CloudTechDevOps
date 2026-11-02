@@ -267,14 +267,14 @@ def build(stats: dict[str, str]) -> Image.Image:
                 fill=dot + (255,),
             ),
         )
-    label(canvas, (150, 57), "~/veerababu-narni  \u203a  senior-devops-architect --status active", "mono", 12, ICE)
+    label(canvas, (150, 57), "~/veerababu-narni  \u203a  cloud-devops-ai-fde --status active", "mono", 12, ICE)
     tagline = "\u25cf 24,400+ engineers trained"
     label(canvas, (1114 - measure(tagline, "mono", 12), 57), tagline, "mono", 12, ICE_CYAN)
 
     # Identity panel
     glass(canvas, (60, 102, 776, 306), 26, 30, 86)
     label(canvas, (96, 170), "Veerababu Narni", "bold", 37, WHITE)
-    label(canvas, (96, 201), "Senior DevOps & Multi-Cloud Architect", "regular", 16, MIST, 238)
+    label(canvas, (96, 201), "Cloud DevOps & AI Forward Deployed Engineer", "regular", 16, MIST, 238)
     label(canvas, (96, 236), "15+ yrs \u00b7 AWS \u00b7 Azure \u00b7 GCP \u00b7 Kubernetes \u00b7 Terraform", "mono", 12, ICE_CYAN)
     pills(canvas, ["AWS \u00b7 Azure", "GCP", "Kubernetes \u00b7 CKA", "Terraform", "Gen AI \u00b7 Agentic AI"], 96, 260)
 

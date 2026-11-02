@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" width="100%" alt="Veerababu Narni — AI Cloud DevOps & Forward Deployed Engineer. 15+ years experience, 24,400+ engineers trained." />
+<img src="assets/banner.png" width="100%" alt="Veerababu Narni — Cloud DevOps & AI Forward Deployed Engineer. 15+ years experience, 24,400+ engineers trained." />
 
 <br/><br/>
 
@@ -26,22 +26,28 @@
 
 <img src="https://img.shields.io/badge/Open_to-Collaboration-0f172a?style=flat-square&logo=handshake&logoColor=67e8f9&labelColor=1e1b4b" alt="Open to collaboration" />
 <img src="https://img.shields.io/badge/Focus-Multi--Cloud_+_Agentic_AI-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b" alt="Current focus" />
+<img src="https://img.shields.io/badge/Role-Forward_Deployed_Engineer-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b" alt="Forward Deployed Engineer" />
 
 </td>
 <td valign="top">
 
 Senior DevOps &amp; Multi-Cloud Architect with **15+ years** of industry experience across **AWS, Microsoft Azure, and Google Cloud Platform**. I design and operate production infrastructure for enterprise workloads, lead DevOps transformation initiatives, and build CI/CD pipelines that carry mission-critical systems.
 
+Today I work as a **Cloud DevOps &amp; AI Forward Deployed Engineer** — sitting with customer teams to take **Generative AI and Agentic AI** from prototype to production: RAG systems grounded in real enterprise data, tool-using agents wired into cloud and DevOps platforms, and the guardrails, evals and observability that make them safe to run.
+
 Alongside architecture work I've trained **24,400+ engineers**, taking people from first principles to placement-ready. Every concept I teach is one I use in production — not theory detached from real systems.
 
 ```yaml
 whoami:
   name:        Veerababu Narni
-  role:        Senior DevOps & Multi-Cloud Architect
+  role:        Cloud DevOps & AI Forward Deployed Engineer
   experience:  15+ years
   clouds:      [AWS, Azure, GCP, Oracle Cloud]
   core:        [Kubernetes, Terraform, Ansible, CI/CD, Observability]
-  building:    [Gen AI, Agentic AI, AIOps, RAG pipelines]
+  gen_ai:      [LLM apps, RAG, prompt & context engineering, fine-tuning, evals]
+  agentic_ai:  [multi-agent orchestration, tool use, MCP, human-in-the-loop]
+  ai_platforms: [Amazon Bedrock, Azure OpenAI, Vertex AI, Claude, OpenAI]
+  fde:         [discovery, rapid prototyping, production rollout, enablement]
   engineers_trained: 24_400+
 ```
 
@@ -77,6 +83,9 @@ whoami:
 - **Infrastructure as Code** — Terraform module design, remote state, drift control
 - **Cloud cost optimisation** — rightsizing, commitment planning, waste elimination
 - **Agentic AI for operations** — LLM-driven incident response, autonomous remediation, RAG over infrastructure data
+- **Generative AI delivery** — RAG assistants, document intelligence and copilots on Bedrock, Azure OpenAI and Vertex AI
+- **Forward deployed engineering** — embedding with your team to turn an AI use case into a working, production-grade system
+- **LLMOps &amp; AI governance** — evaluation pipelines, guardrails, cost and latency controls, audit-ready deployments
 - **Team enablement** — structured, project-based upskilling for cloud and DevOps engineers
 
 </details>
@@ -117,22 +126,81 @@ whoami:
 - 🏗️ **Architecting** a multi-cloud disaster recovery solution for a critical enterprise application
 - 🔍 **Researching** service mesh technologies (Istio) and advanced FinOps strategies for cloud cost governance
 - 🤖 **Building** agentic AI workflows for DevOps — LLM-driven incident response, autonomous remediation agents, and RAG-based infra assistants
+- 🛰️ **Forward deploying** Gen AI solutions with customer teams — from use-case discovery to a production rollout on their own cloud
+- 🔌 **Exploring** the Model Context Protocol (MCP) to give agents safe, scoped access to cloud APIs, Kubernetes and CI/CD tooling
 - 🤝 **Open to collaboration** on cloud security, serverless frameworks, and Infrastructure-as-Code open-source projects
 - 🧩 **Core expertise**: AWS, Azure, GCP, Kubernetes, Terraform, Ansible, CI/CD, cloud cost optimisation, Generative &amp; Agentic AI
 
 <br/>
 
-## 🤖 Generative &amp; Agentic AI
+## 🤖 Generative AI
 
-> Extending the DevOps craft into the AI layer — designing systems where LLMs and autonomous agents don't just assist engineers, but actively operate infrastructure.
+> Extending the DevOps craft into the AI layer — LLM applications built with the same rigour as production infrastructure: versioned, tested, observable and cost-controlled.
 
 | Area | What I Build |
 |---|---|
-| **LLM App Architecture** | RAG pipelines, prompt/context engineering, evaluation harnesses for production LLM apps |
-| **Agentic Systems** | Multi-agent orchestration (LangGraph, CrewAI-style patterns) for autonomous, tool-using workflows |
-| **AIOps** | LLM-powered log triage, anomaly detection, self-healing pipeline automation |
-| **Vector &amp; Retrieval Infra** | Embeddings, vector databases, hybrid search to ground agents in real infrastructure data |
-| **MLOps for LLMs** | Deployment, observability, and cost governance for model-serving pipelines on Kubernetes |
+| **LLM App Architecture** | Chat assistants, copilots and document-intelligence apps on Amazon Bedrock, Azure OpenAI, Vertex AI, Claude and OpenAI |
+| **RAG Pipelines** | Ingestion, chunking, embeddings, hybrid search and re-ranking to ground answers in enterprise data |
+| **Prompt &amp; Context Engineering** | Structured prompts, system design for long context, output schemas and prompt versioning |
+| **Fine-Tuning &amp; Open Models** | LoRA/PEFT fine-tuning, Hugging Face models, self-hosted serving with vLLM and Ollama |
+| **Evaluation &amp; Guardrails** | Golden datasets, LLM-as-judge evals, hallucination checks, PII redaction and content filters |
+| **LLMOps** | Model serving on Kubernetes, tracing, token-cost dashboards, caching and latency budgets |
+
+<br/>
+
+## 🧠 Agentic AI
+
+> Systems where autonomous agents don't just assist engineers — they plan, call tools and operate infrastructure, with humans approving what matters.
+
+| Area | What I Build |
+|---|---|
+| **Agent Orchestration** | Single and multi-agent workflows with LangGraph, CrewAI and AutoGen-style patterns |
+| **Tool Use &amp; MCP** | Model Context Protocol servers exposing cloud APIs, Kubernetes, Terraform and CI/CD as scoped agent tools |
+| **AIOps Agents** | Log and alert triage, root-cause analysis, runbook execution and self-healing pipelines |
+| **Memory &amp; Retrieval** | Vector databases (Pinecone, pgvector, OpenSearch) and state stores for long-running agents |
+| **Safety &amp; Control** | Least-privilege tool permissions, human-in-the-loop approvals, audit trails and rollback paths |
+| **Agent Observability** | Step-level traces, evals for task success, cost per run and failure analysis |
+
+```mermaid
+flowchart LR
+    A[Alert / Request] --> B[Planner Agent]
+    B --> C{Tools via MCP}
+    C --> D[Cloud APIs]
+    C --> E[Kubernetes]
+    C --> F[Terraform / CI-CD]
+    C --> G[RAG: Runbooks & Docs]
+    D & E & F & G --> H[Proposed Action]
+    H --> I{Human Approval}
+    I -->|approved| J[Execute + Audit Log]
+    I -->|rejected| B
+```
+
+<br/>
+
+## 🛰️ Forward Deployed Engineering
+
+> Embedding with customer teams to turn an AI or cloud idea into a system that runs in **their** environment — not a demo that stays on a laptop.
+
+| Phase | What Happens |
+|---|---|
+| **1 · Discover** | Sit with stakeholders, map the workflow, define success metrics and data access |
+| **2 · Prototype** | Ship a working Gen AI / agent prototype on real data within days, not quarters |
+| **3 · Productionise** | Terraform-provisioned infrastructure, CI/CD, security review, evals and guardrails |
+| **4 · Deploy &amp; Operate** | Roll out on the customer's own AWS, Azure or GCP account with observability and cost controls |
+| **5 · Enable &amp; Hand Over** | Documentation, runbooks and hands-on training so the team owns it afterwards |
+
+<details>
+<summary><b>🧰 FDE toolkit</b></summary>
+
+<br/>
+
+- **Full-stack delivery** — Python / Node.js backends, APIs and lightweight UIs around AI capabilities
+- **Cloud-native by default** — containers, Kubernetes, serverless and IaC for every deployment
+- **Enterprise integration** — SSO, IAM, private networking, data connectors and compliance requirements
+- **Customer communication** — translating between business outcomes and engineering decisions
+- **Feedback loop** — field learnings fed back into reusable modules, templates and training content
+
+</details>
 
 <br/>
 
@@ -201,6 +269,18 @@ whoami:
 ![LangGraph](https://img.shields.io/badge/LangGraph-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-0f172a?style=flat-square&logo=huggingface&logoColor=67e8f9&labelColor=1e1b4b)
 ![Vector DBs](https://img.shields.io/badge/Vector_DBs-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b)
+![Amazon Bedrock](https://img.shields.io/badge/Amazon_Bedrock-0f172a?style=flat-square&logo=amazon-aws&logoColor=67e8f9&labelColor=1e1b4b)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0f172a?style=flat-square&logo=microsoft-azure&logoColor=67e8f9&labelColor=1e1b4b)
+![Vertex AI](https://img.shields.io/badge/Vertex_AI-0f172a?style=flat-square&logo=google-cloud&logoColor=67e8f9&labelColor=1e1b4b)
+![Gemini](https://img.shields.io/badge/Gemini-0f172a?style=flat-square&logo=googlegemini&logoColor=67e8f9&labelColor=1e1b4b)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b)
+![CrewAI](https://img.shields.io/badge/CrewAI-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b)
+![Ollama](https://img.shields.io/badge/Ollama-0f172a?style=flat-square&logo=ollama&logoColor=67e8f9&labelColor=1e1b4b)
+![vLLM](https://img.shields.io/badge/vLLM-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b)
+![Pinecone](https://img.shields.io/badge/Pinecone-0f172a?style=flat-square&logoColor=67e8f9&labelColor=1e1b4b)
+![pgvector](https://img.shields.io/badge/pgvector-0f172a?style=flat-square&logo=postgresql&logoColor=67e8f9&labelColor=1e1b4b)
+![LangSmith](https://img.shields.io/badge/LangSmith-0f172a?style=flat-square&logo=langchain&logoColor=67e8f9&labelColor=1e1b4b)
 
 </td>
 </tr>
@@ -217,7 +297,10 @@ whoami:
 | **Kubernetes &amp; Containers** | Docker, EKS, AKS, GKE, Helm, ArgoCD, and full GitOps workflows |
 | **Infrastructure as Code** | Terraform, Ansible, OpenTofu — end-to-end automation |
 | **AI &amp; ML for DevOps** | KubeGPT, GitHub Copilot, AIOps, LLM-powered pipelines |
-| **Generative &amp; Agentic AI** | LLM app architecture, RAG pipelines, autonomous multi-agent systems |
+| **Generative AI** | LLM app architecture, RAG pipelines, document intelligence, fine-tuning, evals |
+| **Agentic AI** | Tool-using and multi-agent systems, MCP integrations, human-in-the-loop approvals |
+| **Forward Deployed Engineering** | Customer-embedded delivery of AI and cloud solutions, from discovery to production |
+| **LLMOps** | Model serving on Kubernetes, guardrails, tracing, cost and latency governance |
 | **Cloud Security** | IAM, SSO, VPC hardening, zero-trust, and compliance architecture |
 | **Observability** | Prometheus, Grafana, ELK Stack, CloudWatch — full-stack alerting |
 | **Multi-Cloud Strategy** | Cost optimisation, cloud-native migration, hybrid governance |
@@ -339,6 +422,8 @@ Real, runnable repositories from this account — ordered by how much the commun
 - 🧑‍🏫 Mentor aspiring cloud engineers and grow the community
 - 📝 Publish six or more in-depth technical articles on multi-cloud architecture and FinOps
 - 🤖 Ship a production agentic-AI framework for autonomous cloud operations
+- 🧠 Publish open, runnable Gen AI and Agentic AI repositories — RAG, MCP servers and DevOps agents — with full Terraform deployments
+- 🛰️ Launch a Forward Deployed Engineer track for engineers moving from DevOps into customer-facing AI delivery
 - 📚 Bring every repository in this account to production-grade documentation
 
 <br/>
