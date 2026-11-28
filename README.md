@@ -66,14 +66,14 @@ whoami:
 
 <table>
 <tr>
-<td align="center" width="140"><b><!--STAT:FOLLOWERS-->788<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
-<td align="center" width="140"><b><!--STAT:REPOS-->34<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
-<td align="center" width="140"><b><!--STAT:FORKS-->621<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
+<td align="center" width="140"><b><!--STAT:FOLLOWERS-->789<!--/STAT:FOLLOWERS--></b><br/><sub>Followers</sub></td>
+<td align="center" width="140"><b><!--STAT:REPOS-->35<!--/STAT:REPOS--></b><br/><sub>Public Repositories</sub></td>
+<td align="center" width="140"><b><!--STAT:FORKS-->628<!--/STAT:FORKS--></b><br/><sub>Community Forks</sub></td>
 <td align="center" width="140"><b><!--STAT:STARS-->49<!--/STAT:STARS--></b><br/><sub>Stars Earned</sub></td>
 </tr>
 </table>
 
-<!-- stats last updated: 2026-11-27 -->
+<!-- stats last updated: 2026-11-28 -->
 
 </div>
 
